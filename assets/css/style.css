@@ -90,7 +90,7 @@ a:hover {
 }
 #topBanner {
 	height:350px;
-	background-image:url(img/topImage1.jpg);
+	background-image:url(assets/img/topImage1.jpg);
 	width:80%;
 	background-repeat:no-repeat;
 	background-position:center top;

@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+body {/*
+	text-align:center;*/
+	background-color:#fff;	
+	min-width:1300px;	
+}
+/*----------ABOUT, STORE HOURS and LOCATION----------*/
+h1 {
+	font-family: "Quattrocento-Regular", serif;
+	font-size:16px;
+	margin: 50px 0px 15px 0px;
+}
+a:link, a:visited {
+	color:#000;
+	text-decoration:none;
+}
+a:hover {
+	color:#666666;
+}
+#header {
+	position:relative;
+	margin-left:10%;
+	width:80%;
+	min-width:1040px;
+}
+/*#pageContent {
+	width:
+}
+#logo {
+	width:100%;
+}*/
+#logoImg {
+	width:130px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:35px;
+}
+.text p{
+	font-family: "gotham-book", sans-serif;
+	font-size:13px;
+	margin-top:17px;
+	line-height:16px;
+}
+#nav{
+	position:relative;
+	width:100%;
+	padding-top:10px;
+	top:-35px;	
+}
+/*#nav ul{
+	display:inline-block;
+	list-style-type:none;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	font-family:"gotham-medium", sans-serif;
+	font-size:13px;
+	color:#000;	
+	width:100%;
+}
+#nav ul li{
+	float:left;	
+	padding:10px 4% 30px 4%;
+}*/
+#nav ul{
+	list-style-type:none;
+	padding:0px;
+	font-family:"gotham-medium", sans-serif;
+	font-size:13px;
+}
+#nav ul li{
+	float:left;	
+}
+.liPaddingLeft{
+	padding-left:40px;	
+}
+.liPaddingRight{
+	padding-right:40px;	
+}
+#navLeft{
+	float:left;	
+}
+#navRight{
+	float:right;
+	right:-20px;	
+}
+#topBanner {
+	height:350px;
+	background-image:url(img/topImage1.jpg);
+	width:80%;
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:cover;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+}
+#topBanner h1 {
+	text-align:center;
+	float:left;
+	color:#fff;
+}
+#topBanner p {
+	
+}
+#bannerText {
+	width:50%;
+	text-align:center;
+	float:left;
+	color:#fff;		
+}
+.promo {
+	background-color:blue;
+}
+#pageContent{
+/*	position:relative;*/
+	margin-left:10%;
+	width:80%;
+	min-width:1040px;
+}
+#left {
+	position:absolute;
+	background-image:url(img/tumblr_mpoblcUVoI1s76vt0o1_1280.jpg);
+	height:275px;
+	width:275px;
+	float:left;
+}
+#middle{
+	position:absolute;
+	background-image:url(img/b9ffc5ec6de09f5a32f71c7751b27a7a.jpg);
+	height:275px;
+	width:275px;
+	padding-left:auto;
+	padding-right:auto;
+}
+#right {
+	position:absolute;
+	background-image:url(img/tumblr_midljk8fTL1qcmfnio1_500.jpg);
+	height:275px;
+	width:275px;
+	float:right;	
+}
+
+
+
+@media(max-width : 320px) and (orientation:portrait){
+	/*-------Fo THA PHONE BRAAA---------*/
+.text p{
+	font-size:10px;
+	margin-top:17px;
+}
+}

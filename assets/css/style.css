@@ -1,35 +1,14 @@
-@charset "utf-8";
-/* CSS Document */
-body {/*
-	text-align:center;*/
+body {
 	background-color:#fff;	
-	min-width:1300px;	
-}
-/*----------ABOUT, STORE HOURS and LOCATION----------*/
-h1 {
-	font-family: "Quattrocento-Regular", serif;
-	font-size:16px;
-	margin: 50px 0px 15px 0px;
-}
-a:link, a:visited {
-	color:#000;
-	text-decoration:none;
-}
-a:hover {
-	color:#666666;
+	min-width:1200px;	
+	overflow:auto;		
 }
 #header {
 	position:relative;
 	margin-left:10%;
-	width:80%;
+	margin-right:10%;
 	min-width:1040px;
 }
-/*#pageContent {
-	width:
-}
-#logo {
-	width:100%;
-}*/
 #logoImg {
 	width:130px;
 	display:block;
@@ -37,35 +16,12 @@ a:hover {
 	margin-right:auto;
 	margin-top:35px;
 }
-.text p{
-	font-family: "gotham-book", sans-serif;
-	font-size:13px;
-	margin-top:17px;
-	line-height:16px;
-}
 #nav{
 	position:relative;
 	width:100%;
 	padding-top:10px;
 	top:-35px;	
 }
-/*#nav ul{
-	display:inline-block;
-	list-style-type:none;
-	-webkit-margin-before: 0px;
-	-webkit-margin-after: 0px;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 0px;
-	font-family:"gotham-medium", sans-serif;
-	font-size:13px;
-	color:#000;	
-	width:100%;
-}
-#nav ul li{
-	float:left;	
-	padding:10px 4% 30px 4%;
-}*/
 #nav ul{
 	list-style-type:none;
 	padding:0px;
@@ -88,69 +44,96 @@ a:hover {
 	float:right;
 	right:-20px;	
 }
-#topBanner {
-	height:350px;
-	background-image:url(assets/img/topImage1.jpg);
-	width:80%;
-	background-repeat:no-repeat;
-	background-position:center top;
-	background-size:cover;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:25px;
-}
-#topBanner h1 {
-	text-align:center;
-	float:left;
-	color:#fff;
-}
-#topBanner p {
-	
-}
-#bannerText {
-	width:50%;
-	text-align:center;
-	float:left;
-	color:#fff;		
-}
-.promo {
-	background-color:blue;
-}
 #pageContent{
-/*	position:relative;*/
+	position:relative;
 	margin-left:10%;
-	width:80%;
-	min-width:1040px;
+	margin-right:10%;
+	margin-top:50px;
 }
-#left {
+#welcomeBanner{
+	position:relative;
+	height:50%;
+	width:100%;
+	background: url(../img/topImage.jpg) no-repeat scroll center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height:310px;
+}
+#welcomeBannerText{
 	position:absolute;
-	background-image:url(img/tumblr_mpoblcUVoI1s76vt0o1_1280.jpg);
-	height:275px;
-	width:275px;
-	float:left;
+	width:55%;
+	top:50%;
+	text-align:center;
+	margin-top:-150px;	
 }
-#middle{
+#updatesBanner{
+	position:relative;	
+	height:40%;
+	width:100%;
+	margin-top:50px;
+	min-height:275px;
+}
+#newArrivals{
 	position:absolute;
-	background-image:url(img/b9ffc5ec6de09f5a32f71c7751b27a7a.jpg);
-	height:275px;
-	width:275px;
-	padding-left:auto;
-	padding-right:auto;
+	height:100%;
+	width:30%;
+	background:url(../img/tumblr_mpoblcUVoI1s76vt0o1_1280.jpg) no-repeat scroll center center;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;;
 }
-#right {
+#updates{
 	position:absolute;
-	background-image:url(img/tumblr_midljk8fTL1qcmfnio1_500.jpg);
-	height:275px;
-	width:275px;
-	float:right;	
+	height:100%;
+	left:35%;
+	width:30%;
+	background:url(../img/b9ffc5ec6de09f5a32f71c7751b27a7a.jpg) no-repeat scroll center center;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;			
 }
-
-
-
-@media(max-width : 320px) and (orientation:portrait){
-	/*-------Fo THA PHONE BRAAA---------*/
-.text p{
-	font-size:10px;
-	margin-top:17px;
+#blog{
+	position:absolute;
+	height:100%;
+	left:70%;
+	width:30%;
+	background:url(../img/tumblr_midljk8fTL1qcmfnio1_500.jpg) no-repeat scroll center center;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+.updatesBannerText{
+	position:relative;
+	margin-left:20%;
+	margin-right:20%;
+	top:50%;
+	margin-top:-80px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	text-align:center;
+	padding:15px;
+	min-height:125px;
+}
+h3{
+	font-family:"Quattrocento-Regular", sans-serif;
+	font-size:22px;
+	color:white;
+	font-weight:normal;	
+	margin:0px;
+}
+h5{
+	font-family:"gotham-medium", sans-serif;
+	font-size:15px;
+	color:white;
+	font-weight:normal;
+	margin:0px;
+	margin-bottom:15px;	
+}
+a{
+	color:black;
 }

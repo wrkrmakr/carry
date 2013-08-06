@@ -1,7 +1,9 @@
 $(document).ready(function() {
 	var windowsHeight=$(window).height();
-	var currentHoveredMenu,isSubMenuOpen=false;
-	
+	var inMotion=false;
+	var isMenuOpen=false;
+	var isMenuOpened=false;
+		
 	$('#pageContent').css('height',windowsHeight);
 	
 	$(window).resize(function() {
@@ -10,12 +12,19 @@ $(document).ready(function() {
     });
 	
 	$(".subMenuLink").hover(function(){	
-		currentHoveredMenu=$(this).attr('id');
 		
-		$('#'+currentHoveredMenu+'Menu').slideDown(400);
+		if(!inMotion){
+			$(this).find('.subMenuList').slideDown(400,function(){
+				inMotion=true;		
+			});
+		}
 		
 	},function(){		
-		currentHoveredMenu=$(this).attr('id');
-		$('#'+currentHoveredMenu+'Menu').slideUp(400);
+		
+		if(inMotion){
+			$(this).find('.subMenuList').slideUp(400,function(){
+				inMotion=false;		
+			});
+		}
 	});
 });

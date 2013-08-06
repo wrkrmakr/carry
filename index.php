@@ -64,13 +64,14 @@
                 <img id ="logoImg" src="assets/img/CM_Logo.png" border="0" />
             <div id="nav">
                 <ul id="navLeft">
-                    <a href="#"><li style="margin-left:2px">DEPARTMENTS</li></a>
-                    <a href="#"><li class="liPaddingLeft">DESIGNERS</li></a>
+                    <a href="#"><li id ="department" style="margin-left:2px" class="subMenuLink">DEPARTMENTS</li></a>
+                     <a href="#"><li class="liPaddingLeft" class="menuLink">LOOK BOOK</li></a>
+                    <a href="#"><li id ="designer" class="liPaddingLeft subMenuLink">DESIGNERS</li></a>
                 </ul>
                 <ul id="navRight">
-                    <a href="#"><li class="liPaddingRight">BLOG</li></a>
-                    <a href="#"><li class="liPaddingRight">ABOUT US</li></a>
-                    <a href="#"><li style="margin-right:2px">CONTACT</li></a>
+                    <a href="#"><li class="liPaddingRight menuLink">BLOG</li></a>
+                    <a href="#"><li class="liPaddingRight menuLink">ABOUT US</li></a>
+                    <a href="#"><li style="margin-right:2px " class="menuLink">CONTACT</li></a>
                 </ul>
             </div>
         </div>
@@ -84,6 +85,8 @@
                     <h5>WATCH VIDEO</h5>
                     <h5>LEARN WHAT’S NEW</h5>
                 </div>
+                <div id="departmentMenu" class="subMenu"></div>
+                <div id="designerMenu" class="subMenu"></div>
             </div>
             <br><hr class="greyBorder"><br>
             <div id="updatesBanner">
@@ -146,7 +149,7 @@
                         <br>
                         <div id="product3Title" class="productTitle">PETUNIA PICKLE BOTTOM</div>
                         <br>
-                        <div id="product3Category" class="productCategory">SILK DRESS</div>
+                        <div id="product3Category" class="productCategory">SILK DRE</div>
                         <br>
                         <div id="product3Prize" class="productPrize">129 CAD</div>
                     </div>

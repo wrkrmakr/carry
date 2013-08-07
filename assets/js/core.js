@@ -15,8 +15,7 @@ $(document).ready(function() {
 				inMotion=true;		
 			});
 		}		
-	},function(){		
-		
+	},function(){			
 		if(inMotion){
 			$(this).find('.subMenuList').slideUp(200,function(){
 				inMotion=false;		

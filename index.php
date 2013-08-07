@@ -64,20 +64,93 @@
                 <img id ="logoImg" src="assets/img/CM_Logo.png" border="0" />
             <div id="nav">
                 <ul id="navLeft">
-                    <a href="#">
-                        <li id ="department" style="margin-left:2px" class="subMenuLink">
+                    <a href="#"><li id ="department" style="margin-left:2px" class="subMenuLink">
                         DEPARTMENTS
                         <div id="departmentSubMenu" class="subMenuList">
-                            
+                        	<table>
+                            	<tr>
+                                	<td colspan="3">VIEW ALL</td>
+                                    <td colspan="3">Dresses</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Denim</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Tops</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Skirts</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Nursing</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Coats & Jackets</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Maternity</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Accessories</td>
+                                </tr>
+                            </table>                            
                         </div>                    
                         </li>
                     </a>
                     <a href="#"><li class="liPaddingLeft" class="menuLink">LOOK BOOK</li></a>
-                    <a href="#">
-                        <li id ="designer" class="liPaddingLeft subMenuLink">
+                    <a href="#"><li id ="designer" class="liPaddingLeft subMenuLink">
                         DESIGNERS
                         <div id="designerSubMenu" class="subMenuList">
-                                
+                        	<table>
+                            	<tr>
+                                	<td colspan="3">VIEW ALL</td>
+                                    <td colspan="3">Carry Maternity</td>
+                                	<td colspan="3">Paige</td>
+                                    <td colspan="3">Queen Mum</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Olian Maternity</td>
+                                	<td colspan="3">BellaBand</td>
+                                    <td colspan="3">Neka</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Maichael Stars</td>
+                                	<td colspan="3">Isabella Oliver</td>
+                                    <td colspan="3">boob</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">OiOi</td>
+                                	<td colspan="3">Citizens of Humanity</td>
+                                    <td colspan="3">SoYoung</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Noppies</td>
+                                	<td colspan="3">Ripe Maternity</td>
+                                    <td colspan="3">The M Coat</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Cake Lingerie</td>
+                                	<td colspan="3">Jules & Jimi</td>
+                                    <td colspan="3">bravado!</td>
+                                </tr>
+                            	<tr>
+                                	<td colspan="3"></td>
+                                    <td colspan="3">Petunia Pickle Bottom</td>
+                                	<td colspan="3">Belabumbum</td>
+                                </tr>
+                            </table>                              
                         </div>
                         </li>
                     </a>

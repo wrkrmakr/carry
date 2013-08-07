@@ -1,8 +1,6 @@
 $(document).ready(function() {
 	var windowsHeight=$(window).height();
 	var inMotion=false;
-	var isMenuOpen=false;
-	var isMenuOpened=false;
 		
 	$('#pageContent').css('height',windowsHeight);
 	
@@ -11,18 +9,16 @@ $(document).ready(function() {
      	$('#pageContent').css('height',windowsHeight-164);   
     });
 	
-	$(".subMenuLink").hover(function(){	
-		
+	$(".subMenuLink").hover(function(){			
 		if(!inMotion){
 			$(this).find('.subMenuList').slideDown(400,function(){
 				inMotion=true;		
 			});
-		}
-		
+		}		
 	},function(){		
 		
 		if(inMotion){
-			$(this).find('.subMenuList').slideUp(400,function(){
+			$(this).find('.subMenuList').slideUp(200,function(){
 				inMotion=false;		
 			});
 		}

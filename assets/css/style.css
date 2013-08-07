@@ -8,6 +8,7 @@ body {
 	margin-left:10%;
 	margin-right:10%;
 	min-width:1040px;
+	z-index:1;
 }
 #logoImg {
 	width:130px;
@@ -31,11 +32,14 @@ body {
 #nav ul li{
 	float:left;	
 }
+#nav ul li:hover{
+	color:#1fcecb;	
+}
 .liPaddingLeft{
-	padding-left:40px;	
+	margin-left:40px;	
 }
 .liPaddingRight{
-	padding-right:40px;	
+	margin-right:40px;	
 }
 #navLeft{
 	float:left;	
@@ -49,6 +53,14 @@ body {
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:30px;
+}
+.subMenuList{
+	position:absolute;
+	left:0px;
+	width:100%;	
+	height:200px;
+	background-color:rgba(255,255,255,0.9);
+	display:none;
 }
 #welcomeBanner{
 	position:relative;
@@ -180,8 +192,8 @@ a{
 .productImage{
 	position:relative;
 	top:0px;
-	left:5%;
-	width:90%;
+	left:10%;
+	width:80%;
 	height:300px;
 	background-color:#09F;
 	min-width:220px;	

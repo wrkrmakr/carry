@@ -2,11 +2,9 @@ $(document).ready(function() {
 	var windowsHeight=$(window).height();
 	var inMotion=false;
 		
-	$('#pageContent').css('height',windowsHeight);
-	
 	$(window).resize(function() {
-		windowsHeight=$(window).height();
-     	$('#pageContent').css('height',windowsHeight-164);   
+		//windowsHeight=$(window).height();
+     	//$('#pageContent').css('height',windowsHeight-164);   
     });
 	
 	$(".subMenuLink").hover(function(){			

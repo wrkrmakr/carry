@@ -187,6 +187,19 @@
                 	</p>
                 </div>	
             </div>
+            
+            <div id="featuresSet2">
+            	<div id="feature3" class="feature">
+                	<span>Pregnancy in Style</span><br><br>
+                    <p>Carry Maternity offers a wide-array of original and brand name designs and an exclusive selection of  		  						all-natural cosmetics products.
+                	</p>	
+                </div>	
+                <div id="feature4" class="feature">
+                	<span>Here to Help</span><br><br>
+                    <p>We strive to be a supportive space for new and expecting mothers in Toronto. If you are in the 	 		 		 						neighbourhood, stop by for one of our workshops, or come in to change a diaper or nurse your child.
+                	</p>
+                </div>	
+            </div>
         </div>           
 	</body>
 </html>

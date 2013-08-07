@@ -37,6 +37,10 @@
 			@font-face {
 				font-family: "Cantarell-Regular";
 				src:url(assets/fonts/Cantarell-Regular.ttf) format('opentype');
+			}  						
+			@font-face {
+				font-family: "Cantarell-Bold";
+				src:url(assets/fonts/Cantarell-Bold.ttf) format('opentype');
 			}       
         </style>
         
@@ -165,7 +169,7 @@
         <div id="pageContent">
         	<div id="welcomeBanner">
             	<div id="welcomeBannerText">
-                	<br/><br/><br/><br/><br/> 
+                	<br/><br/><br/>
                     <h3>WELCOME TO CARRY MATERNITY</h2>
                     <br/><br/>
                     <h5>VIEW COLLECTION</h5>
@@ -177,7 +181,7 @@
             <div id="updatesBanner">
             	<div id="newArrivals">
                 	<div class="updatesBannerText">
-                  		<h5>NEW ARRIVAL</h5>
+                  		<h4>NEW ARRIVAL</h4>
                         <h3>
                         	VIEW<br>
                             AUTUMN<br>
@@ -187,7 +191,7 @@
                 </div>
                 <div id="updates">
                 	<div class="updatesBannerText">
-                    	<h5>UPDATES</h5>
+                    	<h4>UPDATES</h4>
                         <h3>
                         	A DAY IN<br>
                             A LIFE<br>
@@ -197,7 +201,7 @@
                 </div>
                 <div id="blog">
                 	<div class="updatesBannerText">
-                    	<h5>FROM THE BLOG</h5>
+                    	<h4>FROM THE BLOG</h4>
                         <h3>
                         	EATING HEALTHY<br>
                             DURING<br>
@@ -234,7 +238,7 @@
                         <br>
                         <div id="product3Title" class="productTitle">PETUNIA PICKLE BOTTOM</div>
                         <br>
-                        <div id="product3Category" class="productCategory">SILK DRE</div>
+                        <div id="product3Category" class="productCategory">SILK DRESS</div>
                         <br>
                         <div id="product3Prize" class="productPrize">129 CAD</div>
                     </div>

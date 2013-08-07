@@ -26,8 +26,8 @@ body {
 #nav ul{
 	list-style-type:none;
 	padding:0px;
-	font-family:"gotham-medium", sans-serif;
-	font-size:13px;
+	font-family:"Cantarell-Regular", sans-serif;
+	font-size:14px;
 }
 #nav ul li{
 	float:left;	
@@ -72,6 +72,7 @@ body {
 	color:#000;
 	font-family:"Cantarell-Regular", sans-serif;
 	font-size:14px;	
+	font-weight:500;
 }
 #departmentSubMenu table tr td,#designerSubMenu table tr td{
 	padding-right:40px;	
@@ -153,8 +154,16 @@ h3{
 	margin:0px;
 }
 h5{
-	font-family:"gotham-medium", sans-serif;
-	font-size:15px;
+	font-family:"Cantarell-Regular", sans-serif;
+	font-size:16px;
+	color:white;
+	font-weight:normal;
+	margin:0px;
+	margin-bottom:15px;	
+}
+h4{
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:16px;
 	color:white;
 	font-weight:normal;
 	margin:0px;
@@ -175,9 +184,9 @@ a{
 #featuredProductsTitle{
 	width:inherit;
 	text-align:center;
-	font-family:"gotham-medium", sans-serif;
-	font-size:15px;	
-	letter-spacing:2px;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:16px;	
+	letter-spacing:1px;
 }
 #featuredProductsPanel{
 	position:relative;
@@ -241,15 +250,16 @@ a{
 	background-size: 100% 100%;
 }
 .productTitle{
-	font-family:"Cantarell-Regular", sans-serif;
-	font-size:14px;
-	font-weight:600;		
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:16px;		
 }
 .productCategory{
-	font-family:"gotham-Book", sans-serif;
-	font-size:14px;		
+	font-family:"Cantarell-Regular", sans-serif;
+	font-size:14px;	/*
+	font-weight:600;*/	
 }
 .productPrize{
-	font-family:"gotham-Book", sans-serif;
-	font-size:14px;		
+	font-family:"Quattrocento-Regular", sans-serif;
+	font-size:14px;/*
+	font-weight:600;*/		
 }

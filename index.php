@@ -16,7 +16,6 @@
         <!-------Stylesheets------>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 		<style>
-			body { min-height: 480px; }
 			
 			@font-face {
 				font-family: "gotham-medium";
@@ -69,7 +68,7 @@
             <div id="nav">
                 <ul id="navLeft">
                     <a href="#"><li id ="department" style="margin-left:2px" class="subMenuLink">
-                        DEPARTMENTS
+                       <span>DEPARTMENTS</span>
                         <div id="departmentSubMenu" class="subMenuList">
                         	<table>
                             	<tr>
@@ -110,7 +109,7 @@
                     </a>
                     <a href="#"><li class="liPaddingLeft" class="menuLink">LOOK BOOK</li></a>
                     <a href="#"><li id ="designer" class="liPaddingLeft subMenuLink">
-                        DESIGNERS
+                        <span>DESIGNERS</span>
                         <div id="designerSubMenu" class="subMenuList">
                         	<table>
                             	<tr>

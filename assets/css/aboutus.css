@@ -1,5 +1,6 @@
 /* CSS Document */
 #aboutUsImage{
+	position:relative;
 	height:40%;
 	width:inherit;
 	background:url(../img/b9ffc5ec6de09f5a32f71c7751b27a7a.jpg) no-repeat center center scroll;
@@ -22,18 +23,20 @@
 	letter-spacing:1px;
 }
 #featuresSet1{
-	padding-top:30px;	
+	position:relative;
+	padding-top:30px;
+	height:150px;
 }
 .feature{
-	position:absolute;
+	position:relative;
 	text-align:center;	
 }
 #feature1{
-	left:0%;
+	float:left;
 	width:50%;
 }
 #feature2{
-	left:50%;
+	float:right;
 	width:50%;
 }
 .feature span{
@@ -45,6 +48,18 @@
 	margin:0px 30px;
 	font-family:"Cantarell-Regular", sans-serif;
 	font-size:14px;	
-	letter-spacing:1px;
-	
+	letter-spacing:1px;	
+}
+#featuresSet2{
+	display:block;
+	position:relative;
+	height:140px;	
+}
+#feature3{
+	float:left;
+	width:50%;
+}
+#feature4{
+	float:right;
+	width:50%;
 }

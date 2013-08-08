@@ -2,7 +2,7 @@
    position:relative;
    height:50%;
    width:100%;
-   background: url(assets/img/topImage.jpg) no-repeat scroll center center;
+   background: url(../img/topImage.jpg) no-repeat scroll center center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -27,7 +27,7 @@
    position:absolute;
    height:100%;
    width:30%;
-   background:url(assets/img/tumblr_mpoblcUVoI1s76vt0o1_1280.jpg) no-repeat scroll center center;   
+   background:url(../img/tumblr_mpoblcUVoI1s76vt0o1_1280.jpg) no-repeat scroll center center;   
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -38,7 +38,7 @@
    height:100%;
    left:35%;
    width:30%;
-   background:url(assets/img/b9ffc5ec6de09f5a32f71c7751b27a7a.jpg) no-repeat scroll center center;  
+   background:url(../img/b9ffc5ec6de09f5a32f71c7751b27a7a.jpg) no-repeat scroll center center;  
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -49,7 +49,7 @@
    height:100%;
    left:70%;
    width:30%;
-   background:url(assets/img/tumblr_midljk8fTL1qcmfnio1_500.jpg) no-repeat scroll center center; 
+   background:url(../img/tumblr_midljk8fTL1qcmfnio1_500.jpg) no-repeat scroll center center; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -117,28 +117,28 @@
    min-width:220px;  
 }
 #product1Image{
-   background:url(assets/img/25099563_435x435.jpg) no-repeat scroll center center;   
+   background:url(../img/25099563_435x435.jpg) no-repeat scroll center center;   
    -webkit-background-size: 100% 100%;
    -moz-background-size: 100% 100%;
    -o-background-size: 100% 100%;
    background-size: 100% 100%;
 }
 #product2Image{
-   background:url(assets/img/Petuna%20Pickel%20bottom.jpg) no-repeat scroll center center; 
+   background:url(../img/Petuna%20Pickel%20bottom.jpg) no-repeat scroll center center; 
    -webkit-background-size: 100% 100%;
    -moz-background-size: 100% 100%;
    -o-background-size: 100% 100%;
    background-size: 100% 100%;
 }
 #product3Image{
-   background:url(assets/img/LL044.jpg) no-repeat scroll center center;  
+   background:url(../img/LL044.jpg) no-repeat scroll center center;  
    -webkit-background-size: 100% 100%;
    -moz-background-size: 100% 100%;
    -o-background-size: 100% 100%;
    background-size: 100% 100%;
 }
 #product4Image{
-   background:url(assets/img/Screen%20Shot%202013-07-25%20at%2011.43.56%20AM.png) no-repeat scroll center center;  
+   background:url(../img/Screen%20Shot%202013-07-25%20at%2011.43.56%20AM.png) no-repeat scroll center center;  
    -webkit-background-size: 100% 100%;
    -moz-background-size: 100% 100%;
    -o-background-size: 100% 100%;

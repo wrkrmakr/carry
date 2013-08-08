@@ -15,6 +15,7 @@
 	float:right;
 	width:50%;
 	height:100%;
+	min-width:250px;
 }
 #storeHours{
 	position:relative;

@@ -8,7 +8,6 @@
         
         <!-------Meta Information------>    
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Carry, maternity, Rhonda, expecting, clothing, motherhood, Yorkville, stylish,                       pregnancy, Toronto">
         <meta name="description" content="Stylish and affordable maternity clothing.">
         <meta name="author" content="ONMEDIA">       

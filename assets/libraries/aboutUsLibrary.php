@@ -40,7 +40,7 @@
                         	<br>
                             MEET<br>
                             PATRICIA<br>
-                            GILLESPIE
+                            GILLESPIE<br><br>
                         </h3>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         	<br>
                             NEW<br>
                             STORE<br>
-                            LAUNCH
+                            LAUNCH<br><br>
                         </h3>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                         	<br>
                             VIEW<br>
                             OUR<br>
-                            BLOG
+                            BLOG<br><br>
                         </h3>
                     </div>
                 </div>

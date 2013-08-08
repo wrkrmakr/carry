@@ -106,3 +106,10 @@ a{
 #departmentSubMenu table tr td,#designerSubMenu table tr td{
 	padding-right:40px;	
 }
+
+.greyBorder{
+   background-color:#999;
+   height:1px; 
+   border:0px;
+   margin:0;
+}

@@ -27,7 +27,7 @@ h5{
 	margin-bottom:15px;	
 }
 a{
-	color:#999;;
+	color:#999;
 }
 #header {
 	position:relative;
@@ -82,6 +82,10 @@ a{
 	margin-left:10%;
 	margin-right:10%;
 	margin-top:30px;
+}
+.subMenuLink{
+	cursor: pointer;
+	color:#999;
 }
 .subMenuList{
 	position:absolute;

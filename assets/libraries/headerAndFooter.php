@@ -69,7 +69,7 @@
                 <div id ="logoImg"><a href="index.php"><img src="assets/img/CM_Logo.png" border="0" /></a></div>
             <div id="nav">
                 <ul id="navLeft">
-                    <a href="#"><li id ="department" style="margin-left:2px" class="subMenuLink">
+                    <li id ="department" style="margin-left:2px" class="subMenuLink">
                        <span>DEPARTMENTS</span>
                         <div id="departmentSubMenu" class="subMenuList">
                             <table>
@@ -95,7 +95,7 @@
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Coats & Jackets</td>
+                                    <td colspan="3">Coats &amp; Jackets</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
@@ -107,10 +107,9 @@
                                 </tr>
                             </table>                            
                         </div>                    
-                        </li>
-                    </a>
+                    </li>
                     <a href="#"><li class="liPaddingLeft" class="menuLink">LOOK BOOK</li></a>
-                    <a href="#"><li id ="designer" class="liPaddingLeft subMenuLink">
+                    <li id ="designer" class="liPaddingLeft subMenuLink">
                         <span>DESIGNERS</span>
                         <div id="designerSubMenu" class="subMenuList">
                             <table>
@@ -147,7 +146,7 @@
                                 <tr>
                                     <td colspan="3"></td>
                                     <td colspan="3">Cake Lingerie</td>
-                                    <td colspan="3">Jules & Jimi</td>
+                                    <td colspan="3">Jules &amp; Jimi</td>
                                     <td colspan="3">bravado!</td>
                                 </tr>
                                 <tr>
@@ -157,8 +156,7 @@
                                 </tr>
                             </table>                              
                         </div>
-                        </li>
-                    </a>
+                    </li>
                 </ul>
                 <ul id="navRight">
                     <a href="#"><li class="liPaddingRight menuLink">BLOG</li></a>

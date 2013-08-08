@@ -8,16 +8,16 @@ $(document).ready(function() {
     });
 	
 	$(".subMenuLink").hover(function(){			
-		if(!inMotion){
-			$(this).find('.subMenuList').slideDown(400,function(){
-				inMotion=true;		
+		//if(!inMotion){
+			$(this).find('.subMenuList').stop(true,true).slideDown(400,function(){
+		//		inMotion=true;		
 			});
-		}		
+		//}		
 	},function(){			
-		if(inMotion){
-			$(this).find('.subMenuList').slideUp(200,function(){
-				inMotion=false;		
+		//if(inMotion){
+			$(this).find('.subMenuList').stop(true,true).slideUp(200,function(){
+		//		inMotion=false;		
 			});
-		}
+		//}
 	});
 });

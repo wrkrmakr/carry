@@ -33,5 +33,37 @@
                   </p>
                 </div>  
             </div>
+            <div id="bottomBanner">
+            	<div id="bottomBannerPost1">
+                    <div class="meetUsText">
+                        <h3>
+                        	<br>
+                            MEET<br>
+                            PATRICIA<br>
+                            GILLESPIE
+                        </h3>
+                    </div>
+                </div>
+                <div id="bottomBannerPost2">
+                    <div class="meetUsText">
+                        <h3>
+                        	<br>
+                            NEW<br>
+                            STORE<br>
+                            LAUNCH
+                        </h3>
+                    </div>
+                </div>
+                <div id="bottomBannerPost3">
+                    <div class="meetUsText">
+                        <h3>
+                        	<br>
+                            VIEW<br>
+                            OUR<br>
+                            BLOG
+                        </h3>
+                    </div>
+                </div>
+            </div>
         </div>
 <?php } ?>

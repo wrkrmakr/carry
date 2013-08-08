@@ -43,7 +43,8 @@ a{
 }
 #logoImg img{
 	height:150px;
-	width:inherit;	
+	width:inherit;
+	margin-left: 40px;	
 }
 #nav{
 	position:relative;

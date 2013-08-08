@@ -29,7 +29,7 @@
 #featuresSet1{
 	position:relative;
 	padding-top:30px;
-	height:150px;
+	min-height:150px;
 }
 .feature{
 	position:relative;
@@ -57,7 +57,7 @@
 #featuresSet2{
 	display:block;
 	position:relative;
-	height:140px;	
+	min-height:140px;	
 }
 #feature3{
 	float:left;
@@ -66,4 +66,56 @@
 #feature4{
 	float:right;
 	width:50%;
+}
+#bottomBanner{	
+   position:relative;
+   top:30px; 
+   height:40%;
+   width:100%;
+   min-height:275px;
+   margin-bottom:60px;	
+}
+#bottomBannerPost1{	
+   position:absolute;
+   height:100%;
+   width:30%;
+   background:url(../img/tumblr_mpoblcUVoI1s76vt0o1_1280.jpg) no-repeat scroll center center;   
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;	
+}
+.meetUsText{
+   position:relative;   
+   margin-left:20%;
+   margin-right:20%;
+   top:50%;
+   margin-top:-80px;
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+   text-align:center;
+   padding:15px;
+   min-height:125px;
+}
+#bottomBannerPost2{
+   position:absolute;
+   height:100%;
+   left:35%;
+   width:30%;
+   background:url(../img/b9ffc5ec6de09f5a32f71c7751b27a7a.jpg) no-repeat scroll center center;  
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;  
+}
+#bottomBannerPost3{
+   position:absolute;
+   height:100%;
+   left:70%;
+   width:30%;
+   background:url(../img/tumblr_midljk8fTL1qcmfnio1_500.jpg) no-repeat scroll center center; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;		
 }

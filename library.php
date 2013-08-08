@@ -263,7 +263,7 @@
             </div>
         </div>
 <?php } ?>
-<?php function carrieHTMLFooter() { ?>
+<?php function carryHTMLFooter() { ?>
     </body>
 </html>
 <?php } ?>

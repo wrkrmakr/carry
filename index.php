@@ -2,7 +2,7 @@
    include "headerAndFooter.php";
    include "indexLibrary.php";
    
-   carryHTMLHead();
+   carryHTMLHead("index","index","");
    carryNavigationPanel();
    indexContent();
    carryHTMLFooter();

@@ -1,11 +1,10 @@
-<?php function carryHTMLHead() { ?>
+<?php function carryHTMLHead($pageCSS, $pageJS, $pageTitle) { ?>
 <!doctype html>
-
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         
-        <title>CARRY Maternity</title>
+        <title>CARRY Maternity <?php echo $pageTitle; ?></title>
         
         <!-------Meta Information------>    
         <meta charset="UTF-8" />
@@ -16,6 +15,7 @@
         
         <!-------Stylesheets------>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/<?php echo $pageCSS; ?>.css"/>
         <style>
             
             @font-face {

@@ -13,32 +13,32 @@
             <br><hr class="greyBorder"><br>
             <div id="updatesBanner">
                 <div id="newArrivals">
-                    <div class="updatesBannerText">
+                    <div class="updatesBannerText"><br />
                         <h4>NEW ARRIVAL</h4>
                         <h3>
                             VIEW<br>
                             AUTUMN<br>
-                            COLLECTION
+                            COLLECTION<br /><br />
                         </h3>
                     </div>
                 </div>
                 <div id="updates">
-                    <div class="updatesBannerText">
+                    <div class="updatesBannerText"><br />
                         <h4>UPDATES</h4>
                         <h3>
                             A DAY IN<br>
                             A LIFE<br>
-                            VIDEO
+                            VIDEO<br /><br />
                         </h3>
                     </div>
                 </div>
                 <div id="blog">
-                    <div class="updatesBannerText">
+                    <div class="updatesBannerText"><br />
                         <h4>FROM THE BLOG</h4>
                         <h3>
                             EATING HEALTHY<br>
                             DURING<br>
-                            PREGNANCY
+                            PREGNANCY<br /><br />
                         </h3>
                     </div>
                 </div>

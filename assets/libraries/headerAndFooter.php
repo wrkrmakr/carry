@@ -67,7 +67,7 @@
 <?php } ?>
 <?php function carryNavigationPanel() { ?>
         <div id="header">
-                <a href="index.php"><img id ="logoImg" src="assets/img/CM_Logo.png" border="0" /></a>
+                <div id ="logoImg"><a href="index.php"><img src="assets/img/CM_Logo.png" border="0" /></a></div>
             <div id="nav">
                 <ul id="navLeft">
                     <a href="#"><li id ="department" style="margin-left:2px" class="subMenuLink">
@@ -163,8 +163,8 @@
                 </ul>
                 <ul id="navRight">
                     <a href="#"><li class="liPaddingRight menuLink">BLOG</li></a>
-                    <a href="#"><li class="liPaddingRight menuLink">ABOUT US</li></a>
-                    <a href="#"><li style="margin-right:2px " class="menuLink">CONTACT</li></a>
+                    <a href="about.php"><li class="liPaddingRight menuLink">ABOUT US</li></a>
+                    <a href="contact.php"><li style="margin-right:2px " class="menuLink">CONTACT</li></a>
                 </ul>
             </div>
         </div>

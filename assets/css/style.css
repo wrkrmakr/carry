@@ -36,11 +36,14 @@ a{
 	z-index:1;
 }
 #logoImg {
-	width:130px;
-	display:block;
+	width:150px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:50px;
+}
+#logoImg img{
+	height:150px;
+	width:inherit;	
 }
 #nav{
 	position:relative;

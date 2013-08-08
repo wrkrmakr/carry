@@ -1,0 +1,155 @@
+#welcomeBanner{
+   position:relative;
+   height:50%;
+   width:100%;
+   background: url(../img/topImage.jpg) no-repeat scroll center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   min-height:310px;
+}
+#welcomeBannerText{
+   position:absolute;
+   width:55%;
+   top:50%;
+   text-align:center;
+   margin-top:-150px;   
+}
+#updatesBanner{
+   position:relative;
+   top:5px; 
+   height:40%;
+   width:100%;
+   min-height:275px;
+}
+#newArrivals{
+   position:absolute;
+   height:100%;
+   width:30%;
+   background:url(../img/tumblr_mpoblcUVoI1s76vt0o1_1280.jpg) no-repeat scroll center center;   
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#updates{
+   position:absolute;
+   height:100%;
+   left:35%;
+   width:30%;
+   background:url(../img/b9ffc5ec6de09f5a32f71c7751b27a7a.jpg) no-repeat scroll center center;  
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;       
+}
+#blog{
+   position:absolute;
+   height:100%;
+   left:70%;
+   width:30%;
+   background:url(../img/tumblr_midljk8fTL1qcmfnio1_500.jpg) no-repeat scroll center center; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+.updatesBannerText{
+   position:absolute;   
+   margin-left:20%;
+   margin-right:20%;
+   width:60%;
+   top:50%;
+   margin-top:-80px;
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+   text-align:center;
+   min-height:125px;
+}
+#featuredProducts{
+   position:relative;
+   width:100%; 
+}
+#featuredProductsTitle{
+   width:inherit;
+   text-align:center;
+   font-family:"Cantarell-Bold", sans-serif;
+   font-size:16px;   
+   letter-spacing:1px;
+}
+#featuredProductsPanel{
+   position:relative;
+   top:30px;
+   width:100%;
+   height:500px;     
+}
+.featuredProduct{
+   position:absolute;
+   width:25%;
+   height:inherit;   
+   text-align:center;
+}
+#featuredProduct1{
+   left:0%; 
+}
+#featuredProduct2{
+   left:25%;   
+}
+#featuredProduct3{
+   left:50%;   
+}
+#featuredProduct4{
+   left:75%;   
+}
+.productImage{
+   position:relative;
+   top:0px;
+   left:10%;
+   width:80%;
+   height:300px;
+   background-color:#09F;
+   min-width:220px;  
+}
+#product1Image{
+   background:url(../img/25099563_435x435.jpg) no-repeat scroll center center;   
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+}
+#product2Image{
+   background:url(../img/Petuna%20Pickel%20bottom.jpg) no-repeat scroll center center; 
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+}
+#product3Image{
+   background:url(../img/LL044.jpg) no-repeat scroll center center;  
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+}
+#product4Image{
+   background:url(../img/Screen%20Shot%202013-07-25%20at%2011.43.56%20AM.png) no-repeat scroll center center;  
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+}
+.productTitle{
+   font-family:"Cantarell-Bold", sans-serif;
+   font-size:16px;      
+}
+.productCategory{
+   font-family:"Cantarell-Regular", sans-serif;
+   font-size:14px;   /*
+   font-weight:600;*/   
+}
+.productPrize{
+   font-family:"Quattrocento-Regular", sans-serif;
+   font-size:14px;/*
+   font-weight:600;*/      
+}

@@ -1,0 +1,44 @@
+/* CSS Document */
+#upperContent{
+	position:relative;
+	width:100%;
+	min-height:410px;
+	border-bottom:1px solid #999;
+	border-top:1px solid #999;	
+}
+#storeInfo{
+	position:absolute;
+	width:50%;
+	height:100%;	
+}
+#storeInfoContainer{
+	float:right;
+	width:50%;
+	height:100%;
+}
+#storeHours{
+	position:relative;
+	left:5%;
+	height:50%;
+	width:90%;
+	text-align:center;	
+}
+#enquires{
+	position:absolute;
+	left:60%;
+	width:40%;
+	height:100%;	
+}
+.bigContactText{
+	font-family:"Quattrocento-Regular", sans-serif;
+	font-size:16px;
+	letter-spacing:1px;		
+}
+
+.smallContactText{
+	font-family:"gotham-book", sans-serif;
+	font-size:14px;
+	line-height:20px;
+	font-weight:550;		
+}
+

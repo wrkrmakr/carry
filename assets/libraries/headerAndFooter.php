@@ -14,40 +14,40 @@
         <meta name="author" content="ONMEDIA">       
         
         <!-------Stylesheets------>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/<?php echo $pageCSS; ?>.css"/>
         <style>
             
             @font-face {
                 font-family: "gotham-medium";
-                src: url(assets/fonts/gotham-medium.ttf) format('truetype');
+                src: url(../fonts/gotham-medium.ttf) format('truetype');
             }
             @font-face {
                 font-family: "gotham-book";
-                src:url(assets/fonts/gotham-book.ttf) format('truetype');
+                src:url(../fonts/gotham-book.ttf) format('truetype');
             }
             @font-face {
                 font-family: "Quattrocento-Regular";
-                src:url(assets/fonts/Quattrocento-Regular.ttf) format('truetype');
+                src:url(../fonts/Quattrocento-Regular.ttf) format('truetype');
             }           
             @font-face {
                 font-family: "Quattrocento-Regular";
-                src:url(assets/fonts/Quattrocento-Regular.otf) format('opentype');
+                src:url(../fonts/Quattrocento-Regular.otf) format('opentype');
             }                       
             @font-face {
                 font-family: "Cantarell-Regular";
-                src:url(assets/fonts/Cantarell-Regular.ttf) format('opentype');
+                src:url(../fonts/Cantarell-Regular.ttf) format('opentype');
             }                       
             @font-face {
                 font-family: "Cantarell-Bold";
-                src:url(assets/fonts/Cantarell-Bold.ttf) format('opentype');
+                src:url(../fonts/Cantarell-Bold.ttf) format('opentype');
             }       
         </style>
         
         <!-------Javascript------>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
-        <script src="assets/js/core.js"></script>
+        <script src="../js/core.js"></script>
         <script>
             window.addEventListener("load",function() {
             setTimeout(function(){
@@ -67,7 +67,7 @@
 <?php } ?>
 <?php function carryNavigationPanel() { ?>
         <div id="header">
-                <img id ="logoImg" src="assets/img/CM_Logo.png" border="0" />
+                <img id ="logoImg" src="../img/CM_Logo.png" border="0" />
             <div id="nav">
                 <ul id="navLeft">
                     <a href="#"><li id ="department" style="margin-left:2px" class="subMenuLink">

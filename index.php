@@ -1,6 +1,6 @@
 <?php
-   include "headerAndFooter.php";
-   include "indexLibrary.php";
+   include "assets/libraries/headerAndFooter.php";
+   include "assets/libraries/indexLibrary.php";
    
    carryHTMLHead("index","index","");
    carryNavigationPanel();

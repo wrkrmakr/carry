@@ -170,7 +170,6 @@
         </div>
 
 <?php } ?>
-
 <?php function carryHTMLFooter() { ?>
     </body>
 </html>

@@ -4,7 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         
-        <title>CARRY Maternity <?php echo $pageTitle; ?></title>
+        <title>CARRY Maternity<?php echo $pageTitle; ?></title>
         
         <!-------Meta Information------>    
         <meta charset="UTF-8" />

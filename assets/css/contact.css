@@ -37,9 +37,16 @@
 }
 
 .smallContactText{
-	font-family:"gotham-book", sans-serif;
+	font-family:"Cantarell-Regular", sans-serif;
 	font-size:14px;
 	line-height:20px;
 	font-weight:550;		
+}
+#locationInfo{
+	position:relative;
+	left:15%;
+	height:50%;
+	width:70%;
+	text-align:center;
 }
 

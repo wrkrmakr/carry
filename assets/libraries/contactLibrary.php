@@ -29,7 +29,9 @@
                         <br /><p class="bigContactText">INQUIRIES</p>
                         <hr class="greyBorder" /><br />
                         <form action="" id="inquiresForm">
-                        	<input id="inquiryFormEmail" type="text" placeholder="ENTER YOUR E-MAIL" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ENTER YOUR E-MAIL '"  />
+                        	<input id="inquiryFormEmail" type="text" placeholder="ENTER YOUR E-MAIL" onfocus="this.placeholder = ''" onblur="this.placeholder  							= 'ENTER YOUR E-MAIL '"  /><br /><br />
+                            <textarea id="inquiryFormQuestion" placeholder="YOUR QUESTION" onfocus="this.placeholder = ''" onblur="this.placeholder  							                            = 'YOUR QUESTION'"  ></textarea><br /><br />
+                            <input id="inquiryFormButton" value="OK" type="button" />
                         </form>
                     </div>	
                 </div>

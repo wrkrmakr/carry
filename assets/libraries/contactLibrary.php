@@ -24,7 +24,14 @@
                         </div>                    
                     </div>
                 </div>
-                <div id="enquires">
+                <div id="inquires">	
+                	<div id="inquiresContainer">
+                        <br /><p class="bigContactText">INQUIRIES</p>
+                        <hr class="greyBorder" /><br />
+                        <form action="" id="inquiresForm">
+                        	
+                        </form>
+                    </div>	
                 </div>
             </div>
         </div>

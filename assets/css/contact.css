@@ -6,9 +6,20 @@
 	border-bottom:1px solid #999;
 	border-top:1px solid #999;	
 }
+.bigContactText{
+	font-family:"Quattrocento-Regular", sans-serif;
+	font-size:16px;
+	letter-spacing:1px;		
+}
+.smallContactText{
+	font-family:"Cantarell-Regular", sans-serif;
+	font-size:14px;
+	line-height:20px;
+	font-weight:550;		
+}
 #storeInfo{
 	position:absolute;
-	width:50%;
+	width:40%;
 	height:100%;	
 }
 #storeInfoContainer{
@@ -24,29 +35,25 @@
 	width:90%;
 	text-align:center;	
 }
-#enquires{
-	position:absolute;
-	left:60%;
-	width:40%;
-	height:100%;	
-}
-.bigContactText{
-	font-family:"Quattrocento-Regular", sans-serif;
-	font-size:16px;
-	letter-spacing:1px;		
-}
-
-.smallContactText{
-	font-family:"Cantarell-Regular", sans-serif;
-	font-size:14px;
-	line-height:20px;
-	font-weight:550;		
-}
 #locationInfo{
 	position:relative;
 	left:15%;
 	height:50%;
 	width:70%;
 	text-align:center;
+}
+#inquires{
+	position:absolute;
+	left:60%;
+	width:40%;
+	height:100%;	
+}
+#inquiresContainer{
+	position:relative;
+	left:0%;
+	height:100%;
+	width:56%;
+	float:left;
+	text-align:center;		
 }
 

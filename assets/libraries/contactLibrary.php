@@ -29,7 +29,7 @@
                         <br /><p class="bigContactText">INQUIRIES</p>
                         <hr class="greyBorder" /><br />
                         <form action="" id="inquiresForm">
-                        	
+                        	<input id="inquiryFormEmail" type="text" placeholder="ENTER YOUR E-MAIL" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ENTER YOUR E-MAIL '"  />
                         </form>
                     </div>	
                 </div>

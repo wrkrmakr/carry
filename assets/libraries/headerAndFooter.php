@@ -16,30 +16,19 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/<?php echo $pageCSS; ?>.css"/>
         <style>
-            
-            @font-face {
-                font-family: "gotham-medium";
-                src: url(assets/fonts/gotham-medium.ttf) format('truetype');
-            }
-            @font-face {
-                font-family: "gotham-book";
-                src:url(assets/fonts/gotham-book.ttf) format('truetype');
-            }
-            @font-face {
+			@font-face {
                 font-family: "Quattrocento-Regular";
                 src:url(assets/fonts/Quattrocento-Regular.ttf) format('truetype');
-            }           
-            @font-face {
-                font-family: "Quattrocento-Regular";
                 src:url(assets/fonts/Quattrocento-Regular.otf) format('opentype');
-            }                       
+            } 
             @font-face {
                 font-family: "Cantarell-Regular";
-                src:url(assets/fonts/Cantarell-Regular.ttf) format('opentype');
+                src:url(assets/fonts/Cantarell-Regular.svg) format('svg');
+				src:url(assets/fonts/Cantarell-Regular.ttf) format('truetype');				
             }                       
             @font-face {
                 font-family: "Cantarell-Bold";
-                src:url(assets/fonts/Cantarell-Bold.ttf) format('opentype');
+                src:url(assets/fonts/Cantarell-Bold.ttf) format('truetype');
             }       
         </style>
         

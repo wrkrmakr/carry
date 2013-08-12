@@ -50,38 +50,38 @@
                 <div id="featuredProductsPanel">
                     <div id="featuredProduct1" class="featuredProduct">
                         <div id ="product1Image" class="productImage" ></div>
-                        <br>
+                        <br /><br />
                         <div id="product1Title" class="productTitle">CARRY MATERNITY</div>
-                        <br>
+                        <br />
                         <div id="product1Category" class="productCategory">SILK DRESS</div>
-                        <br>
+                        <br />
                         <div id="product1Prize" class="productPrize">159 CAD</div>
                     </div>
                     <div id="featuredProduct2" class="featuredProduct">
                         <div id ="product2Image" class="productImage" ></div>
-                        <br>
+                        <br /><br />
                         <div id="product2Title" class="productTitle">PETUNIA PICKLE BOTTOM</div>
-                        <br>
+                        <br />
                         <div id="product2Category" class="productCategory">SILK DRESS</div>
-                        <br>
+                        <br />
                         <div id="product2Prize" class="productPrize">129 CAD</div>
                     </div>
                     <div id="featuredProduct3" class="featuredProduct">
                         <div id ="product3Image" class="productImage" ></div>
-                        <br>
+                        <br /><br />
                         <div id="product3Title" class="productTitle">PETUNIA PICKLE BOTTOM</div>
-                        <br>
+                        <br />
                         <div id="product3Category" class="productCategory">SILK DRESS</div>
-                        <br>
+                        <br />
                         <div id="product3Prize" class="productPrize">129 CAD</div>
                     </div>
                     <div id="featuredProduct4" class="featuredProduct">
                         <div id ="product4Image" class="productImage" ></div>
-                        <br>
+                        <br /><br />
                         <div id="product4Title" class="productTitle">PETUNIA PICKLE BOTTOM</div>
-                        <br>
+                        <br />
                         <div id="product4Category" class="productCategory">SILK DRESS</div>
-                        <br>
+                        <br />
                         <div id="product4Prize" class="productPrize">129 CAD</div>
                     </div>                      
                     </div>                

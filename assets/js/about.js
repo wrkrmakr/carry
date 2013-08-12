@@ -43,21 +43,25 @@ $(document).ready(function() {
          progressPercent++;
          if (progressPercent > 100){
             toNextPhoto();
-            progressPercent = -3;
+            progressPercent = -5;
          }
-      }, 40);
+      }, 50);
    }
 
    function toNextPhoto() {
-      console.log(imageIndex);
       if (imageIndex == imagesInBanner)
          imageIndex = 1;
-      $('#aboutUsImage').hide("fade", 100, function() {
-         imageIndex = parseInt(imageIndex)+1;
-         console.log(imageIndex);
+      imageIndex = parseInt(imageIndex)+1;
+
+      $('#aboutUsImageCrossFade').css('background-image','url(assets/img/about/aboutBanner'+imageIndex+'.jpg)');
+      $('#aboutUsImageCrossFade').show("fade", 400);
+      $('#aboutUsImage').hide("fade", 400, function() {
          $('#aboutUsImage').css('background-image','url(assets/img/about/aboutBanner'+imageIndex+'.jpg)');
-         $('#aboutUsImage').show("fade", 200);
+         $('#aboutUsImage').show(0);
+         $('#aboutUsImageCrossFade').hide(0);
       });
+      
+      
       //progressBar();
    }
 

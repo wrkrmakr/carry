@@ -2,7 +2,7 @@
 #upperContent{
 	position:relative;
 	width:100%;
-	min-height:410px;
+	min-height:450px;
 	border-bottom:1px solid #999;
 	border-top:1px solid #999;	
 }
@@ -93,7 +93,19 @@
 	resize:none;
 }
 #inquiryFormButton{
-	float:right;	
+	float:right;
+	margin-top:5px;	
+}
+label{
+	font-family:"Quattrocento-Regular", sans-serif;	
+	font-size:12px;		
+}
+#inquiresResponse{
+	position:relative;
+	width:100%;
+	display:none;
+	font-family: "Cantarell-Regular", sans-serif;
+	font-size: 14px;	
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:#000;

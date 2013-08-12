@@ -1,0 +1,1 @@
+<?php echo'We have received your query. We will get back to you.' ?>

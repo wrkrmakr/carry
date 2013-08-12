@@ -37,11 +37,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script> 
     	<script src="http://malsup.github.com/jquery.form.js"></script> 
         <script src="assets/js/core.js"></script>
-<<<<<<< HEAD
-        <script src="assets/js/<?php echo $pageJS ?>.js"></script>
-=======
         <script src="assets/js/<?php echo $pageJS; ?>.js"></script>
->>>>>>> origin/tal
         <script>
             window.addEventListener("load",function() {
             setTimeout(function(){

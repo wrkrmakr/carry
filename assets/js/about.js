@@ -2,8 +2,15 @@ $(document).ready(function() {
    var progressPercent;
    var imageIndex = 1;
    var imagesInBanner = 5;
+   var myImages = [
+      "assets/img/about/aboutBanner1.jpg",
+      "assets/img/about/aboutBanner2.jpg",
+      "assets/img/about/aboutBanner3.jpg",
+      "assets/img/about/aboutBanner4.jpg",
+      "assets/img/about/aboutBanner5.jpg",
+   ];
 
-
+   preloadImages(myImages);
 
    $(window).load(function(){
       $("#progressbar").progressbar();
@@ -16,6 +23,18 @@ $(document).ready(function() {
       temp = (temp / $('#aboutUsImage').width()) * 100;
       progressPercent = temp;
    });
+
+   function preloadImages(list) {
+      var img;
+      if (!preloadImages.cache) {
+         preloadImages.cache = [];
+      }
+      for (var i = 0; i < list.length; i++) {
+         img = new Image();
+         img.src = list[i];
+         preloadImages.cache.push(img);
+      }
+   }
 
    function progressBar(){
       progressPercent = 0;

@@ -8,14 +8,15 @@ $(document).ready(function() {
     });
 	
 	$(".subMenuLink").hover(function(){			
-		//if(!inMotion){
-			$(this).find('.subMenuList').stop(true,true).slideDown(400,function(){
-		//		inMotion=true;		
+		if(!inMotion){
+			inMotion=true;
+			$(this).find('.subMenuList').slideDown(300,function(){
+				inMotion=false;
 			});
-		//}		
+		}		
 	},function(){			
 		//if(inMotion){
-			$(this).find('.subMenuList').stop(true,true).slideUp(200,function(){
+			$(this).find('.subMenuList').slideUp(200,function(){
 		//		inMotion=false;		
 			});
 		//}

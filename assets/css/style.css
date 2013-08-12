@@ -98,7 +98,8 @@ a{
 #designerSubMenu{/*
 	display:inline;	*/
 }
-#departmentSubMenu table,#designerSubMenu table{
+#departmentSubMenu table,
+#designerSubMenu table{
 	position:relative;
 	margin-top:40px;
 	margin-left:5px;
@@ -107,7 +108,8 @@ a{
 	font-size:14px;	
 	font-weight:500;
 }
-#departmentSubMenu table tr td,#designerSubMenu table tr td{
+#departmentSubMenu table tr td,
+#designerSubMenu table tr td{
 	padding-right:40px;	
 }
 

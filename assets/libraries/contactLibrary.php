@@ -28,7 +28,7 @@
                 	<div id="inquiresContainer">
                         <br /><p class="bigContactText">INQUIRIES</p>
                         <hr class="greyBorder" /><br />
-                        <form action="" id="inquiresForm">
+                        <form action="contactLibrary.php" id="inquiresForm">
                         	<input  class="formTextBox" id="inquiryFormEmail" type="text" placeholder="ENTER YOUR E-MAIL" onfocus                             	="this.placeholder = ''" onblur="this.placeholder= 'ENTER YOUR E-MAIL '"  /><br /><br />
                             <textarea id="inquiryFormQuestion" placeholder="YOUR QUESTION" onfocus="this.placeholder = ''" onblur				 							="this.placeholder= 'YOUR QUESTION'"  ></textarea><br /><br />
                             <input id="inquiryFormButton" class="formButton" value="OK" type="button" />
@@ -62,10 +62,10 @@
                                 <input class="formTextBox" id="signUpFormEmail" type="text" placeholder="Enter your e-mail"  		 									onfocus="this.placeholder =  ''" onblur="this.placeholder= 'Enter your e-mail'"  />
                                <input id="signFormButton" class="formButton" value="OK" type="button" />
                             </div>
-                        </form><br /><!--
+                        </form><br />
                         <span class="lowerContentSmallText">
                         	Sign up for our newsletter for our latest news and updates!	
-                        </span>-->
+                        </span>
                     </div>
                 </div>
             </div>

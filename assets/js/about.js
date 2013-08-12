@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function() {
    var progressPercent;
    var imageIndex = 1;

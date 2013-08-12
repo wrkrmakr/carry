@@ -29,12 +29,45 @@
                         <br /><p class="bigContactText">INQUIRIES</p>
                         <hr class="greyBorder" /><br />
                         <form action="" id="inquiresForm">
-                        	<input id="inquiryFormEmail" type="text" placeholder="ENTER YOUR E-MAIL" onfocus="this.placeholder = ''" onblur="this.placeholder  							= 'ENTER YOUR E-MAIL '"  /><br /><br />
-                            <textarea id="inquiryFormQuestion" placeholder="YOUR QUESTION" onfocus="this.placeholder = ''" onblur="this.placeholder  							                            = 'YOUR QUESTION'"  ></textarea><br /><br />
-                            <input id="inquiryFormButton" value="OK" type="button" />
+                        	<input  class="formTextBox" id="inquiryFormEmail" type="text" placeholder="ENTER YOUR E-MAIL" onfocus                             	="this.placeholder = ''" onblur="this.placeholder= 'ENTER YOUR E-MAIL '"  /><br /><br />
+                            <textarea id="inquiryFormQuestion" placeholder="YOUR QUESTION" onfocus="this.placeholder = ''" onblur				 							="this.placeholder= 'YOUR QUESTION'"  ></textarea><br /><br />
+                            <input id="inquiryFormButton" class="formButton" value="OK" type="button" />
                         </form>
                     </div>	
                 </div>
             </div>
-        </div>
+            <div id="lowerContent">
+            	<div id="mapContainer" class="lowerContentInnerDiv">
+                	WHERE TO FIND US<br /><br />
+                    <div id="map"></div>	
+                </div>
+                <div id="socialIconContainer" class="lowerContentInnerDiv">
+                	CONNECT WITH US<br /><br /><br />
+                    <div id="socialIcons">
+                    	<img src="assets/img/fbIcon.png" />
+                        <img src="assets/img/twitterIcon.png" />
+                    	<img src="assets/img/pIntIcon.png" />
+                        <img src="assets/img/icon4.png" />
+                        <br /><br />
+                        <span class="lowerContentSmallText">
+                        	Follow us to stay in the loop on what’s new with Carry Maternity.
+                        </span>
+                    </div>
+                </div>
+                <div id="signUpFormContainer" class="lowerContentInnerDiv">
+                	GET OUR UPDATES<br /><br /><br />
+                    <div id="signUp">
+                        <form id="signUpForm" action="">
+                            <div id="formMailContainer">
+                                <input class="formTextBox" id="signUpFormEmail" type="text" placeholder="Enter your e-mail"  		 									onfocus="this.placeholder =  ''" onblur="this.placeholder= 'Enter your e-mail'"  />
+                               <input id="signFormButton" class="formButton" value="OK" type="button" />
+                            </div>
+                        </form><br /><!--
+                        <span class="lowerContentSmallText">
+                        	Sign up for our newsletter for our latest news and updates!	
+                        </span>-->
+                    </div>
+                </div>
+            </div>
+        <br /><br /><br /></div>
 <?php } ?>

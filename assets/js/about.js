@@ -1,8 +1,9 @@
-<<<<<<< HEAD
 $(document).ready(function() {
    var progressPercent;
    var imageIndex = 1;
    var imagesInBanner = 5;
+
+
 
    $(window).load(function(){
       $("#progressbar").progressbar();

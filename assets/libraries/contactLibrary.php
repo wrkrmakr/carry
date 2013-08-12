@@ -58,12 +58,14 @@
                 	GET OUR UPDATES<br /><br /><br />
                     <div id="signUp">
                         <form id="signUpForm" action="">
-                            <input class="formTextBox" id="signUpFormEmail" type="text" placeholder="Enter your e-mail" onfocus=  			 							"this.placeholder =  ''" onblur="this.placeholder= 'Enter your e-mail'"  />
-                             <input id="signFormButton" class="formButton" value="OK" type="button" />
-                        </form><br />
+                            <div id="formMailContainer">
+                                <input class="formTextBox" id="signUpFormEmail" type="text" placeholder="Enter your e-mail"  		 									onfocus="this.placeholder =  ''" onblur="this.placeholder= 'Enter your e-mail'"  />
+                               <input id="signFormButton" class="formButton" value="OK" type="button" />
+                            </div>
+                        </form><br /><!--
                         <span class="lowerContentSmallText">
                         	Sign up for our newsletter for our latest news and updates!	
-                        </span>
+                        </span>-->
                     </div>
                 </div>
             </div>

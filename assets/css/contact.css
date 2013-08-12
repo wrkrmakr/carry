@@ -57,8 +57,9 @@
 	text-align:center;		
 }
 #inquiryFormEmail{
-	width:88%;
-	height:45px;
+}
+.formTextBox{
+	height:50px;
 	border:none;
 	background-color:rgba(31,206,203,.2);
 	border-radius:15px;
@@ -66,6 +67,18 @@
 	font-family:"Cantarell-Regular", sans-serif;
 	font-size:16px;
 	line-height:21px;
+	width:88%;		
+}
+.formButton{
+	float:right;
+	border:none;
+	width:80px;	
+	height:50px;
+	background-color:rgb(31,206,203);
+	border-radius:15px;
+	color:white;
+	font-family:"Cantarell-Regular", sans-serif;
+	font-size:14px;	
 }
 #inquiryFormQuestion{
 	width:88%;
@@ -79,17 +92,6 @@
 	line-height:21px;
 	overflow:hidden;
 	resize:none;
-}
-#inquiryFormButton{
-	float:right;
-	border:none;
-	width:80px;	
-	height:50px;
-	background-color:rgb(31,206,203);
-	border-radius:15px;
-	color:white;
-	font-family:"Cantarell-Regular", sans-serif;
-	font-size:14px; 	
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:#000;
@@ -106,6 +108,64 @@
 :focus {outline:none;}
 ::-moz-focus-inner {border:0;}
 
-
+#lowerContent{
+	position:relative;
+	top:30px;
+	width:100%;	
+	min-height:250px;
+}
+.lowerContentInnerDiv{
+	position:absolute;
+	width:33.33%;
+	height:100%;
+	text-align:center;	
+	font-family:"Cantarell-Regular", sans-serif;
+	font-size:16px;		
+}
+#mapContainer{
+	border-right:1px dotted black;
+}
+#socialIconContainer{
+	left:33.33%;	
+	border-right:1px dotted black;
+}
+#signUpFormContainer{
+	left:66.67%;	
+}
+#map{	
+	position:relative;
+	width:100%;
+	left:15%;
+	width:70%;
+	height:205px;
+	background:url(../img/map.jpg) no-repeat scroll center center;  
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#socialIcons{	
+	position:relative;
+	width:100%;
+	left:15%;
+	width:70%;		
+}
+#socialIcons img{	
+	padding-right:5px;
+	height:45px;
+	width:45px;
+}
+.lowerContentSmallText{
+	font-family:"Quattrocento-Regular", sans-serif;	
+	font-size:14px;	
+}
+#signUp{
+	position:relative;
+	left:15%;
+	width:70%	
+}
+#signFormButton{
+	margin-top:-50px;	
+}
 
 

@@ -28,11 +28,12 @@
                 	<div id="inquiresContainer">
                         <br /><p class="bigContactText">INQUIRIES</p>
                         <hr class="greyBorder" /><br />
-                        <form action="contactLibrary.php" id="inquiresForm">
-                        	<input  class="formTextBox" id="inquiryFormEmail" type="text" placeholder="ENTER YOUR E-MAIL" onfocus                             	="this.placeholder = ''" onblur="this.placeholder= 'ENTER YOUR E-MAIL '"  /><br /><br />
-                            <textarea id="inquiryFormQuestion" placeholder="YOUR QUESTION" onfocus="this.placeholder = ''" onblur				 							="this.placeholder= 'YOUR QUESTION'"  ></textarea><br /><br />
-                            <input id="inquiryFormButton" class="formButton" value="OK" type="button" />
+                        <form id="inquiresForm" action="validateForm.php" method="post">
+                        	<input  class="formTextBox" id="inquiryFormEmail" name="inquiryFormEmail" type="text" placeholder= 			 								"ENTER YOUR E-MAIL" onfocus ="this.placeholder = ''" onblur="this.placeholder= 'ENTER YOUR E-MAIL  								'"  /><br /><br />
+                            <textarea id="inquiryFormQuestion" name="inquiryFormQuestion" placeholder="YOUR QUESTION" onfocus= 				 								"this.placeholder = ''" onblur	="this.placeholder= 'YOUR QUESTION'"  ></textarea><br /><br />
+                            <input id="inquiryFormButton" class="formButton" value="OK" type="submit" />
                         </form>
+                        <div id="inquiresResponse"></div>
                     </div>	
                 </div>
             </div>
@@ -60,7 +61,7 @@
                         <form id="signUpForm" action="">
                             <div id="formMailContainer">
                                 <input class="formTextBox" id="signUpFormEmail" type="text" placeholder="Enter your e-mail"  		 									onfocus="this.placeholder =  ''" onblur="this.placeholder= 'Enter your e-mail'"  />
-                               <input id="signFormButton" class="formButton" value="OK" type="button" />
+                               <input id="signFormButton" class="formButton" value="OK" type="submit" />
                             </div>
                         </form><br />
                         <span class="lowerContentSmallText">

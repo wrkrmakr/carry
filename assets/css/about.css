@@ -28,6 +28,7 @@
    -moz-background-size: cover;
    -o-background-size: cover;
    overflow: hidden;
+   cursor: pointer;
 }
 
 #progressbar{

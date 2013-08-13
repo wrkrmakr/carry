@@ -2,6 +2,7 @@ $(document).ready(function() {
    var progressPercent = 0;
    var imageIndex = 1;
    var imagesInBanner = 5;
+   var pauseProgress = false;
    var pVal = $('.ui-progressbar-value').addClass('ui-corner-right');
    var myImages = [
       "assets/img/about/aboutBanner1.jpg",
@@ -24,6 +25,13 @@ $(document).ready(function() {
       temp = e.clientX - temp;
       temp = (temp / $('#aboutUsImage').width()) * 100;
       progressPercent = temp;
+      $('#progressbar div').stop(true,true).animate({width: progressPercent + '%'}, 130, 'swing');
+   });
+
+   $('#aboutUsImage, .progressbar').hover(function(){
+      pauseProgress = true;
+   },function(){
+      pauseProgress = false;
    });
 
    function preloadImages(list) {
@@ -40,9 +48,10 @@ $(document).ready(function() {
 
    function progressBar(){
       var timer = setInterval (function () {
-         $('#progressbar div').stop(true).animate({width: progressPercent + '%'}, 186, function(){
-            progressPercent++;
-         });
+         if (!pauseProgress)
+            $('#progressbar div').stop(true,true).animate({width: progressPercent + '%'}, 130, 'easeInOutSine', function(){
+               progressPercent++;
+            });
          $('#progressbar div').css('display','block');
          //$('#progressbar').progressbar ("value", progressPercent);
          
@@ -50,7 +59,7 @@ $(document).ready(function() {
             progressPercent = -2;
             toNextPhoto();
          }
-      }, 200);
+      }, 100);
    }
 
    function toNextPhoto() {

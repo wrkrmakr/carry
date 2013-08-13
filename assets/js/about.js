@@ -1,13 +1,15 @@
 $(document).ready(function() {
-   var progressPercent;
+   var progressPercent = 0;
    var imageIndex = 1;
-   var imagesInBanner = 5;
+   var imagesInBanner = 5; //adjust this number for the number of images
+   var pauseProgress = false;
+   var pVal = $('.ui-progressbar-value').addClass('ui-corner-right');
    var myImages = [
       "assets/img/about/aboutBanner1.jpg",
       "assets/img/about/aboutBanner2.jpg",
       "assets/img/about/aboutBanner3.jpg",
       "assets/img/about/aboutBanner4.jpg",
-      "assets/img/about/aboutBanner5.jpg",
+      "assets/img/about/aboutBanner5.jpg"
    ];
 
    preloadImages(myImages);
@@ -15,6 +17,7 @@ $(document).ready(function() {
    $(window).load(function(){
       $("#progressbar").progressbar();
       progressBar();
+      
    });
 
    $('#aboutUsImage, .progressbar').click(function(e) {
@@ -22,6 +25,13 @@ $(document).ready(function() {
       temp = e.clientX - temp;
       temp = (temp / $('#aboutUsImage').width()) * 100;
       progressPercent = temp;
+      $('#progressbar div').stop(true,true).animate({width: progressPercent + '%'}, 150, 'easeInOutSine');
+   });
+
+   $('#aboutUsImage, .progressbar').hover(function(){
+      pauseProgress = true;
+   },function(){
+      pauseProgress = false;
    });
 
    function preloadImages(list) {
@@ -37,27 +47,36 @@ $(document).ready(function() {
    }
 
    function progressBar(){
-      progressPercent = 0;
       var timer = setInterval (function () {
-         $('#progressbar').progressbar ("value", progressPercent);
-         progressPercent++;
+         if (!pauseProgress)
+            $('#progressbar div').stop(true,true).animate({width: progressPercent + '%'}, 130, 'easeInOutSine', function(){
+               progressPercent++;
+            });
+         $('#progressbar div').css('display','block');
+         //$('#progressbar').progressbar ("value", progressPercent);
+         
          if (progressPercent > 100){
+            progressPercent = -4;
             toNextPhoto();
-            progressPercent = -3;
          }
-      }, 40);
+      }, 100);
    }
 
    function toNextPhoto() {
-      console.log(imageIndex);
       if (imageIndex == imagesInBanner)
          imageIndex = 1;
-      $('#aboutUsImage').hide("fade", 100, function() {
-         imageIndex = parseInt(imageIndex)+1;
-         console.log(imageIndex);
+      imageIndex = parseInt(imageIndex)+1;
+      $('progressbar').hide(0);
+      $('#aboutUsImageCrossFade').css('background-image','url(assets/img/about/aboutBanner'+imageIndex+'.jpg)');
+      $('#aboutUsImageCrossFade').show("fade", 500);
+      $('#aboutUsImage').hide("fade", 500, function() {
          $('#aboutUsImage').css('background-image','url(assets/img/about/aboutBanner'+imageIndex+'.jpg)');
-         $('#aboutUsImage').show("fade", 200);
+         $('progressbar').show(0);
+         $('#aboutUsImage').show(0);
+         $('#aboutUsImageCrossFade').hide(0);
       });
+      
+      
       //progressBar();
    }
 

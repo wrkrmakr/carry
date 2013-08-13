@@ -4,6 +4,7 @@
             <div id="aboutUsImage">
               <div id="progressbar"></div>
             </div>
+            <div id="aboutUsImageCrossFade"></div>
           </div>
           <div id="aboutCarry">
             <span id="aboutCarryTitle">ABOUT CARRY MATERNITY</span><br><br>

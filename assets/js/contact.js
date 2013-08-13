@@ -12,10 +12,10 @@ $(document).ready(function() {
        messages: {
             inquiryFormEmail: {
                 email: "Please enter a valid e-mail address",
-				required:"Please enter a e-mail address"
+				required:"Please enter an e-mail address"
 			},
 		    inquiryFormQuestion:{
-				required:"Please enter a question"   
+				required:"Please send us an Inquiry"   
 		    }
        },
 		submitHandler: function(form) {

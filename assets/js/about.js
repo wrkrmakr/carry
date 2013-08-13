@@ -1,7 +1,7 @@
 $(document).ready(function() {
    var progressPercent = 0;
    var imageIndex = 1;
-   var imagesInBanner = 5;
+   var imagesInBanner = 5; //adjust this number for the number of images
    var pauseProgress = false;
    var pVal = $('.ui-progressbar-value').addClass('ui-corner-right');
    var myImages = [
@@ -25,7 +25,7 @@ $(document).ready(function() {
       temp = e.clientX - temp;
       temp = (temp / $('#aboutUsImage').width()) * 100;
       progressPercent = temp;
-      $('#progressbar div').stop(true,true).animate({width: progressPercent + '%'}, 130, 'swing');
+      $('#progressbar div').stop(true,true).animate({width: progressPercent + '%'}, 150, 'easeInOutSine');
    });
 
    $('#aboutUsImage, .progressbar').hover(function(){
@@ -56,7 +56,7 @@ $(document).ready(function() {
          //$('#progressbar').progressbar ("value", progressPercent);
          
          if (progressPercent > 100){
-            progressPercent = -2;
+            progressPercent = -4;
             toNextPhoto();
          }
       }, 100);

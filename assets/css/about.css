@@ -27,12 +27,13 @@
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
+   overflow: hidden;
 }
 
 #progressbar{
    position: absolute;
    bottom: 0px;
-   height: 10px;
+   height: 6px;
    width: 100%;
 }
 .ui-progressbar-value {

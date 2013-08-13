@@ -9,7 +9,7 @@ $(document).ready(function() {
       "assets/img/about/aboutBanner2.jpg",
       "assets/img/about/aboutBanner3.jpg",
       "assets/img/about/aboutBanner4.jpg",
-      "assets/img/about/aboutBanner5.jpg",
+      "assets/img/about/aboutBanner5.jpg"
    ];
 
    preloadImages(myImages);

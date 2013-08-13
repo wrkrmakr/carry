@@ -190,14 +190,21 @@ label{
 	position:absolute;
 	top: 69px;
 	margin-left: 76px;
-	float:right;
-	
+	float:right;	
 }
 #signUpFormText{
 	position:relative;
 	left:15%;
 	width:70%;
 	line-height:24px;	
+}
+#signUpResponse{
+	margin-top:-65px;
+	position:relative;
+	width:100%;
+	font-family: "Cantarell-Regular", sans-serif;
+	font-size: 14px;
+	display:none;		
 }
 
 

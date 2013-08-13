@@ -33,18 +33,25 @@ $(document).ready(function() {
 	$('#signUpForm').validate({		
 		rules: {
 				signUpFormEmail:{
+					email: true,
 					required:true
                }			    
        },
        messages: {
             signUpFormEmail: {
+				email: "Please enter a valid e-mail address",
 				required:"Please enter an e-mail address"
 			}
        },
 		submitHandler: function(form) {
 			$(form).ajaxSubmit({
 				success: function(responseText, statusText, xhr, $form) {
-					alert('Sucess');
+				
+				$('#signUpFormText').fadeOut('fast');
+				$(form).fadeOut("fast",function(){
+					$("#signUpResponse").append('<div ><br />'+responseText+'</div>');
+					$('#signUpResponse').fadeIn(400);							
+				});		
 			}
 			});
 			return false;

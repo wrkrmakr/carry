@@ -1,1 +1,1 @@
-<?php echo "Sucess" ?>
+<?php echo "Thank you for signing up our newsletter. You will receive our newletter via your email address." ?>

@@ -49,7 +49,7 @@
                         <img src="assets/img/twitterIcon.png" />
                     	<img src="assets/img/pIntIcon.png" />
                         <img src="assets/img/icon4.png" />
-                        <br /><br />
+                        <br /><br /><br />
                         <span class="lowerContentSmallText">
                         	Follow us to stay in the loop on what’s new with Carry Maternity.
                         </span>
@@ -63,10 +63,11 @@
                                 <input class="formTextBox" id="signUpFormEmail" name="signUpFormEmail" type="text" placeholder=    								"Enter your e-mail"  onfocus="this.placeholder =  ''" onblur="this.placeholder= 'Enter your e-mail'"  /><br />
                                <input id="signFormButton" class="formButton" value="OK" type="submit" />
                             </div>
-                        </form><br />
+                        </form><br /><br />
                         <div id="signUpFormText" class="lowerContentSmallText">
                         	Sign up for our newsletter for our latest news and updates!	
                         </div>
+                        <div id="signUpResponse"></div>
                     </div>
                 </div>
             </div>

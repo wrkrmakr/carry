@@ -94,6 +94,11 @@ a{
 	height:260px;
 	background-color:rgba(255,255,255,0.9);
 	display:none;
+	cursor: default;
+}
+.subMenuItem:hover{
+	cursor: pointer;
+	color:#1fcecb;
 }
 #designerSubMenu{/*
 	display:inline;	*/

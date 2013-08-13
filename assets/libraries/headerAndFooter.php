@@ -68,35 +68,35 @@
                             <table>
                                 <tr>
                                     <td colspan="3">VIEW ALL</td>
-                                    <td colspan="3">Dresses</td>
+                                    <td class="subMenuItem" colspan="3">Dresses</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Denim</td>
+                                    <td class="subMenuItem" colspan="3">Denim</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Tops</td>
+                                    <td class="subMenuItem" colspan="3">Tops</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Skirts</td>
+                                    <td class="subMenuItem" colspan="3">Skirts</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Nursing</td>
+                                    <td class="subMenuItem" colspan="3">Nursing</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Coats &amp; Jackets</td>
+                                    <td class="subMenuItem" colspan="3">Coats &amp; Jackets</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Maternity</td>
+                                    <td class="subMenuItem" colspan="3">Maternity</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Accessories</td>
+                                    <td class="subMenuItem" colspan="3">Accessories</td>
                                 </tr>
                             </table>                            
                         </div>                    
@@ -108,44 +108,44 @@
                             <table>
                                 <tr>
                                     <td colspan="3">VIEW ALL</td>
-                                    <td colspan="3">Carry Maternity</td>
-                                    <td colspan="3">Paige</td>
-                                    <td colspan="3">Queen Mum</td>
+                                    <td class="subMenuItem" colspan="3">Carry Maternity</td>
+                                    <td class="subMenuItem" colspan="3">Paige</td>
+                                    <td class="subMenuItem" colspan="3">Queen Mum</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Olian Maternity</td>
-                                    <td colspan="3">BellaBand</td>
-                                    <td colspan="3">Neka</td>
+                                    <td class="subMenuItem" colspan="3">Olian Maternity</td>
+                                    <td class="subMenuItem" colspan="3">BellaBand</td>
+                                    <td class="subMenuItem" colspan="3">Neka</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Maichael Stars</td>
-                                    <td colspan="3">Isabella Oliver</td>
-                                    <td colspan="3">boob</td>
+                                    <td class="subMenuItem" colspan="3">Maichael Stars</td>
+                                    <td class="subMenuItem" colspan="3">Isabella Oliver</td>
+                                    <td class="subMenuItem" colspan="3">boob</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">OiOi</td>
-                                    <td colspan="3">Citizens of Humanity</td>
-                                    <td colspan="3">SoYoung</td>
+                                    <td class="subMenuItem" colspan="3">OiOi</td>
+                                    <td class="subMenuItem" colspan="3">Citizens of Humanity</td>
+                                    <td class="subMenuItem" colspan="3">SoYoung</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Noppies</td>
-                                    <td colspan="3">Ripe Maternity</td>
-                                    <td colspan="3">The M Coat</td>
+                                    <td class="subMenuItem" colspan="3">Noppies</td>
+                                    <td class="subMenuItem" colspan="3">Ripe Maternity</td>
+                                    <td class="subMenuItem" colspan="3">The M Coat</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Cake Lingerie</td>
-                                    <td colspan="3">Jules &amp; Jimi</td>
-                                    <td colspan="3">bravado!</td>
+                                    <td class="subMenuItem" colspan="3">Cake Lingerie</td>
+                                    <td class="subMenuItem" colspan="3">Jules &amp; Jimi</td>
+                                    <td class="subMenuItem" colspan="3">bravado!</td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"></td>
-                                    <td colspan="3">Petunia Pickle Bottom</td>
-                                    <td colspan="3">Belabumbum</td>
+                                    <td class="subMenuItem" colspan="3">Petunia Pickle Bottom</td>
+                                    <td class="subMenuItem" colspan="3">Belabumbum</td>
                                 </tr>
                             </table>                              
                         </div>

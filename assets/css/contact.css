@@ -63,8 +63,7 @@
 	border-radius:15px;
 	padding:0px 15px;
 	font-family:"Cantarell-Regular", sans-serif;
-	font-size:16px;
-	line-height:21px;		
+	font-size:16px;		
 }
 .formButton{
 	border:none;
@@ -73,8 +72,7 @@
 	background-color:rgb(31,206,203);
 	border-radius:15px;
 	color:white;
-	font-family:"Cantarell-Regular", sans-serif;
-	font-size:14px;	
+	font-family:"Cantarell-Regular", sans-serif;	
 }
 #inquiryFormEmail{
 	width:88%;	
@@ -175,9 +173,6 @@ label{
 	font-size:14px;	
 }
 #signUp{
-	position:relative;
-	left:15%;
-	width:70%	
 }
 #formMailContainer{
 	width:100%;
@@ -186,13 +181,18 @@ label{
 #signUpFormEmail{
 	margin:0px;
 	font-size:14px;
-	float:left;
 	display:inline;
-	padding-right:40px;
+	padding-right:35px;
+	font-family: "Quattrocento-Regular", sans-serif;
 }
 #signFormButton{
-	float:left;	
 	margin-left:-30px;
+}
+#signUpFormText{
+	position:relative;
+	left:15%;
+	width:70%;
+	line-height:24px;	
 }
 
 

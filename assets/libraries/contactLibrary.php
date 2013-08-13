@@ -64,9 +64,9 @@
                                <input id="signFormButton" class="formButton" value="OK" type="submit" />
                             </div>
                         </form><br />
-                        <span class="lowerContentSmallText">
+                        <div id="signUpFormText" class="lowerContentSmallText">
                         	Sign up for our newsletter for our latest news and updates!	
-                        </span>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -30,4 +30,25 @@ $(document).ready(function() {
 			return false;
 		}	
 	});
+	$('#signUpForm').validate({		
+		rules: {
+				signUpFormEmail:{
+					required:true
+               }			    
+       },
+       messages: {
+            signUpFormEmail: {
+				required:"Please enter an e-mail address"
+			}
+       },
+		submitHandler: function(form) {
+			$(form).ajaxSubmit({
+				success: function(responseText, statusText, xhr, $form) {
+					alert('Sucess');
+			}
+			});
+			return false;
+		}	
+	});
+	
 }); 

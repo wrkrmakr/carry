@@ -28,7 +28,7 @@
                 	<div id="inquiresContainer">
                         <br /><p class="bigContactText">INQUIRIES</p>
                         <hr class="greyBorder" /><br />
-                        <form id="inquiresForm" action="validateForm.php" method="post">
+                        <form id="inquiresForm" action="validateInquiryForm.php.php.php" method="post">
                         	<input  class="formTextBox" id="inquiryFormEmail" name="inquiryFormEmail" type="text" placeholder= 			 								"ENTER YOUR E-MAIL" onfocus ="this.placeholder = ''" onblur="this.placeholder= 'ENTER YOUR E-MAIL  								'"  /><br /><br />
                             <textarea id="inquiryFormQuestion" name="inquiryFormQuestion" placeholder="YOUR QUESTION" onfocus= 				 								"this.placeholder = ''" onblur	="this.placeholder= 'YOUR QUESTION'"  ></textarea><br /><br />
                             <input id="inquiryFormButton" class="formButton" value="OK" type="submit" />
@@ -58,9 +58,9 @@
                 <div id="signUpFormContainer" class="lowerContentInnerDiv">
                 	GET OUR UPDATES<br /><br /><br />
                     <div id="signUp">
-                        <form id="signUpForm" action="">
+                        <form id="signUpForm" action="validateSignUpForm" method="post">
                             <div id="formMailContainer">
-                                <input class="formTextBox" id="signUpFormEmail" type="text" placeholder="Enter your e-mail"  		 									onfocus="this.placeholder =  ''" onblur="this.placeholder= 'Enter your e-mail'"  />
+                                <input class="formTextBox" id="signUpFormEmail" name="signUpFormEmail" type="text" placeholder=    								"Enter your e-mail"  onfocus="this.placeholder =  ''" onblur="this.placeholder= 'Enter your    								e-mail'"  /><br />
                                <input id="signFormButton" class="formButton" value="OK" type="submit" />
                             </div>
                         </form><br />

@@ -41,13 +41,11 @@ a{
 	background-color:#1fcecb;	
 	height:100%;
 	margin-left:2%;
-	margin-right: 2%;
 }
 #pageContent{
 	position:relative;
 	float: left;
-	height:100%;
-	background-color:#333;	
+	height:100%;	
 	width:80%;
 }
 /*#header {

@@ -1,3 +1,24 @@
+#topBanner{
+   width: 98%;
+   background-color: #333;
+   height: 35%;
+   margin-top: 2%;
+   margin-left: 2%;
+}
+#middleBanner{
+   width: 98%;
+   background-color: #333;
+   height: 26%;
+   margin-top: 2%;
+   margin-left: 2%;
+}
+#bottomBanner{
+   width: 98%;
+   background-color: #333;
+   height: 26%;
+   margin-top: 2%;
+   margin-left: 2%;
+}
 /*#welcomeBanner{
    position:relative;
    height:50%;

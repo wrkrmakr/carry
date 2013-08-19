@@ -36,9 +36,12 @@
 }
 #topBannerText p{
    margin-top: 10%;
+   font-size: 22px;
+   letter-spacing: 1px;
+   font-family: "Baskerville";
 }
 #topBannerText p span{
-   font-weight: bold;
+   font-family: "Cantarell-Bold";
 }
 /*#welcomeBanner{
    position:relative;

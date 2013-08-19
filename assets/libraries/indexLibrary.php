@@ -1,11 +1,18 @@
 <?php function indexContent() { ?>
         <div id="pageContent">
-            <div id="topBanner">
-                <div id="topBannerPhoto"></div>
-                <div id="topBannerText"></div>
+            <div class="banner" id="topBanner">
+                <div id="topBannerPhoto">
+                    <img src="assets/img/index/Petuna Pickel bottom.jpg">
+                </div>
+                <div id="topBannerText">
+                    <p><span>IN STORE SALE</span><br />
+                        <u>ALL Duffle Bags<br />
+                        Now<br />
+                        $120</u></p>
+                </div>
             </div>
-            <div id="middleBanner"></div>
-            <div id="bottomBanner"></div>
+            <div class="banner" id="middleBanner"></div>
+            <div class="banner" id="bottomBanner"></div>
         </div>
             <!--<div id="welcomeBanner">
                 <div id="welcomeBannerText">

@@ -53,7 +53,7 @@ a{
 #logoCont{
 	margin-left:5%;
 	width:90%;
-	height:35%;
+	height:30%;
 	margin-top:10%;	
 }
 #logoCont img{
@@ -80,6 +80,19 @@ a{
 }
 #navCont ul li{
 	cursor:pointer;	
+}
+#pageTitle{
+	margin-top:2%;
+	margin-left:4%;
+	width:auto;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:16px;
+	letter-spacing:2px;
+ 	color:#1fcecb;
+}
+#pageTitle span{
+	border-bottom: 1px solid #1fcecb;
+	padding-bottom: 4px;	
 }
 /*#header {
 	position:relative;

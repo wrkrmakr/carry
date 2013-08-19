@@ -58,8 +58,11 @@
     <body>
 <?php } ?>
 <?php function carryNavigationPanel() { ?>
-	<div id="navContainer">
-    	<div id="logoCont"></div>	
+	<div id="navLogoContainer">
+    	<div id="logoCont">
+        	<img src="assets/img/official_carry_logo_2013.png" alt="Carry Maternity Logo" title="Carry Maternity">
+        </div>	
+        <div id="navCont"></div>
     </div>
         <!--<div id="header">
                 <div id ="logoImg"><a href="index.php"><img src="assets/img/CM_Logo.png" border="0" /></a></div>

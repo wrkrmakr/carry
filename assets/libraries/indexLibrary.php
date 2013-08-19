@@ -5,10 +5,10 @@
                     <img src="assets/img/index/Petuna Pickel bottom.jpg">
                 </div>
                 <div id="topBannerText">
-                    <p><span>IN STORE SALE</span><br />
+                    <p><span id="bold">IN STORE SALE</span><br />
                         <u>ALL Duffle Bags<br />
                         Now<br />
-                        $120</u></p>
+                        <span id="cantarell">$120</span></u></p>
                 </div>
             </div>
             <div class="banner" id="middleBanner"></div>

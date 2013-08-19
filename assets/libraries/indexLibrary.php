@@ -11,7 +11,18 @@
                         <span id="cantarell">$120</span></u></p>
                 </div>
             </div>
-            <div class="banner" id="middleBanner"></div>
+            <div class="banner" id="middleBanner">
+                <div id="middleBannerText">
+                    <p id="upperMiddleBannerText">
+                        Advice for new<br />
+                        Moms, by old Moms:
+                    </p>
+                    <p id="lowerMiddleBannerText">
+                        - read on our blog<br />
+                        <span><a href="#">click here</a></span>
+                    </p>
+                </div>
+            </div>
             <div class="banner" id="bottomBanner"></div>
         </div>
             <!--<div id="welcomeBanner">

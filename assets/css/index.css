@@ -1,3 +1,4 @@
+/* ---- STYLING BANNERS ----*/
 .banner{
    width: 98%;
    margin-top: 2%;
@@ -10,12 +11,16 @@
 }
 #middleBanner{
    background-color: #333;
+   background: url(../img/banner/Family.jpg) center 59% scroll;
+   background-size: cover;
    height: 26%;
 }
 #bottomBanner{
-   background-color: #333;
+   background-color: #eee;
    height: 26%;
 }
+
+/* ---- TOP BANNER ---- */
 #topBannerPhoto{
    position: relative;
    height: 100%;
@@ -35,20 +40,39 @@
    text-align: center;
 }
 #topBannerText p{
-   margin-top: 10%;
-   font-size: 22px;
+   margin-top: 8%;
+   font-size: 24px;
    letter-spacing: 2px;
    font-family: "Baskerville-Italic";
    line-height: 30px;
 }
 #topBannerText p #bold{
    font-family: "Cantarell-Bold";
-   font-size: 26px;
+   font-size: 30px;
    font-style: normal;
 }
 #topBannerText p #cantarell{
    font-family: "Cantarell-Regular";
-   font-size: 24px;
+   font-size: 28px;
+}
+
+/* ---- MIDDLE BANNER ---- */
+#middleBannerText {
+   color: white;
+   letter-spacing: 2px;
+   margin-left: 50px;
+   margin-top: 2%;
+   font-size: 26px;
+}
+#middleBannerText p {
+   margin:0px;
+}
+#lowerMiddleBannerText {
+   margin-top: 1%!important;
+   font-size: 18px;
+}
+#lowerMiddleBannerText span{
+   margin-left: 35px;
 }
 /*#welcomeBanner{
    position:relative;

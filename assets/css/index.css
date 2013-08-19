@@ -1,23 +1,54 @@
-#topBanner{
+.banner{
    width: 98%;
-   background-color: #333;
-   height: 35%;
    margin-top: 2%;
    margin-left: 2%;
+   overflow: hidden;
+}
+#topBanner{
+   background-color: #eee;
+   height: 35%;
 }
 #middleBanner{
-   width: 98%;
    background-color: #333;
    height: 26%;
-   margin-top: 2%;
-   margin-left: 2%;
 }
 #bottomBanner{
-   width: 98%;
    background-color: #333;
    height: 26%;
-   margin-top: 2%;
-   margin-left: 2%;
+}
+#topBannerPhoto{
+   position: relative;
+   height: 100%;
+   width: 50%;
+   float: left;
+   text-align: center;
+}
+#topBannerPhoto img{
+   height: 80%;
+   margin-top: 4%;
+}
+#topBannerText{
+   position: relative;
+   height: 100%;
+   width: 50%;
+   float: left;
+   text-align: center;
+}
+#topBannerText p{
+   margin-top: 10%;
+   font-size: 22px;
+   letter-spacing: 2px;
+   font-family: "Baskerville-Italic";
+   line-height: 30px;
+}
+#topBannerText p #bold{
+   font-family: "Cantarell-Bold";
+   font-size: 26px;
+   font-style: normal;
+}
+#topBannerText p #cantarell{
+   font-family: "Cantarell-Regular";
+   font-size: 24px;
 }
 /*#welcomeBanner{
    position:relative;

@@ -1,7 +1,8 @@
 html { height: 100%; width: 100%;}
 body {
 	background-color:#fff;	
-	min-width:1200px;	
+	min-width:1200px;
+	min-height:560px;	
 	overflow:auto;	
 	height:100%;
 	width: 100%;
@@ -49,21 +50,35 @@ a{
 	width:80%;
 }
 #logoCont{
-	position:relative;
 	margin-left:5%;
 	width:90%;
 	height:35%;
 	margin-top:10%;	
 }
 #logoCont img{
-	width:100%;
+	width:80%;
 	height:100%;
+	margin-left:10%;
 	cursor:pointer;	
 }
 #navCont{
 	position:relative;
-	top:20%;
-	width:100%;	
+	top:15%;
+	width:100%;
+	height:100px;	
+	text-align:center;
+	color:white;
+}
+#navCont ul{
+	list-style-type:none;
+	margin:0px;	
+	padding:0px;
+	width:100%;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:14px;
+}
+#navCont ul li{
+	cursor:pointer;	
 }
 /*#header {
 	position:relative;

@@ -58,7 +58,11 @@
     <body>
 <?php } ?>
 <?php function carryNavigationPanel() { ?>
-        <div id="header">
+	<div id="navContainer">
+    	
+    </div>
+    <div id="pageContent"></div>
+        <!--<div id="header">
                 <div id ="logoImg"><a href="index.php"><img src="assets/img/CM_Logo.png" border="0" /></a></div>
             <div id="nav">
                 <ul id="navLeft">
@@ -157,7 +161,7 @@
                     <a href="contact.php"><li style="margin-right:2px " class="menuLink">CONTACT</li></a>
                 </ul>
             </div>
-        </div>
+        </div>-->
 
 <?php } ?>
 <?php function carryHTMLFooter() { ?>

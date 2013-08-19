@@ -1,6 +1,6 @@
 <?php function indexContent() { ?>
         <div id="pageContent">
-            <div id="welcomeBanner">
+            <!--<div id="welcomeBanner">
                 <div id="welcomeBannerText">
                     <br/><br/><br/>
                     <h3>WELCOME TO CARRY MATERNITY</h2>
@@ -86,6 +86,6 @@
                     </div>                      
                     </div>                
                 </div>
-            </div>
+            </div>-->
         </div>
 <?php } ?>

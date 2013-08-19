@@ -1,7 +1,10 @@
 body {
 	background-color:#fff;	
 	min-width:1200px;	
-	overflow:auto;		
+	overflow:auto;	
+	height:100%;
+	margin:0px;
+	padding:0px;	
 }
 h3{
 	font-family:"Quattrocento-Regular", sans-serif;
@@ -29,7 +32,23 @@ h5{
 a{
 	color:#999;
 }
-#header {
+#navContainer{
+	position:absolute;
+	width:225px;
+	float:left;	
+	background-color:#1fcecb;	
+	height:100%;
+	margin-left:25px;
+}
+#pageContent{
+	position:absolute;
+	left:250px;
+	margin-left:25px;
+	height:100%;
+	background-color:#333;	
+	width:80%;
+}
+/*#header {
 	position:relative;
 	margin-left:10%;
 	margin-right:10%;
@@ -101,7 +120,7 @@ a{
 	color:#1fcecb;
 }
 #designerSubMenu{/*
-	display:inline;	*/
+	display:inline;	
 }
 #departmentSubMenu table,
 #designerSubMenu table{
@@ -123,4 +142,4 @@ a{
    height:1px; 
    border:0px;
    margin:0;
-}
+}*/

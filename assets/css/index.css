@@ -40,16 +40,17 @@
    text-align: center;
 }
 #topBannerText p{
-   margin-top: 8%;
-   font-size: 24px;
-   letter-spacing: 2px;
+   margin-top: 10%;
+   font-size: 22px;
+   letter-spacing: 6px;
    font-family: "Baskerville-Italic";
-   line-height: 30px;
+   line-height: 43px;
 }
 #topBannerText p #bold{
    font-family: "Cantarell-Bold";
-   font-size: 30px;
+   font-size: 36px;
    font-style: normal;
+   letter-spacing:1px;
 }
 #topBannerText p #cantarell{
    font-family: "Cantarell-Regular";
@@ -73,7 +74,14 @@
 }
 #lowerMiddleBannerText span{
    margin-left: 35px;
+   font-size: 33px;
+   letter-spacing:2px;
 }
+#topBannerText p .underline {
+	border-bottom:1px solid black;
+	padding-bottom:2px;
+}
+
 /*#welcomeBanner{
    position:relative;
    height:50%;

@@ -16,11 +16,6 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/<?php echo $pageCSS; ?>.css"/>
         <style>
-			@font-face {
-                font-family: "Quattrocento-Regular";
-                src:url(assets/fonts/Quattrocento-Regular.ttf) format('truetype');
-                src:url(assets/fonts/Quattrocento-Regular.otf) format('opentype');
-            } 
             @font-face {
                 font-family: "Cantarell-Regular";
                 src:url(assets/fonts/Cantarell-Regular.svg) format('svg');
@@ -76,12 +71,12 @@
         </div>	
         <div id="navCont">
         	<ul id="nav">
-            	<li>NEW ARRIVALS</li><br />
-                <li>DEPARTMENTS</li><br />
-                <li>DESIGNERS</li><br />
-                <li>LOOKBOOK</li><br />
-                <li>CONTACT US</li><br />
-                <li>BLOG</li><br />
+            	<li><span id="newArrivals">NEW ARRIVALS</span></li><br />
+                <li><span id="departments">DEPARTMENTS</span></li><br />
+                <li><span id="designers">DESIGNERS</span></li><br />
+                <li><span id="lookbook">LOOKBOOK</span></li><br />
+                <li><span id="contact">CONTACT US</span></li><br />
+                <li><span id="blog">BLOG</span></li><br />
             </ul>
         </div>
     </div>

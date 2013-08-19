@@ -1,4 +1,4 @@
-#welcomeBanner{
+/*#welcomeBanner{
    position:relative;
    height:50%;
    width:100%;
@@ -145,11 +145,9 @@
 }
 .productCategory{
    font-family:"Cantarell-Regular", sans-serif;
-   font-size:14px;   /*
-   font-weight:600;*/   
+   font-size:14px;   
 }
 .productPrize{
    font-family:"Quattrocento-Regular", sans-serif;
-   font-size:14px;/*
-   font-weight:600;*/      
-}
+   font-size:14px;     
+}*/

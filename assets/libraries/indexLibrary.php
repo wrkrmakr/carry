@@ -2,8 +2,7 @@
         <div id="pageContent">
             <div id="topBanner">
                 <div id="topBannerPhoto"></div>
-                <div id="topBannerText">
-                </div>
+                <div id="topBannerText"></div>
             </div>
             <div id="middleBanner"></div>
             <div id="bottomBanner"></div>

@@ -8,7 +8,7 @@
             <div id="middleBanner"></div>
             <div id="bottomBanner"></div>
         </div>
-            <!--div id="welcomeBanner">
+            <!--<div id="welcomeBanner">
                 <div id="welcomeBannerText">
                     <br/><br/><br/>
                     <h3>WELCOME TO CARRY MATERNITY</h2>
@@ -95,5 +95,4 @@
                     </div>                
                 </div>
             </div-->
-        
 <?php } ?>

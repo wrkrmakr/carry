@@ -6,9 +6,9 @@
                 </div>
                 <div id="topBannerText">
                     <p><span id="bold">IN STORE SALE</span><br />
-                        <u>ALL Duffle Bags<br />
-                        Now<br />
-                        <span id="cantarell">$120</span></u></p>
+                        <span class="underline">ALL Duffel Bags</span><br />
+                        <span class="underline">Now</span><br />
+                        <span id="cantarell" class="underline">$120</span></u></p>
                 </div>
             </div>
             <div class="banner" id="middleBanner"></div>

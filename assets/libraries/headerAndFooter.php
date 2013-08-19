@@ -16,11 +16,6 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/<?php echo $pageCSS; ?>.css"/>
         <style>
-			@font-face {
-                font-family: "Quattrocento-Regular";
-                src:url(assets/fonts/Quattrocento-Regular.ttf) format('truetype');
-                src:url(assets/fonts/Quattrocento-Regular.otf) format('opentype');
-            } 
             @font-face {
                 font-family: "Cantarell-Regular";
                 src:url(assets/fonts/Cantarell-Regular.svg) format('svg');

@@ -1,8 +1,10 @@
+html { height: 100%; width: 100%;}
 body {
 	background-color:#fff;	
 	min-width:1200px;	
 	overflow:auto;	
 	height:100%;
+	width: 100%;
 	margin:0px;
 	padding:0px;	
 }
@@ -33,17 +35,17 @@ a{
 	color:#999;
 }
 #navContainer{
-	position:absolute;
-	width:225px;
+	position:relative;
+	width:16%;
 	float:left;	
 	background-color:#1fcecb;	
 	height:100%;
-	margin-left:25px;
+	margin-left:2%;
+	margin-right: 2%;
 }
 #pageContent{
-	position:absolute;
-	left:250px;
-	margin-left:25px;
+	position:relative;
+	float: left;
 	height:100%;
 	background-color:#333;	
 	width:80%;

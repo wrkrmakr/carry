@@ -201,8 +201,9 @@ label{
 #signUpResponse{
 	margin-top:-65px;
 	position:relative;
-	width:100%;
-	font-family: "Cantarell-Regular", sans-serif;
+	left:15%;
+	width:70%;
+	font-family: "Quattrocento-Regular", sans-serif;
 	font-size: 14px;
 	display:none;		
 }

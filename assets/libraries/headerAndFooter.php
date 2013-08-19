@@ -59,7 +59,7 @@
 <?php } ?>
 <?php function carryNavigationPanel() { ?>
 	<div id="navContainer">
-    	
+    	<div id="logoCont"></div>	
     </div>
         <!--<div id="header">
                 <div id ="logoImg"><a href="index.php"><img src="assets/img/CM_Logo.png" border="0" /></a></div>

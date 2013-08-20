@@ -2,7 +2,7 @@
         <div id="pageContent">
             <div class="banner" id="topBanner">
                 <div id="topBannerPhoto">
-                    <img src="assets/img/index/Petuna Pickel bottom.jpg">
+                    <img src="assets/img/banner/bannerBags.png">
                 </div>
                 <div id="topBannerText">
                     <p><span id="bold">IN STORE SALE</span><br />

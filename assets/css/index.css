@@ -1,23 +1,23 @@
 /* ---- STYLING BANNERS ----*/
 .banner{
-   width: 98%;
-   margin-top: 2%;
-   margin-left: 2%;
+   width: 97.5%;
+   margin-top: 2.5%;
+   margin-left: 2.5%;
    overflow: hidden;
 }
 #topBanner{
    background-color: #eee;
-   height: 35%;
+   height: 34.5%;
 }
 #middleBanner{
    background-color: #333;
    background: url(../img/banner/Family.jpg) center 59% scroll;
    background-size: cover;
-   height: 26%;
+   height: 25.5%;
 }
 #bottomBanner{
    background-color: #eee;
-   height: 26%;
+   height: 25.5%;
 }
 
 /* ---- TOP BANNER ---- */
@@ -33,7 +33,7 @@
    margin-top: 4%;
 }
 #topBannerText{
-   top:-30%;
+   top:-28%;
    position: absolute;
    height: 100%;
    left: 60%;
@@ -53,11 +53,12 @@
    font-family: "Cantarell-Bold";
    font-size: 36px;
    font-style: normal;
-   letter-spacing:1px;
+   letter-spacing:0px;
 }
 #topBannerText p #cantarell{
    font-family: "Cantarell-Regular";
    font-size: 28px;
+   letter-spacing:1px;
 }
 #topBannerText p .underline {
    border-bottom:1px solid black;

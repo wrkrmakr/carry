@@ -33,14 +33,17 @@
    margin-top: 4%;
 }
 #topBannerText{
-   position: relative;
-   height: 100%;
-   width: 50%;
+   position: absolute;
+/*   height: 100%;*/
+   left: 60%;
    float: left;
    text-align: center;
+   display:table;
 }
 #topBannerText p{
    margin-top: 10%;
+   display:table-cell;
+   vertical-align:middle;
    font-size: 22px;
    letter-spacing: 6px;
    font-family: "Baskerville-Italic";

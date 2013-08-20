@@ -50,6 +50,19 @@ a{
 	width:80%;
 	overflow-y: auto;
 }
+#pageTitle{
+	margin-top:2%;
+	margin-left:4%;
+	width:auto;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:16px;
+	letter-spacing:2px;
+ 	color:#1fcecb;
+}
+#pageTitle span{
+	border-bottom: 1px solid #1fcecb;
+	padding-bottom: 4px;	
+}
 #logoCont{
 	margin-left:5%;
 	width:90%;
@@ -80,6 +93,7 @@ a{
 #navCont ul li{
 	cursor:pointer;	
 }
+<<<<<<< HEAD
 #pageTitle{
 	margin-top:2%;
 	margin-left:4%;
@@ -93,6 +107,8 @@ a{
 	border-bottom: 1px solid #1fcecb;
 	padding-bottom: 4px;	
 }
+=======
+>>>>>>> origin/jeff
 /*#header {
 	position:relative;
 	margin-left:10%;

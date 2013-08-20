@@ -7,6 +7,7 @@ $(document).ready(function() {
 	}, function(){
 		$(this).css('border-bottom','none');
 	});
+
 	/*	
 		$(window).resize(function() {
 			//windowsHeight=$(window).height();

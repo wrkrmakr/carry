@@ -1,0 +1,92 @@
+
+.departmentLine{
+	position:relative;
+	width:94%;
+	height:255px;
+	margin-top:4%;
+	margin-left:4%;	
+	padding-bottom:60px;
+}
+.departmentCont{
+	position:absolute;
+	height:inherit;
+	width:23%;	
+	background-color:#f6f6f6;
+	padding-top:30px;		
+}
+.department1Cont{
+	left:0%;
+}
+.department2Cont{
+	left:25%;
+}
+.department3Cont{
+	left:50%;
+}
+.department4Cont{
+	left:75%;
+}
+.departmentImage{
+	width:100%;
+	height:180px;
+	margin-bottom:15px;
+}
+#department1Image{	
+	background:url(../img/departments/denim/jeans.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#department2Image{
+	background: url(../img/departments/dresses/dresses.png) no-repeat center center;
+	background-size:contain;	
+}
+#department3Image{
+	background: url(../img/departments/tops/tops.jpeg) no-repeat center center;
+	background-size:contain;	
+}
+#department4Image{
+	background: url(../img/departments/shirts/shirts.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#department5Image{
+	background: url(../img/departments/coatsAndJackets/coatsAndJackets.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#department6Image{
+	background: url(../img/departments/nursing/nursing.jpeg) no-repeat center center;
+	background-size:contain;	
+}
+#department7Image{
+	background: url(../img/departments/accessories/accessories.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#department8Image{
+	background: url(../img/departments/maternity/maternity.jpg) no-repeat center center;
+	background-size:contain;	
+}
+.departmentName{
+	padding-top:30px;	
+	padding-bottom:10px;
+	width:100%;
+	text-align:center;
+	background-color:#FFF;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:14px;
+}
+.departmentCategory{	
+	width:100%;
+	text-align:center;
+	background-color:#FFF;	
+	padding-bottom:10px;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:14px;
+	color:#1fcecb;	
+}
+.departmentPrize{	
+	width:100%;
+	text-align:center;
+	background-color:#FFF;		
+	padding-bottom:3px;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:14px;
+	color:#1fcecb;
+}

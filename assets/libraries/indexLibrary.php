@@ -25,6 +25,8 @@
             </div>
             <div class="banner" id="bottomBanner">
                 <div id="bottomBannerPhoto">
+                    <img src="assets/img/index/blueClothing.png">
+                    <img src="assets/img/index/blackClothing.png">
                     <img src="assets/img/index/redClothing.png">
                 </div>
                 <div id="bottomBannerText">

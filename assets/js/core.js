@@ -3,10 +3,9 @@ $(document).ready(function() {
 	var inMotion=false;
 
 	$('#nav li span').hover(function(){
-		$('#nav li span').css('border-bottom','none');
 		$(this).css('border-bottom','1px solid white');
 	}, function(){
-		$('#nav li span').css('border-bottom','none');
+		$(this).css('border-bottom','none');
 	});
 	/*	
 		$(window).resize(function() {

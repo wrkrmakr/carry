@@ -8,7 +8,8 @@
                     <p><span id="bold">IN STORE SALE</span><br />
                         <span class="underline">ALL Duffel Bags</span><br />
                         <span class="underline">Now</span><br />
-                        <span id="cantarell" class="underline">$120</span></u></p>
+                        <span id="cantarell" class="underline">$120</span></u>
+                    </p>
                 </div>
             </div>
             <div class="banner" id="middleBanner">

@@ -76,6 +76,7 @@
 }
 #lowerMiddleBannerText {
    margin-top: 1%!important;
+   font-family: "Cantarell-Regular";
    font-size: 18px;
 }
 #lowerMiddleBannerText span{
@@ -87,7 +88,7 @@
 #bottomBannerPhoto{
    position: relative;
    height: 100%;
-   width: 30%;
+   width: 40%;
    float: left;
    text-align: center;
 }
@@ -98,7 +99,7 @@
 #bottomBannerText{
    position: relative;
    height: 100%;
-   width: 70%;
+   width: 60%;
    float: left;
    text-align: center;
    margin-top: 2%;

@@ -26,9 +26,7 @@
             </div>
             <div class="banner" id="bottomBanner">
                 <div id="bottomBannerPhoto">
-                    <img src="assets/img/index/blueClothing.png">
-                    <img src="assets/img/index/blackClothing.png">
-                    <img src="assets/img/index/redClothing.png">
+                    <img src="assets/img/banner/bannerDresses.png">
                 </div>
                 <div id="bottomBannerText">
                     <p><b>NEW ARRIVALS</b> / FALL COLLECTION 2013</p>

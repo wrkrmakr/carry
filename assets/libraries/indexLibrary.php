@@ -23,7 +23,15 @@
                     </p>
                 </div>
             </div>
-            <div class="banner" id="bottomBanner"></div>
+            <div class="banner" id="bottomBanner">
+                <div id="bottomBannerPhoto">
+                    <img src="assets/img/index/redClothing.png">
+                </div>
+                <div id="bottomBannerText">
+                    <p><b>NEW ARRIVALS</b> / FALL COLLECTION 2013</p>
+                    <p>SHOP</p>
+                </div>
+            </div>
         </div>
             <!--<div id="welcomeBanner">
                 <div id="welcomeBannerText">

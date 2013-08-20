@@ -1,4 +1,7 @@
 /* CSS Document */
+#pageContent {
+   margin-left: 2%;
+}
 #upperContent{
 	position:relative;
 	width:100%;

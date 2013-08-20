@@ -8,11 +8,12 @@
         
         <!-------Meta Information------>    
         <meta charset="UTF-8" />
-        <meta name="keywords" content="Carry, maternity, Rhonda, expecting, clothing, motherhood, Yorkville, stylish,                       pregnancy, Toronto">
+        <meta name="keywords" content="Carry, maternity, Rhonda, expecting, clothing, motherhood, Yorkville, stylish, pregnancy, Toronto">
         <meta name="description" content="Stylish and affordable maternity clothing.">
         <meta name="author" content="ONMEDIA">       
         
         <!-------Stylesheets------>
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/<?php echo $pageCSS; ?>.css"/>
         <style>
@@ -43,6 +44,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
         <script src="assets/js/form.js"></script>
         <script src="assets/js/jquery.validate.min.js"></script>
         <script src="assets/js/core.js"></script>
@@ -72,10 +74,11 @@
         <div id="navCont">
         	<ul id="nav">
             	<a href="newArrivals.php"><li><span id="newArrivals">NEW ARRIVALS</span></li></a><br />
-                <a href="#"><li><span id="departments">DEPARTMENTS</span></li></a><br />
+                <a href="departments.php"><li><span id="departments">DEPARTMENTS</span></li></a><br />
                 <a href="#"><li><span id="designers">DESIGNERS</span></li></a><br />
                 <a href="#"><li><span id="lookbook">LOOKBOOK</span></li></a><br />
-                <a href="#"><li><span id="contact">CONTACT US</span></li></a><br />
+                <a href="about.php"><li><span id="about">ABOUT US</span></li></a><br />
+                <a href="contact.php"><li><span id="contact">CONTACT US</span></li></a><br />
                 <a href="#"><li><span id="blog">BLOG</span></li></a><br />
             </ul>
         </div>

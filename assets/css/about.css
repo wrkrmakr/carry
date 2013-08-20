@@ -1,8 +1,11 @@
 /* CSS Document */
+#pageContent {
+   margin-left: 2%;
+}
 #aboutUsImageContainer{
 	position:relative;
 	height:40%;
-	width:inherit;
+	width:100%;
 	min-height:310px;
 }
 #aboutUsImageCrossFade{
@@ -44,7 +47,7 @@
 
 #aboutCarry{
 	position:relative;
-	width:inherit;
+	width:100%;
 	padding-top:30px;
 	text-align:center;	
 }

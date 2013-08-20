@@ -17,7 +17,12 @@ $(document).ready(function() {
    $(window).load(function(){
       $("#progressbar").progressbar();
       progressBar();
-      
+      $("#pageContent").mCustomScrollbar({
+         theme:"dark",
+         advanced:{
+              updateOnContentResize: true
+         }
+      });
    });
 
    $('#aboutUsImage, .progressbar').click(function(e) {

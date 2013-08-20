@@ -1,9 +1,92 @@
-#productLine1{
-	
-}
+
 .productLine{
+	position:relative;
 	width:94%;
-	height:100px;
-	margin-top:3%;
+	height:315px;
+	margin-top:4%;
 	margin-left:4%;	
+	padding-bottom:60px;
+}
+.productCont{
+	position:absolute;
+	height:inherit;
+	width:23%;	
+	background-color:#f6f6f6;
+	padding-top:30px;		
+}
+.product1Cont{
+	left:0%;
+}
+.product2Cont{
+	left:25%;
+}
+.product3Cont{
+	left:50%;
+}
+.product4Cont{
+	left:75%;
+}
+.productImage{
+	width:100%;
+	height:180px;
+	margin-bottom:15px;
+}
+#product1Image{	
+	background:url(../img/newArrivals/NA1.png) no-repeat center center;
+	background-size:contain;	
+}
+#product2Image{
+	background:url(../img/newArrivals/NA2.png) no-repeat center center;
+	background-size:contain;	
+}
+#product3Image{
+	background:url(../img/newArrivals/NA3.png) no-repeat center center;
+	background-size:contain;	
+}
+#product4Image{
+	background:url(../img/newArrivals/NA4.png) no-repeat center center;
+	background-size:contain;	
+}
+#product5Image{
+	background:url(../img/newArrivals/NA5.png) no-repeat center center;
+	background-size:contain;	
+}
+#product6Image{
+	background:url(../img/newArrivals/NA6.png) no-repeat center center;
+	background-size:contain;	
+}
+#product7Image{
+	background:url(../img/newArrivals/NA7.png) no-repeat center center;
+	background-size:contain;	
+}
+#product8Image{
+	background:url(../img/newArrivals/NA8.png) no-repeat center center;
+	background-size:contain;	
+}
+.productName{
+	padding-top:40px;	
+	padding-bottom:10px;
+	width:100%;
+	text-align:center;
+	background-color:#FFF;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:14px;
+}
+.productCategory{	
+	width:100%;
+	text-align:center;
+	background-color:#FFF;	
+	padding-bottom:10px;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:14px;
+	color:#1fcecb;	
+}
+.productPrize{	
+	width:100%;
+	text-align:center;
+	background-color:#FFF;		
+	padding-bottom:3px;
+	font-family:"Cantarell-Bold", sans-serif;
+	font-size:14px;
+	color:#1fcecb;
 }

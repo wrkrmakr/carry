@@ -67,16 +67,16 @@
 <?php function carryNavigationPanel() { ?>
 	<div id="navLogoContainer">
     	<div id="logoCont">
-        	<img src="assets/img/official_carry_logo_2013.png" alt="Carry Maternity Logo" title="Carry Maternity">
+        	<a href="/"><img src="assets/img/official_carry_logo_2013.png" alt="Carry Maternity Logo" title="Carry Maternity"></a>
         </div>	
         <div id="navCont">
         	<ul id="nav">
-            	<li><span id="newArrivals">NEW ARRIVALS</span></li><br />
-                <li><span id="departments">DEPARTMENTS</span></li><br />
-                <li><span id="designers">DESIGNERS</span></li><br />
-                <li><span id="lookbook">LOOKBOOK</span></li><br />
-                <li><span id="contact">CONTACT US</span></li><br />
-                <li><span id="blog">BLOG</span></li><br />
+            	<a href="newArrivals.php"><li><span id="newArrivals">NEW ARRIVALS</span></li></a><br />
+                <a href="#"><li><span id="departments">DEPARTMENTS</span></li></a><br />
+                <a href="#"><li><span id="designers">DESIGNERS</span></li></a><br />
+                <a href="#"><li><span id="lookbook">LOOKBOOK</span></li></a><br />
+                <a href="#"><li><span id="contact">CONTACT US</span></li></a><br />
+                <a href="#"><li><span id="blog">BLOG</span></li></a><br />
             </ul>
         </div>
     </div>

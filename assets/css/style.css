@@ -33,7 +33,8 @@ h5{
 	margin-bottom:15px;	
 }
 a{
-	color:#999;
+	color:white;
+	text-decoration: none;
 }
 #navLogoContainer{
 	position:relative;

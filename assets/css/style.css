@@ -73,18 +73,18 @@ a{
 #logoCont{
 	margin-left:5%;
 	width:90%;
-	height:30%;
+	height:auto;
 	margin-top:10%;	
 }
 #logoCont img{
 	width:80%;
 	margin-left:10%;
-	cursor:pointer;	
+	cursor:pointer;
 }
 #navCont{
 	position:relative;
-	top:15%;
 	height: auto;
+	margin-top: 15%;
 	width:100%;	
 	text-align:center;
 	color:white;
@@ -105,8 +105,10 @@ a{
 	padding-bottom:5px;	
 }
 #loginLogout{
-	top:18%;
-	position: relative;
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+	height: auto;
 	text-align: center;
 	font-family:"Cantarell-Regular", sans-serif;
 	color: white;

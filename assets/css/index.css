@@ -34,6 +34,7 @@
 }
 #topBannerPhoto img{
    height: 80%;
+   min-height:160px;
    margin-top: 4%;
 }
 #topBannerText{
@@ -43,6 +44,7 @@
    width: 50%;
    float: left;
    text-align: center;
+   vertical-align:middle;   
 }
 #topBannerText p{
    margin: 0;
@@ -50,6 +52,7 @@
    letter-spacing: 6px;
    font-family: "Baskerville-Italic";
    line-height: 40px;
+
 }
 #topBannerText p #bold{
    font-family: "Cantarell-Bold";

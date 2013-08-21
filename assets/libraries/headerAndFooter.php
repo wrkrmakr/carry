@@ -82,6 +82,24 @@
                 <a href="#"><li><span id="blog">BLOG</span></li></a><br />
             </ul>
         </div>
+        <div id="loginLogout">
+            <?php
+                if(!isset($_SESSION['logged_in']) || empty($_SESSION['logged_in'])){
+                    $_SESSION['logged_in'] = false;
+                }
+
+                if(empty($_GET['page'])){
+                    $_GET['page'] = false;
+                }
+
+                if(!$_SESSION['logged_in']) {
+                    echo "<a href='login.php'>Log in</a>";
+                }
+                else{
+                    echo "Logged in as ".$_SESSION['username']." - <a href='logout.php'>Logout</a>";
+                }
+            ?>
+        </div>
     </div>
        
 

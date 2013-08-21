@@ -1,11 +1,11 @@
-<?php
+<?php 
    session_start();
 
    include "assets/libraries/headerAndFooter.php";
-   include "assets/libraries/indexLibrary.php";
+   include "assets/libraries/loginLibrary.php";
    
-   carryHTMLHead("index","index","");
+   carryHTMLHead("login","login"," - Login");
    carryNavigationPanel();
-   indexContent();
+   login();
    carryHTMLFooter();
 ?>

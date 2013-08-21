@@ -1,4 +1,4 @@
-<?php function newArrivalsContent() { ?>
+<?php function lookbookContent() { ?>
          <div id="pageContent">
             <div id="pageTitle">
                <span>LOOKBOOK - FALL 2013</span>

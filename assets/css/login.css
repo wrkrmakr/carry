@@ -1,0 +1,40 @@
+#pageContent {
+   margin-left: 2%;
+}
+h1{
+   font-family: "Cantarell-Regular", sans-serif;
+   color: #1fcecb;
+   margin-left: 30px;
+}
+label {
+   font-family: "Cantarell-Regular", sans-serif;
+   color: #1fcecb;
+   display: block;
+   width: 130px;
+   float: left;
+   text-align: right;
+   margin-right: 7px;
+}
+input {
+   float: left;
+}
+textarea {
+   float: left;
+}
+input[type='submit']{
+   margin-top: 5px;
+   float: right;
+}
+#loginForm form div {
+   overflow:auto;
+}
+#loginForm {
+   margin-top: 20%;
+   margin-left: 25%;
+   width: 27%;
+   border: 1px solid #1fcecb;
+   border-radius: 5px;
+   padding-right: 3%;
+   padding-bottom: 2%;
+}
+

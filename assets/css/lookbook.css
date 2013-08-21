@@ -1,0 +1,53 @@
+#photoCont{
+   position: relative;
+   margin-top: 2%;
+   margin-left: 4%;
+   height: 60%;
+   width: 80%;
+}
+.photo{
+   display: none;
+   height: 100%;
+   width: 100%;
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: no-repeat;
+}
+#photo1  { background-image: url(../img/lookbook/lookbook1.jpg); background-size: contain; display: block; }
+#photo2  { background-image: url(../img/lookbook/lookbook2.jpg); background-size: contain;}
+#photo3  { background-image: url(../img/lookbook/lookbook3.png); background-size: contain;}
+#photo4  { background-image: url(../img/lookbook/lookbook4.png); background-size: contain;}
+#photo5  { background-image: url(../img/lookbook/lookbook5.png); background-size: contain;}
+#photo6  { background-image: url(../img/lookbook/lookbook6.jpg); background-size: contain;}
+#photo7  { background-image: url(../img/lookbook/lookbook7.png); background-size: contain;}
+#photo8  { background-image: url(../img/lookbook/lookbook8.png); background-size: contain;}
+#photo9  { background-image: url(../img/lookbook/lookbook9.jpg); background-size: contain;}
+#photo10 { background-image: url(../img/lookbook/lookbook10.png); background-size: contain;}
+
+#photoSelector{
+   position: relative;
+   margin-top: 20px;
+}
+#photoSelector ul {
+   
+}
+#photoSelector ul li {
+   list-style: none;
+   float: left;
+   margin: 0px 5px;
+   padding: 0px 2px;
+   font-family:"Cantarell-Regular", sans-serif;
+   font-size:18px;
+   letter-spacing:2px;
+   color:#1fcecb;
+}
+#photoSelector ul li span{
+   border-bottom-width: 0px;
+   border-bottom-style: solid;
+   border-bottom-color: #1fcecb;
+   padding-bottom: 4px;
+   cursor: pointer;
+}
+#photoSelector ul #photoSelector1 span{
+   border-bottom-width: 1px;
+}

@@ -1,5 +1,19 @@
 $(document).ready(function() {
    var photoIndex = 1;
+   var myImages = [
+      "assets/img/lookbook/lookbook1.jpg",
+      "assets/img/lookbook/lookbook2.jpg",
+      "assets/img/lookbook/lookbook3.png",
+      "assets/img/lookbook/lookbook4.png",
+      "assets/img/lookbook/lookbook5.png",
+      "assets/img/lookbook/lookbook6.jpg",
+      "assets/img/lookbook/lookbook7.png",
+      "assets/img/lookbook/lookbook8.png",
+      "assets/img/lookbook/lookbook9.jpg",
+      "assets/img/lookbook/lookbook10.png"
+   ];
+
+   preloadImages(myImages);
 
    $('#photoSelector ul li').click(function(){
       var selectedPhotoIndex = parseInt($(this).attr('id').substring(13,15));
@@ -11,4 +25,16 @@ $(document).ready(function() {
          photoIndex = selectedPhotoIndex;
       }
    });
+
+   function preloadImages(list) {
+      var img;
+      if (!preloadImages.cache) {
+         preloadImages.cache = [];
+      }
+      for (var i = 0; i < list.length; i++) {
+         img = new Image();
+         img.src = list[i];
+         preloadImages.cache.push(img);
+      }
+   }
 });

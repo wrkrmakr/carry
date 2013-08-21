@@ -75,7 +75,7 @@
         	<ul id="nav">
             	<a href="newArrivals.php"><li><span id="newArrivals">NEW ARRIVALS</span></li></a><br />
                 <a href="departments.php"><li><span id="departments">DEPARTMENTS</span></li></a><br />
-                <a href="#"><li><span id="designers">DESIGNERS</span></li></a><br />
+                <a href="designers.php"><li><span id="designers">DESIGNERS</span></li></a><br />
                 <a href="#"><li><span id="lookbook">LOOKBOOK</span></li></a><br />
                 <a href="about.php"><li><span id="about">ABOUT US</span></li></a><br />
                 <a href="contact.php"><li><span id="contact">CONTACT US</span></li></a><br />

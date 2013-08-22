@@ -1,6 +1,4 @@
 <?php
-   session_start();
-
    include "assets/libraries/headerAndFooter.php";
    include "assets/libraries/lookbookLibrary.php";
    

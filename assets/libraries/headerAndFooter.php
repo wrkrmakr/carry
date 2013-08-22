@@ -93,7 +93,8 @@
                     echo "<a href='login.php'>Log in</a>";
                 }
                 else{
-                    echo "Logged in as ".$_SESSION['username']." - <a href='logout.php'>Logout</a>";
+                    echo "Logged in as ".$_SESSION['username']." - <a href='logout.php'>Logout</a><br />";
+                    echo "<a href='cpanel.php'>Manage Site</a>";
                 }
             ?>
         </div>

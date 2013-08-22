@@ -5,11 +5,12 @@
                     <img src="assets/img/banner/bannerBags.png">
                 </div>
                 <div id="topBannerText">
-                    <p><span id="bold">IN STORE SALE</span><br />
+                	<span>
+                        <span id="bold">IN STORE SALE</span><br />
                         <span class="underline">ALL Duffel Bags</span><br />
                         <span class="underline">Now</span><br />
-                        <span id="cantarell" class="underline">$120</span></u>
-                    </p>
+                        <span id="cantarell" class="underline">$120</span> 
+                    </span>                 
                 </div>
             </div>
             <div class="banner" id="middleBanner">

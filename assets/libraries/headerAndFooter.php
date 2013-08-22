@@ -88,10 +88,6 @@
                     $_SESSION['logged_in'] = false;
                 }
 
-                if(empty($_GET['page'])){
-                    $_GET['page'] = false;
-                }
-
                 if(!$_SESSION['logged_in']) {
                     echo "<a href='login.php'>Log in</a>";
                 }

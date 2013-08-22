@@ -10,28 +10,28 @@ label {
    font-family: "Cantarell-Regular", sans-serif;
    color: #1fcecb;
    display: block;
-   width: 130px;
+   width: 40%;
    float: left;
    text-align: right;
    margin-right: 7px;
 }
 input {
    float: left;
+   padding-right: 0px;
 }
-textarea {
-   float: left;
-}
-input[type='submit']{
-   margin-top: 5px;
+input[type="submit"] {
    float: right;
+   margin-top: 5px;
+   margin-right: 5%;
 }
+
 #loginForm form div {
    overflow:auto;
 }
 #loginForm {
    margin-top: 20%;
    margin-left: 25%;
-   width: 27%;
+   width: 30%;
    border: 1px solid #1fcecb;
    border-radius: 5px;
    padding-right: 3%;

@@ -1,6 +1,4 @@
-<?php 
-   session_start();
-
+<?php
    include "assets/libraries/headerAndFooter.php";
    include "assets/libraries/loginLibrary.php";
    

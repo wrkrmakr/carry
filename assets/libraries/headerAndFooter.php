@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php function carryHTMLHead($pageCSS, $pageJS, $pageTitle) { ?>
 <!doctype html>
 <html>

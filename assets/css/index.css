@@ -39,28 +39,23 @@
 }
 #topBannerText{
    position: relative;
-   margin-top: 3.5%;
-   height: 100%;
    width: 50%;
+   top:50%;
+   margin-top:-85px;
    float: left;
-   text-align: center;
-   vertical-align:middle;   
-}
-#topBannerText p{
-   margin: 0;
+   text-align: center; 
    font-size: 22px;
    letter-spacing: 6px;
    font-family: "Baskerville-Italic";
-   line-height: 40px;
-
+   line-height: 40px;   
 }
-#topBannerText p #bold{
+#bold{
    font-family: "Cantarell-Bold";
    font-size: 36px;
    font-style: normal;
    letter-spacing:0px;
 }
-#topBannerText p #cantarell{
+#cantarell{
    font-family: "Cantarell-Regular";
    font-size: 28px;
    letter-spacing:1px;

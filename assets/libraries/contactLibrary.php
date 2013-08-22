@@ -1,5 +1,8 @@
 <?php function contactContent() { ?>
         <div id="pageContent">
+            <div id="pageTitle">
+               <span>CONTACT US</span>
+            </div>        	
         	<div id="upperContent">
             	<div id="storeInfo">
                 	<div id="storeInfoContainer">

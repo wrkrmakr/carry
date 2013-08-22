@@ -6,8 +6,8 @@
 	position:relative;
 	width:100%;
 	min-height:450px;
-	border-bottom:1px solid #999;
-	border-top:1px solid #999;	
+	margin-top:2%;
+	border-bottom:1px solid #999;	
 }
 .bigContactText{
 	font-family:"Quattrocento-Regular", sans-serif;

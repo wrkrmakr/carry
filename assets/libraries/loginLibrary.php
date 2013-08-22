@@ -37,7 +37,7 @@
                if ($encryptedPass == sha1($password)) {
                   $_SESSION['logged_in'] = true;
                   $_SESSION['username'] = $username;
-                  header('Location: /');
+                  header('Location: cpanel.php');
                }
                else{
                   header('Location: login.php');

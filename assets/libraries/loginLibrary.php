@@ -1,4 +1,5 @@
-<?php function loginForm() { ?>         
+<?php function loginForm() { ?>
+         <div id="pageContent">
             <div id="loginForm">
                <h1>Login</h1>
                <form method="post" action="login.php?page=authenticate">
@@ -7,6 +8,7 @@
                   <div><input type="Submit" value="Submit"></div>
                </form>
             </div>
+         </div>
 <?php } ?>
 <?php function login() {
    if(!isset($_SESSION['logged_in']) || empty($_SESSION['logged_in'])){

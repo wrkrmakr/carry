@@ -1,0 +1,144 @@
+/* ---- MANAGE PAGES ---- */
+
+#managePages{
+   position: relative;
+   margin-top:12%;
+   margin-left:8%;
+   width:auto;
+   font-family:"Cantarell-Regular", sans-serif;
+   font-size:16px;
+   letter-spacing:2px;
+   color:#1fcecb;
+}
+
+#managePages div span{
+   border-bottom: 1px solid #1fcecb;
+   padding-bottom: 4px;
+   font-style: italic;
+}
+
+#managePages ul {
+   padding: 0px;
+   margin: 0px;
+
+   margin-top: 5%;
+}
+
+#managePages ul li a {
+   color: rgb(102, 102, 102);
+   border: 1px solid #1fcecb;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+#managePages ul li {
+   padding: 0px;
+   margin: 0px 10px;
+   list-style-type: none;
+   float: left;
+}
+
+/* ---- MANAGE USERS ---- */
+
+#manageUsers{
+   position: relative;
+   margin-top:15%;
+   margin-left:8%;
+   width:auto;
+   font-family:"Cantarell-Regular", sans-serif;
+   font-size:16px;
+   letter-spacing:2px;
+   color:#1fcecb;
+}
+
+#manageUsers div span{
+   border-bottom: 1px solid #1fcecb;
+   padding-bottom: 4px;
+   font-style: italic;
+}
+
+#manageUsers ul {
+   padding: 0px;
+   margin: 0px;
+
+   margin-top: 5%;
+}
+
+#manageUsers ul li a {
+   color: rgb(102, 102, 102);
+   border: 1px solid #1fcecb;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+#manageUsers ul li {
+   padding: 0px;
+   margin: 0px 10px;
+   list-style-type: none;
+   float: left;
+}
+
+/* ---- VIEW PRODUCTS ---- */
+
+.buttons{
+   position: relative;
+   margin-top: 5%;
+   margin-left: 4%;
+}
+
+.buttons a{
+   color: rgb(102, 102, 102);
+   border: 1px solid #1fcecb;
+   border-radius: 5px;
+   padding: 5px;
+   margin-right: 10px;
+}
+
+#productTable {
+   margin-top: 2%;
+   margin-left: 4%;
+}
+
+#productTable tr td {
+   text-align: center;
+   height: 40px;
+}
+#productTable tr td img {
+   display: inline-block;
+   height: 100%;
+}
+
+/* ---- ADD A PRODUCT ---- */
+
+#addForm {
+   position: relative;
+   margin-top: 5%;
+   margin-left: 4%;
+   width: 40%;
+   border: 1px solid #1fcecb;
+   border-radius: 5px;
+   padding: 2%;
+}
+
+label {
+   font-family: "Cantarell-Regular", sans-serif;
+   color: #1fcecb;
+   display: block;
+   width: 30%;
+   float: left;
+   text-align: right;
+   margin-right: 7px;
+}
+input {
+   float: left;
+   padding-right: 0px;
+}
+input[type="submit"] {
+   float: right;
+   margin-top: 5px;
+   margin-right: 10%;
+}
+
+#addForm form div {
+   overflow:auto;
+}

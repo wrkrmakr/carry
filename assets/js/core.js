@@ -1,14 +1,5 @@
 $(document).ready(function() {
 	
-	$(window).load(function(){
-      $("#pageContent").mCustomScrollbar({
-         theme:"dark",
-         advanced:{
-              updateOnContentResize: true
-         }
-      });
-   });
-	
 	var windowsHeight=$(window).height();
 	var inMotion=false;
 

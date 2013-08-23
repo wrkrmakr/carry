@@ -1,5 +1,4 @@
-<?php function cpanelContent() { ?>
-         <div id="pageContent">        
+<?php function cpanelContent() { ?>        
         	   <div id="pageTitle"><span>CARRY MATERNITY CONTROL PANEL</span></div>
             <div id="managePages">
                <div><span>MANAGE PAGES</span></div>
@@ -18,10 +17,8 @@
                   <li><a href="cpanel.php?manageUser=remove">REMOVE A USER</a></li>
                </ul>
             </div>
-        </div>
 <?php } ?>
 <?php function viewProducts() { ?>
-         <div id="pageContent">
             <div id="pageTitle"><span>CARRY MATERNITY CONTROL PANEL - VIEW PRODUCTS</span></div>
             <div class="buttons">
                <a href="cpanel.php?page=add">ADD A PRODUCT</a>
@@ -67,7 +64,6 @@
 
                </table>
             </div>
-         </div>
 <?php } ?>
 <?php function addProduct() { 
    if (empty($_POST['productname'])){
@@ -84,10 +80,7 @@
 
    $departmentList = mysqli_query($mySqlLink, $departmentQuery .' order by departmentID') or die("Query Error " . mysqli_error($mySqlLink));
    $designerList = mysqli_query($mySqlLink, $designerQuery .' order by designerID') or die("Query Error " . mysqli_error($mySqlLink));
-
-
 ?>
-         <div id="pageContent">
             <div id="pageTitle"><span>CARRY MATERNITY CONTROL PANEL - ADD A PRODUCT</span></div>
             <div class="buttons">
                <a href="cpanel.php?page=view">VIEW PRODUCTS</a>
@@ -123,5 +116,7 @@
                   <div><input type="Submit" value="Submit"></div>
                </form>
             </div>
-         </div>
-<?php } ?>
+<?php 
+   mysqli_close($mySqlLink);
+} 
+?>

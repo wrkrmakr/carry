@@ -134,9 +134,11 @@ input {
    padding-right: 0px;
 }
 input[type="submit"] {
-   float: right;
    margin-top: 5px;
-   margin-right: 10%;
+   margin-left: 18%;
+}
+select{
+   width: 140px;
 }
 
 #addForm form div {

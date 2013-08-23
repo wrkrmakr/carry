@@ -1,5 +1,4 @@
 <?php function departmentsContent() { ?>
-        <div id="pageContent">
         	<div id="pageTitle">
            		<span>DEPARTMENTS</span>
             </div>
@@ -39,5 +38,4 @@
                     <div class="departmentName">MATERNITY</div> 
                 </div>
             </div>
-        </div>
 <?php } ?>

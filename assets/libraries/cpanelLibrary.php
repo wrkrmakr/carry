@@ -1,7 +1,5 @@
-<?php function cpanelContent() { ?>
-        <div id="pageContent">        
+<?php function cpanelContent() { ?>       
         	<div id="pageTitle">
            		<span>CARRY MATERNITY CONTROL PANEL</span>
             </div>
-        </div>
 <?php } ?>

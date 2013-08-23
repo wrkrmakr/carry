@@ -1,5 +1,4 @@
 <?php function lookbookContent() { ?>
-         <div id="pageContent">
             <div id="pageTitle">
                <span>LOOKBOOK - FALL 2013</span>
             </div>
@@ -29,5 +28,4 @@
                   <li id="photoSelector10"><span>10</span></li>
                </ul>
             </div>
-         </div>
 <?php } ?>

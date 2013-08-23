@@ -1,5 +1,4 @@
 <?php function newArrivalsContent() { ?>
-        <div id="pageContent">
         	<div id="pageTitle">
            		<span>NEW ARRIVALS</span>
             </div>
@@ -55,5 +54,4 @@
                     <div class="productPrize">$ 175</div> 
                 </div>
             </div>
-        </div>
 <?php } ?>

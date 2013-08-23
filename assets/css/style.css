@@ -53,13 +53,14 @@ a{
 #pageContent{
 	position:relative;
 	float: left;
-	height:100%;	
-	width:80%;
+	height:100%;
+	margin-top:2.5%;
+	margin-left:2.5%;	
+	width:77%;
 	overflow-y: auto;
 }
 #pageTitle{
 	margin-top:2%;
-	margin-left:4%;
 	width:auto;
 	font-family:"Cantarell-Bold", sans-serif;
 	font-size:16px;

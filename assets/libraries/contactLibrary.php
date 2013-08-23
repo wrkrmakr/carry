@@ -1,5 +1,4 @@
 <?php function contactContent() { ?>
-        <div id="pageContent">
             <div id="pageTitle">
                <span>CONTACT US</span>
             </div>        	
@@ -74,5 +73,5 @@
                     </div>
                 </div>
             </div>
-        <br /><br /><br /></div>
+        <br /><br /><br />
 <?php } ?>

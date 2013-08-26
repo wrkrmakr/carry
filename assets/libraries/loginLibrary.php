@@ -24,14 +24,14 @@
             $username = $_POST['username'];
             $password = $_POST['password'];
             $query = "select password from users where username='$username'";
-            $mySqlLink = mysql_connect("localhost:3306","admin",$pass) or die("Could not Connect");
-            mysql_real_escape_string($username);
-            mysql_select_db("test") or die("Error in selecting database: " . mysql_error());
-            $data = mysql_query($query) or die ("Could not query: " . mysql_error());
-            $row = mysql_fetch_array($data);
+            $mySqlLink = mysqli_connect("localhost:3306","admin",$pass) or die("Could not Connect");
+            mysqli_real_escape_string($mySqlLink, $username);
+            mysqli_select_db($mySqlLink, "test") or die("Error in selecting database: " . mysqli_error($mySqlLink));
+            $data = mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysqli_error($mySqlLink));
+            $row = mysqli_fetch_array($data);
             $encryptedPass = $row[0];
             
-            if (mysql_num_rows($data)==1){
+            if (mysqli_num_rows($data)==1){
                if ($encryptedPass == sha1($password)) {
                   $_SESSION['logged_in'] = true;
                   $_SESSION['username'] = $username;
@@ -44,6 +44,8 @@
             else {
                header('Location: login.php');
             }
+
+            mysqli_close($mySqlLink);
          }
       }
       else

@@ -2,8 +2,13 @@ html { height: 100%; width: 100%;}
 body {
 	background-color:#fff;	
 	min-width:1200px;
+<<<<<<< HEAD
 	min-height:560px;	
 	overflow:hidden;	
+=======
+	min-height:600px;	
+	overflow:auto;	
+>>>>>>> origin/wes
 	height:100%;
 	width: 100%;
 	margin:0px;
@@ -48,7 +53,6 @@ a{
 	position:relative;
 	float: left;
 	height:100%;
-	margin-top:2.5%;
 	margin-left:2.5%;	
 	width:77%;
 	overflow-y: auto;
@@ -100,7 +104,7 @@ a{
 }
 #loginLogout{
 	position: absolute;
-	bottom: 5%;
+	bottom: 3%;
 	width: 100%;
 	height: auto;
 	text-align: center;

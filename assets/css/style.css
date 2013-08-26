@@ -2,18 +2,17 @@ html { height: 100%; width: 100%;}
 body {
 	background-color:#fff;	
 	min-width:1200px;
+<<<<<<< HEAD
+	min-height:560px;	
+	overflow:hidden;	
+=======
 	min-height:600px;	
 	overflow:auto;	
+>>>>>>> origin/wes
 	height:100%;
 	width: 100%;
 	margin:0px;
 	padding:0px;
-	/*-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: -moz-none;
-	-ms-user-select: none;
-	user-select: none;*/
 }
 h3{
 	font-family:"Quattrocento-Regular", sans-serif;
@@ -59,7 +58,6 @@ a{
 	overflow-y: auto;
 }
 #pageTitle{
-	margin-top:2%;
 	width:auto;
 	font-family:"Cantarell-Bold", sans-serif;
 	font-size:16px;
@@ -112,19 +110,6 @@ a{
 	text-align: center;
 	font-family:"Cantarell-Regular", sans-serif;
 	color: white;
-}
-#pageTitle{
-	margin-top:2%;
-	margin-left:4%;
-	width:auto;
-	font-family:"Cantarell-Bold", sans-serif;
-	font-size:16px;
-	letter-spacing:2px;
- 	color:#1fcecb;
-}
-#pageTitle span{
-	border-bottom: 1px solid #1fcecb;
-	padding-bottom: 4px;	
 }
 #footer{
 	margin-left:2.5%;

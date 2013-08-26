@@ -66,8 +66,8 @@
             </div>
 <?php } ?>
 <?php function addProduct() { 
-   if (empty($_POST['productname'])){
-      $_POST['productname'] = '';
+   if (empty($_POST['productName'])){
+      $_POST['productName'] = '';
    }
 
    $departmentQuery = "select * from departments";
@@ -88,11 +88,11 @@
             </div>
 
             <div id="addForm">
-               <form action="cpanel.php?page=submit" method="post">
-                  <div><label>Product name: </label> <input type="text" name="productname" value="<?php echo $_POST['productname'];?>" /></div>
+               <form action="cpanel.php?page=submitProduct" enctype="multipart/form-data" method="post">
+                  <div><label>Product name: </label> <input type="text" name="productName" value="<?php echo $_POST['productName'];?>" /></div>
                   <div>
                      <label>Department: </label>
-                     <select>
+                     <select name="departmentName">
                         <?php 
                            if(mysqli_num_rows($departmentList) != 0)
                               while($rows=mysqli_fetch_assoc($departmentList))
@@ -102,7 +102,7 @@
                   </div>
                   <div>
                      <label>Designer: </label>
-                     <select>
+                     <select name="designerName">
                         <?php 
                            if(mysqli_num_rows($designerList) != 0)
                               while($rows=mysqli_fetch_assoc($designerList))
@@ -110,9 +110,9 @@
                         ?>
                      </select>
                   </div>
-                  <div><label>Price: </label> <input type="text" value=""></div>
-                  <div><label>New Arrivals: </label> <input type="checkbox" value=""></div>
-                  <div><label>Photo: </label> <input type="file" value=""></div>
+                  <div><label>Price: </label> <input type="text" name="price" value=""></div>
+                  <div><label>New Arrivals: </label> <input type="checkbox" name="newArrivals" value=""></div>
+                  <div><label>Photo: </label> <input type="file" name="photo" value=""></div>
                   <div><input type="Submit" value="Submit"></div>
                </form>
             </div>
@@ -120,3 +120,85 @@
    mysqli_close($mySqlLink);
 } 
 ?>
+<?php function submitProduct() {
+
+   $error = array();
+   if (!preg_match("/^[a-zA-Z][a-z A-Z]{1,39}$/", $_POST['productName'])) {
+      $error['productName'] = "The Product Name can only contain letters and spaces<br>";
+   }
+   if (!preg_match("/^[0-9]{1,5}[.][0-9]{2}$/", $_POST['price'])) {
+      $error['price'] = "Price can only contain one or more digits followed by a period and two more digits<br>";
+   }
+
+   $allowedExts = array("gif", "jpeg", "jpg", "png");
+   if (isset($_FILES["photo"])){
+      $photoName = $_FILES['photo']['name'];
+      $photoType = $_FILES['photo']['type'];
+      $photoSize = $_FILES['photo']['size'];
+      $photoTemp = $_FILES['photo']['tmp_name'];
+   }
+   else {
+      $photoName = null;
+      $photoType = null;
+      $photoSize = null;
+      $photoTemp = null;
+   }
+   $array = explode(".", $photoName);
+   $extension = end($array);
+   if (!((($photoType == "image/gif")
+   || ($photoType == "image/jpeg")
+   || ($photoType == "image/jpg")
+   || ($photoType == "image/png"))
+   && ($photoSize < 200000)
+   && in_array($extension, $allowedExts))){
+      $error['photo'] = "There was an issue with the photo that was uploaded. Please check the file type and the size of the image.";
+   }
+
+   if (empty($error)){
+      trim ($_POST['productName']);
+      trim($_POST['price']);
+
+      //This is the directory where images will be saved
+      $target = "assets/img/products/";
+      $target = $target . basename($photoName);
+
+      //This gets all the other information from the form
+      $name = $_POST['productName'];
+      $department = $_POST['departmentName'];
+      $designer = $_POST['designerName'];
+      $price = $_POST['price'];
+      $pic = ($photoName);
+      $newArrivals = isset($_POST['newArrivals']) ? 'y' : 'n';
+
+      // Connects to your Database
+      $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
+      mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+
+      //Writes the information to the database
+      if (empty($_POST['productID'])) {
+         $query = "insert into products (photo,name,department,designer,price,newArrivals) VALUES ('$pic', '$name', '$department', '$designer', '$price', '$newArrivals')";
+      }
+      else {
+         $query = "update products set photo='$pic',name='$name',department='$department',designer='$designer',price='$price',newArrivals='$newArrivals'
+                   where id = '$_POST[productID]";
+      }
+
+      mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysql_error());
+
+      //Writes the photo to the server
+      if(!(move_uploaded_file($photoTemp, $target))) {
+         $error['uploadedImage'] = "Sorry, there was a problem uploading the image.";
+      }
+
+      if (empty($error)){
+         viewProducts();
+      }
+      else {
+         addProduct($error);
+      }
+   }
+   else {
+      addProduct($error);
+   }
+
+}?>

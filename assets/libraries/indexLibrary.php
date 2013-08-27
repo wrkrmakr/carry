@@ -13,8 +13,8 @@
             <div class="banner" id="middleBanner">
                 <div id="middleBannerText">
                     <p id="upperMiddleBannerText">
-                        Advice for new<br />
-                        Moms, by old Moms:
+                        Advice from the experienced<br />
+                        to the expecting:
                     </p>
                     <p id="lowerMiddleBannerText">
                         - read on our blog<br />

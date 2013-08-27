@@ -15,6 +15,7 @@
    switch ($_GET['page']) {
       case 'view': viewProducts(); break;
       case 'add': addProduct(); break;
+      case 'submitProduct': submitProduct(); break;
       
       default: cpanelContent(); break;
    }

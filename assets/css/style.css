@@ -54,6 +54,7 @@ a{
 }
 #pageTitle{
 	width:auto;
+	margin-top:40px;
 	font-family:"Cantarell-Bold", sans-serif;
 	font-size:16px;
 	letter-spacing:2px;
@@ -73,6 +74,7 @@ a{
 	width:90%;
 	margin-left:6%;
 	cursor:pointer;
+	border:none;
 }
 #navCont{
 	position:relative;

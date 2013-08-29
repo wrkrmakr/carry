@@ -68,38 +68,38 @@
     <body>    	
 <?php } ?>
 <?php function carryNavigationPanel() { ?>
-	<div id="navLogoContainer">
-    	<div id="logoCont">
-        	<a href="index.php"><img src="assets/img/official_carry_logo_2013.png" alt="Carry Maternity Logo" title="Carry Maternity"></a>
-        </div>	
-        <div id="navCont">
-        	<ul id="nav">
-            	<a href="newArrivals.php"><li><span id="newArrivals">NEW ARRIVALS</span></li></a><br />
-                <a href="departments.php"><li><span id="departments">DEPARTMENTS</span></li></a><br />
-                <a href="designers.php"><li><span id="designers">DESIGNERS</span></li></a><br />
-                <a href="lookbook.php"><li><span id="lookbook">LOOKBOOK</span></li></a><br />
-                <a href="contact.php"><li><span id="contact">CONTACT US</span></li></a><br />
-                <a href="about.php"><li><span id="about">ABOUT US</span></li></a><br />
-                <a href="#"><li><span id="blog">BLOG</span></li></a><br />
-            </ul>
-        </div>
-        <div id="loginLogout">
-            <?php
-                if(!isset($_SESSION['logged_in']) || empty($_SESSION['logged_in'])){
-                    $_SESSION['logged_in'] = false;
-                }
+    	<div id="navLogoContainer">
+        	<div id="logoCont">
+            	<a href="index.php"><img src="assets/img/official_carry_logo_2013.png" alt="Carry Maternity Logo" title="Carry Maternity"></a>
+            </div>	
+            <div id="navCont">
+            	<ul id="nav">
+                	<a href="newArrivals.php"><li><span id="newArrivals">NEW ARRIVALS</span></li></a><br />
+                    <a href="departments.php"><li><span id="departments">DEPARTMENTS</span></li></a><br />
+                    <a href="designers.php"><li><span id="designers">DESIGNERS</span></li></a><br />
+                    <a href="lookbook.php"><li><span id="lookbook">LOOKBOOK</span></li></a><br />
+                    <a href="contact.php"><li><span id="contact">CONTACT US</span></li></a><br />
+                    <a href="about.php"><li><span id="about">ABOUT US</span></li></a><br />
+                    <a href="#"><li><span id="blog">BLOG</span></li></a><br />
+                </ul>
+            </div>
+            <div id="loginLogout">
+                <?php
+                    if(!isset($_SESSION['logged_in']) || empty($_SESSION['logged_in'])){
+                        $_SESSION['logged_in'] = false;
+                    }
 
-                if(!$_SESSION['logged_in']) {
-                    echo "<a href='login.php'>Log in</a>";
-                }
-                else{
-                    echo "Logged in as ".$_SESSION['username']." - <a href='logout.php'>Logout</a><br />";
-                    echo "<a href='cpanel.php'>Manage Site</a>";
-                }
-            ?>
+                    if(!$_SESSION['logged_in']) {
+                        echo "<a href='login.php'>Log in</a>";
+                    }
+                    else{
+                        echo "Logged in as ".$_SESSION['username']." - <a href='logout.php'>Logout</a><br />";
+                        echo "<a href='cpanel.php'>Manage Site</a>";
+                    }
+                ?>
+            </div>
         </div>
-    </div>
-    <div id="pageContent">  
+        <div id="pageContent">  
 
 <?php } ?>
 <?php function carryHTMLFooter() { ?>

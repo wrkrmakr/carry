@@ -38,48 +38,6 @@
    float: left;
 }
 
-/* ---- MANAGE USERS ---- */
-
-#manageUsers{
-   position: relative;
-   margin-top:15%;
-   margin-left:8%;
-   width:auto;
-   font-family:"Cantarell-Regular", sans-serif;
-   font-size:16px;
-   letter-spacing:2px;
-   color:#1fcecb;
-}
-
-#manageUsers div span{
-   border-bottom: 1px solid #1fcecb;
-   padding-bottom: 4px;
-   font-style: italic;
-}
-
-#manageUsers ul {
-   padding: 0px;
-   margin: 0px;
-
-   margin-top: 5%;
-}
-
-#manageUsers ul li a {
-   color: rgb(102, 102, 102);
-   border: 1px solid #1fcecb;
-   border-radius: 5px;
-   padding: 5px;
-}
-
-#manageUsers ul li {
-   padding: 0px;
-   margin: 0px 10px;
-   list-style-type: none;
-   float: left;
-}
-
-/* ---- VIEW PRODUCTS ---- */
-
 .buttons{
    position: relative;
    margin-top: 5%;
@@ -94,6 +52,8 @@
    margin-right: 10px;
 }
 
+/* ---- VIEW PRODUCTS ---- */
+
 #productTable {
    margin-top: 2%;
    margin-left: 4%;
@@ -106,6 +66,10 @@
 #productTable tr td img {
    display: inline-block;
    height: 100%;
+}
+#productTable tr td a {
+   color: blue;
+   text-decoration: underline;
 }
 
 /* ---- ADD A PRODUCT ---- */
@@ -124,7 +88,7 @@ label {
    font-family: "Cantarell-Regular", sans-serif;
    color: #1fcecb;
    display: block;
-   width: 30%;
+   width: 35%;
    float: left;
    text-align: right;
    margin-right: 7px;
@@ -135,7 +99,7 @@ input {
 }
 input[type="submit"] {
    margin-top: 5px;
-   margin-left: 18%;
+   margin-left: 21%;
 }
 select{
    width: 140px;
@@ -143,4 +107,24 @@ select{
 
 #addForm form div {
    overflow:auto;
+}
+
+/* ---- ADD/REMOVE DEPARTMENTS ---- */
+#departmentTable{
+   margin-top: 4%;
+   margin-left: 6%;
+}
+#departmentTable tr td a{
+   color: blue;
+   text-decoration: underline;
+}
+
+/* ---- ADD/REMOVE DESIGNERS ---- */
+#designerTable{
+   margin-top: 4%;
+   margin-left: 6%;
+}
+#designerTable tr td a{
+   color: blue;
+   text-decoration: underline;
 }

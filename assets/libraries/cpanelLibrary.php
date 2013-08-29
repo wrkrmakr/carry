@@ -3,26 +3,87 @@
             <div id="managePages">
                <div><span>MANAGE PAGES</span></div>
                <ul>
-                  <li><a href="cpanel.php?page=view">PRODUCTS</a></li>
+                  <li><a href="cpanel.php?page=addProduct">PRODUCTS</a></li>
                   <li><a href="cpanel.php?page=lookbook">LOOKBOOK</a></li>
                   <li><a href="cpanel.php?page=contact">CONTACT</a></li>
                   <li><a href="cpanel.php?page=about">ABOUT</a></li>
                </ul>
             </div>
-            <div id="manageUsers">
-               <div><span>MANAGE USERS</span></div>
-               <ul>
-                  <li><a href="cpanel.php?manageUser=add">ADD A USER</a></li>
-                  <li><a href="cpanel.php?manageUser=modify">MODIFY A USER</a></li>
-                  <li><a href="cpanel.php?manageUser=remove">REMOVE A USER</a></li>
-               </ul>
+<?php } ?>
+<?php function cpanelNavigation($section){ ?>
+            <div id="pageTitle"><span>CARRY MATERNITY CONTROL PANEL<?php echo $section; ?></span></div>
+            <div class="buttons">
+               <a href="cpanel.php?page=addProduct">ADD/VIEW PRODUCTS</a>
+               <a href="cpanel.php?page=addDepartment">ADD/VIEW A DEPARTMENT</a>
+               <a href="cpanel.php?page=addDesigner">ADD/VIEW A DESIGNER</a>
+               <a href="cpanel.php">BACK TO CPANEL</a>
             </div>
 <?php } ?>
-<?php function viewProducts() { ?>
-            <div id="pageTitle"><span>CARRY MATERNITY CONTROL PANEL - VIEW PRODUCTS</span></div>
-            <div class="buttons">
-               <a href="cpanel.php?page=add">ADD A PRODUCT</a>
-               <a href="cpanel.php">BACK TO CPANEL</a>
+<?php function addProduct($error,$modify) {
+   if (empty($_POST['productName'])){
+      $_POST['productName'] = '';
+   }
+   if (empty($_POST['price'])){
+      $_POST['price'] = '';
+   }
+   if (empty($modify)){
+      $modify = false;
+   }
+   if (!empty($error)){
+      if(empty($error['productName']))
+         $productNameError = '';
+      else
+         $productNameError = "<br />".$error['productName'];
+      if(empty($error['price']))
+         $priceError = '';
+      else
+         $priceError = "<br />".$error['price'];
+   }
+   else {
+      $productNameError = '';
+      $priceError = '';
+   }
+
+   $departmentQuery = "select * from departments";
+   $designerQuery = "select * from designers";
+
+   //connects to the mysql server to retrieve data
+   $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
+   mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+
+   $departmentList = mysqli_query($mySqlLink, $departmentQuery .' order by departmentID') or die("Query Error " . mysqli_error($mySqlLink));
+   $designerList = mysqli_query($mySqlLink, $designerQuery .' order by designerID') or die("Query Error " . mysqli_error($mySqlLink));
+?>
+            <?php cpanelNavigation(' - ADD/VIEW PRODUCTS'); ?>
+
+            <div id="addForm">
+               <form action="cpanel.php?page=submitProduct" enctype="multipart/form-data" method="post">
+                  <div><?php echo $productNameError ?><label>Product name: </label> <input type="text" name="productName" value="<?php echo $_POST['productName'];?>" /></div>
+                  <div>
+                     <label>Department: </label>
+                     <select name="departmentName">
+                        <?php 
+                           if(mysqli_num_rows($departmentList) != 0)
+                              while($rows=mysqli_fetch_assoc($departmentList))
+                                 echo "<option>$rows[departmentName]</option>";
+                        ?>
+                     </select>
+                  </div>
+                  <div>
+                     <label>Designer: </label>
+                     <select name="designerName">
+                        <?php 
+                           if(mysqli_num_rows($designerList) != 0)
+                              while($rows=mysqli_fetch_assoc($designerList))
+                                 echo "<option>$rows[designerName]</option>";
+                        ?>
+                     </select>
+                  </div>
+                  <div><?php echo $priceError ?><label>Price: </label> <input type="text" name="price" value="<?php echo $_POST['price'];?>"></div>
+                  <div><label>New Arrivals: </label> <input type="checkbox" name="newArrivals" value=""></div>
+                  <div><label>Photo: </label> <input type="file" name="photo" value=""></div>
+                  <div><input type="Submit" value="Submit"></div>
+               </form>
             </div>
             <div id="productTable">
                <table border="1">
@@ -32,8 +93,8 @@
                      <th>Department</th>
                      <th>Designer</th>
                      <th>Price</th>
-                     <th>Lookbook</th>
                      <th>New Arrivals</th>
+                     <th>Remove?</th>
                   </tr>
 
                   <?php
@@ -55,79 +116,114 @@
                               <td>$rows[department]</td>
                               <td>$rows[designer]</td>
                               <td>$rows[price]</td>
-                              <td>$rows[lookbook]</td>
                               <td>$rows[newArrivals]</td>
+                              <td><a href='cpanel.php?page=removeProduct&id=$rows[productID]'>Remove</a></td>
                            </tr>";
                         }
-                     mysqli_close($mySqlLink);
                   ?>
 
                </table>
             </div>
-<?php } ?>
-<?php function addProduct() { 
-   if (empty($_POST['productName'])){
-      $_POST['productName'] = '';
+<?php 
+   mysqli_close($mySqlLink);
+} ?>
+<?php function addDepartment($error) { 
+   if (empty($_POST['departmentName'])){
+      $_POST['departmentName'] = '';
    }
-
-   $departmentQuery = "select * from departments";
-   $designerQuery = "select * from designers";
-
-   $pass = '';
-   //connects to the mysql server to retrieve data
-   $mySqlLink = mysqli_connect("localhost:3306",'admin',$pass) or die("Could not Connect" . mysqli_error($mySqlLink));
-   mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
-
-   $departmentList = mysqli_query($mySqlLink, $departmentQuery .' order by departmentID') or die("Query Error " . mysqli_error($mySqlLink));
-   $designerList = mysqli_query($mySqlLink, $designerQuery .' order by designerID') or die("Query Error " . mysqli_error($mySqlLink));
+   if (!empty($error)){
+      if(empty($error['departmentName']))
+         $departmentNameError = '';
+      else
+         $departmentNameError = "br />".$error['departmentName'];
+   }
+   else {
+      $departmentNameError = '';
+   }
 ?>
-            <div id="pageTitle"><span>CARRY MATERNITY CONTROL PANEL - ADD A PRODUCT</span></div>
-            <div class="buttons">
-               <a href="cpanel.php?page=view">VIEW PRODUCTS</a>
-               <a href="cpanel.php">BACK TO CPANEL</a>
-            </div>
+            <?php cpanelNavigation(' - ADD/VIEW DEPARTMENTS'); ?>
 
             <div id="addForm">
-               <form action="cpanel.php?page=submitProduct" enctype="multipart/form-data" method="post">
-                  <div><label>Product name: </label> <input type="text" name="productName" value="<?php echo $_POST['productName'];?>" /></div>
-                  <div>
-                     <label>Department: </label>
-                     <select name="departmentName">
-                        <?php 
-                           if(mysqli_num_rows($departmentList) != 0)
-                              while($rows=mysqli_fetch_assoc($departmentList))
-                                 echo "<option>$rows[departmentName]</option>";
-                        ?>
-                     </select>
-                  </div>
-                  <div>
-                     <label>Designer: </label>
-                     <select name="designerName">
-                        <?php 
-                           if(mysqli_num_rows($designerList) != 0)
-                              while($rows=mysqli_fetch_assoc($designerList))
-                                 echo "<option>$rows[designerName]</option>";
-                        ?>
-                     </select>
-                  </div>
-                  <div><label>Price: </label> <input type="text" name="price" value=""></div>
-                  <div><label>New Arrivals: </label> <input type="checkbox" name="newArrivals" value=""></div>
-                  <div><label>Photo: </label> <input type="file" name="photo" value=""></div>
+               <form action="cpanel.php?page=submitDepartment" method="post">
+                  <div><?php echo $departmentNameError ?><label>Department name: </label> <input type="text" name="departmentName" value="<?php echo $_POST['departmentName'];?>" /></div>
                   <div><input type="Submit" value="Submit"></div>
                </form>
             </div>
-<?php 
-   mysqli_close($mySqlLink);
-} 
+            <table border="1" id="departmentTable">
+               <tr>
+                  <th>Department</th>
+                  <th>Remove?</th>
+               </tr>
+               <?php
+                  $query = "select * from departments";
+
+                  $pass = '';
+                  //connects to the mysql server to retrieve data
+                  $mySqlLink = mysqli_connect("localhost:3306",'admin',$pass) or die("Could not Connect" . mysqli_error($mySqlLink));
+                  mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+                  
+                  $tableData = mysqli_query($mySqlLink, $query .' order by departmentID') or die("Query Error " . mysqli_error($mySqlLink));
+
+                  if(mysqli_num_rows($tableData) != 0)
+                     while($rows=mysqli_fetch_assoc($tableData)){
+                        echo "
+                        <tr>
+                           <td>$rows[departmentName]</td>
+                           <td><a href='cpanel.php?page=removeDepartment&id=$rows[departmentID]'>Remove</a></td>
+                        </tr>";
+                     }
+                  mysqli_close($mySqlLink);
+               ?>
+            </table>
+<?php } ?>
+<?php function addDesigner() { 
+   if (empty($_POST['designerName'])){
+      $_POST['designerName'] = '';
+   }
 ?>
+            <?php cpanelNavigation(' - ADD/VIEW DESIGNERS'); ?>
+
+            <div id="addForm">
+               <form action="cpanel.php?page=submitDesigner" method="post">
+                  <div><label>Designer name: </label> <input type="text" name="designerName" value="<?php echo $_POST['designerName'];?>" /></div>
+                  <div><input type="Submit" value="Submit"></div>
+               </form>
+            </div>
+            <table border="1" id="designerTable">
+               <tr>
+                  <th>Designer</th>
+                  <th>Remove?</th>
+               </tr>
+               <?php
+                  $query = "select * from designers";
+
+                  $pass = '';
+                  //connects to the mysql server to retrieve data
+                  $mySqlLink = mysqli_connect("localhost:3306",'admin',$pass) or die("Could not Connect" . mysqli_error($mySqlLink));
+                  mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+                  
+                  $tableData = mysqli_query($mySqlLink, $query .' order by designerID') or die("Query Error " . mysqli_error($mySqlLink));
+
+                  if(mysqli_num_rows($tableData) != 0)
+                     while($rows=mysqli_fetch_assoc($tableData)){
+                        echo "
+                        <tr>
+                           <td>$rows[designerName]</td>
+                           <td><a href='cpanel.php?page=removeDesigner&id=$rows[designerID]'>Remove</a></td>
+                        </tr>";
+                     }
+                  mysqli_close($mySqlLink);
+               ?>
+            </table>
+<?php } ?>
 <?php function submitProduct() {
 
    $error = array();
    if (!preg_match("/^[a-zA-Z][a-z A-Z]{1,39}$/", $_POST['productName'])) {
-      $error['productName'] = "The Product Name can only contain letters and spaces<br>";
+      $error['productName'] = "The Product Name can only contain letters and spaces<br />";
    }
    if (!preg_match("/^[0-9]{1,5}[.][0-9]{2}$/", $_POST['price'])) {
-      $error['price'] = "Price can only contain one or more digits followed by a period and two more digits<br>";
+      $error['price'] = "Price can only contain one or more digits followed by a period and two more digits<br />";
    }
 
    $allowedExts = array("gif", "jpeg", "jpg", "png");
@@ -145,13 +241,16 @@
    }
    $array = explode(".", $photoName);
    $extension = end($array);
-   if (!((($photoType == "image/gif")
+   if (!(
+      ($photoType == "image/gif")
    || ($photoType == "image/jpeg")
    || ($photoType == "image/jpg")
-   || ($photoType == "image/png"))
-   && ($photoSize < 200000)
-   && in_array($extension, $allowedExts))){
-      $error['photo'] = "There was an issue with the photo that was uploaded. Please check the file type and the size of the image.";
+   || ($photoType == "image/png")
+   )){
+      $error['photoType'] = "There was an issue with the photo type that was uploaded, please make sure it is a gif, jpeg, jpg, or a png. <br />";
+   }
+   if (!(in_array($extension, $allowedExts))){
+      $error['photoExtension'] = "There was an issue with the photo extention that was uploaded. Please check the file extension. <br />";
    }
 
    if (empty($error)){
@@ -187,18 +286,119 @@
 
       //Writes the photo to the server
       if(!(move_uploaded_file($photoTemp, $target))) {
-         $error['uploadedImage'] = "Sorry, there was a problem uploading the image.";
+         $error['uploadedImage'] = "Sorry, there was a problem uploading the image. <br />";
       }
+      mysqli_close($mySqlLink);
 
       if (empty($error)){
-         viewProducts();
+         header('Location: cpanel.php?page=addProduct');
       }
       else {
          addProduct($error);
       }
+      
    }
    else {
       addProduct($error);
    }
+}?>
+<?php function submitDepartment() {
 
+   $error = array();
+   if (!preg_match("/^[a-zA-Z][a-z A-Z]{1,39}$/", $_POST['departmentName'])) {
+      $error['departmentName'] = "The Department name can only contain letters and spaces <br />";
+   }
+   
+   if (empty($error)){
+      trim ($_POST['departmentName']);
+      $deptName = $_POST['departmentName'];
+
+      // Connects to your Database
+      $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
+      mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+
+      $query = "insert into departments (departmentName) VALUES ('$deptName')";
+
+      mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysqli_error($mySqlLink));
+      mysqli_close($mySqlLink);
+      header('Location: cpanel.php?page=addDepartment');
+   }
+
+   else {
+      addDepartment($error);
+   }
+}?>
+<?php function submitDesigner() {
+
+   $error = array();
+   if (!preg_match("/^[a-zA-Z][a-z A-Z]{1,39}$/", $_POST['designerName'])) {
+      $error['designerName'] = "The Designer name can only contain letters and spaces <br />";
+   }
+   
+   if (empty($error)){
+      trim ($_POST['designerName']);
+      $designerName = $_POST['designerName'];
+
+      // Connects to your Database
+      $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
+      mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+
+      $query = "insert into designers (designerName) VALUES ('$designerName')";
+
+      mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysqli_error($mySqlLink));
+      mysqli_close($mySqlLink);
+      header('Location: cpanel.php?page=addDesigner');
+   }
+
+   else {
+      addDesigner($error);
+   }
+}?>
+<?php function removeProduct($id) {
+   if (empty($id))
+      $id='';
+
+   else {
+      // Connects to your Database
+      $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
+      mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+
+      $query = "delete from products where productID = $id";
+
+      mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysqli_error($mySqlLink));
+      mysqli_close($mySqlLink);
+   }
+   header('Location: cpanel.php?page=addProduct');
+}?>
+<?php function removeDepartment($id) {
+   if (empty($id))
+      $id='';
+
+   else {
+      // Connects to your Database
+      $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
+      mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+
+      $query = "delete from departments where departmentID = $id";
+
+      mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysqli_error($mySqlLink));
+      mysqli_close($mySqlLink);
+   }
+   header('Location: cpanel.php?page=addDepartment');
+}?>
+<?php function removeDesigner($id) {
+   if (empty($id))
+      $id='';
+
+   else {
+      // Connects to your Database
+      $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
+      mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
+
+      $query = "delete from designers where designerID = $id";
+
+      mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysqli_error($mySqlLink));
+      mysqli_close($mySqlLink);
+   }
+   header('Location: cpanel.php?page=addDesigner');
 }?>

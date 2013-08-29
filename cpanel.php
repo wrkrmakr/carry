@@ -11,11 +11,27 @@
    if(empty($_GET['page'])){
       $_GET['page'] = false;
    }
+   if(empty($_GET['id'])){
+      $_GET['id'] = '';
+   }
+   if(empty($error)){
+      $error='';
+   }
 
    switch ($_GET['page']) {
       case 'view': viewProducts(); break;
-      case 'add': addProduct(); break;
+
+      case 'addProduct': addProduct($error); break;
       case 'submitProduct': submitProduct(); break;
+      case 'removeProduct': removeProduct($_GET['id']); break;
+
+      case 'addDepartment': addDepartment($error); break;
+      case 'submitDepartment': submitDepartment(); break;
+      case 'removeDepartment': removeDepartment($_GET['id']); break;
+
+      case 'addDesigner': addDesigner($error); break;
+      case 'submitDesigner': submitDesigner(); break;
+      case 'removeDesigner': removeDesigner($_GET['id']); break;
       
       default: cpanelContent(); break;
    }

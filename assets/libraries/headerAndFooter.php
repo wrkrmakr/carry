@@ -88,18 +88,17 @@
                 if(!isset($_SESSION['logged_in']) || empty($_SESSION['logged_in'])){
                     $_SESSION['logged_in'] = false;
                 }
-
-                if(!$_SESSION['logged_in']) {
-                    echo "<a href='login.php'>Log in</a>";
-                }
-                else{
-                    echo "Logged in as ".$_SESSION['username']." - <a href='logout.php'>Logout</a><br />";
-                    echo "<a href='cpanel.php'>Manage Site</a>";
-                }
-            ?>
+                    if(!$_SESSION['logged_in']) {
+                        echo "<a href='login.php'>Log in</a>";
+                    }
+                    else{
+                        echo "Logged in as ".$_SESSION['username']." - <a href='logout.php'>Logout</a><br />";
+                        echo "<a href='cpanel.php'>Manage Site</a>";
+                    }
+                ?>
+            </div>
         </div>
-    </div>
-    <div id="pageContent">  
+        <div id="pageContent">  
 
 <?php } ?>
 <?php function carryHTMLFooter() { ?>

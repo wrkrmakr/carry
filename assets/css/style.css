@@ -54,13 +54,12 @@ a{
 }
 #pageTitle{
 	width:auto;
-	margin-top:40px;
+	margin-top:3%;
 	margin-left:7%;
 	font-family:"Cantarell-Bold", sans-serif;
 	font-size:16px;
 	letter-spacing:2px;
  	color:#1fcecb;
- 	margin-top: 2%;
 }
 #pageTitle span{
 	border-bottom: 1px solid #1fcecb;

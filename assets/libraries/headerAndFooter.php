@@ -74,7 +74,7 @@
         </div>	
         <div id="navCont">
         	<ul id="nav">
-            	<a href="newArrivals.php"><li><span id="newArrivals">NEW ARRIVALS</span></li></a><br />
+            	<a href="essentials.php"><li><span id="essentials">ESSENTIALS</span></li></a><br />
                 <a href="departments.php"><li><span id="departments">DEPARTMENTS</span></li></a><br />
                 <a href="designers.php"><li><span id="designers">DESIGNERS</span></li></a><br />
                 <a href="lookbook.php"><li><span id="lookbook">LOOKBOOK</span></li></a><br />

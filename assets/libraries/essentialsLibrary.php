@@ -1,6 +1,6 @@
-<?php function newArrivalsContent() { ?>
+<?php function essentialsContent() { ?>
         	<div id="pageTitle">
-           		<span>NEW ARRIVALS</span>
+           		<span>ESSENTIALS</span>
             </div>
             <div id="productLine1" class="productLine">
             	<div id="product1" class="productCont product1Cont">

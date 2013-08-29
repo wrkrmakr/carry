@@ -38,7 +38,7 @@ a{
 }
 #navLogoContainer{
 	position:relative;
-	width:16%;
+	width:17%;
 	float:left;	
 	background-color:#1fcecb;	
 	height:100%;
@@ -49,7 +49,7 @@ a{
 	float: left;
 	height:100%;
 	margin-left:2.5%;	
-	width:77%;
+	width:78%;
 	overflow-y: auto;
 }
 #pageTitle{
@@ -71,21 +71,21 @@ a{
 	margin-top:10%;	
 }
 #logoCont img{
-	width:80%;
-	margin-left:10%;
+	width:90%;
+	margin-left:6%;
 	cursor:pointer;
 }
 #navCont{
 	position:relative;
 	height: auto;
-	margin-top: 15%;
+	margin-top: 50%;
 	width:100%;	
 	text-align:center;
 	color:white;
 }
 #navCont ul{
 	list-style-type:none;
-	margin:0px;	
+	margin:0px;
 	padding:0px;
 	width:100%;
 	font-family:"Cantarell-Bold", sans-serif;
@@ -93,6 +93,7 @@ a{
 }
 #navCont ul li{
 	cursor:pointer;	
+	margin-top:10px;
 }
 #navCont ul li span{
 	padding-top:5px;

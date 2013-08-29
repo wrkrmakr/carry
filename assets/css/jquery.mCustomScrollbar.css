@@ -20,6 +20,8 @@
 }
 .mCSB_scrollTools .mCSB_draggerContainer{
 	position:absolute;
+	margin-top:4px;
+	margin-bottom:4px;
 	top:0;
 	left:0;
 	bottom:0;
@@ -30,7 +32,7 @@
 	margin:20px 0;
 }
 .mCSB_scrollTools .mCSB_draggerRail{
-	width:2px;
+	width:8px;
 	height:100%;
 	margin:0 auto;
 	-webkit-border-radius:10px;
@@ -43,7 +45,7 @@
 	height:30px;
 }
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-	width:4px;
+	width:8px;
 	height:100%;
 	margin:0 auto;
 	-webkit-border-radius:10px;

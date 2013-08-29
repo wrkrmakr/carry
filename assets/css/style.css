@@ -67,8 +67,8 @@ a{
 	padding-bottom: 4px;	
 }
 #logoCont{
-	margin-left:5%;
-	width:90%;
+	margin-left:10%;
+	width:80%;
 	height:auto;
 	margin-top:10%;	
 }
@@ -81,7 +81,7 @@ a{
 #navCont{
 	position:relative;
 	height: auto;
-	margin-top: 50%;
+	margin-top: 30%;
 	width:100%;	
 	text-align:center;
 	color:white;
@@ -95,8 +95,7 @@ a{
 	font-size:14px;
 }
 #navCont ul li{
-	cursor:pointer;	
-	margin-top:10px;
+	cursor:pointer;
 }
 #navCont ul li span{
 	padding-top:5px;

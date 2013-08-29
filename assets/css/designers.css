@@ -1,15 +1,16 @@
 
 .designerLine{
 	position:relative;
-	width:100%;
+	width:93%;
 	height:215px;
 	margin-top:4%;
+	margin-left:7%;
 	padding-bottom:60px;
 }
 .designerCont{
 	position:absolute;
 	height:inherit;
-	width:23%;	
+	width:20%;	
 	background-color:#f6f6f6;
 	padding-top:30px;		
 }

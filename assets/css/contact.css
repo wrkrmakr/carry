@@ -4,9 +4,10 @@
 }
 #upperContent{
 	position:relative;
-	width:100%;
+	width:93%;
 	min-height:450px;
-	margin-top:2%;
+	margin-top:4%;
+	margin-left:4%;
 	border-bottom:1px solid #999;	
 }
 .bigContactText{
@@ -127,8 +128,9 @@ label{
 
 #lowerContent{
 	position:relative;
-	top:30px;
-	width:100%;	
+	margin-top:4%;
+	margin-left:4%;
+	width:93%;	
 	min-height:250px;
 }
 .lowerContentInnerDiv{

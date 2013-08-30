@@ -101,7 +101,7 @@
 <?php function carryHTMLFooter() { ?>
 			<div id="footer">
             	<span id="copyrightText">
-                	&#169;&nbsp;Carry Maternity
+                	&#169;&nbsp; Carry Maternity 2013
                 </span>
                 <div id="footerIcons">
                 	<img src="assets/img/fbIcon.png" alt="Facebook Icon"/>

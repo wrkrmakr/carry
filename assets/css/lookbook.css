@@ -62,3 +62,6 @@ list-style-type: disc;
 #photoSelector ul #photoSelector1 span{
    border-bottom-width: 1px;
 }
+#footer{
+	margin-top:10%;	
+}

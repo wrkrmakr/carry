@@ -110,7 +110,23 @@ a{
 	color: white;
 }
 #footer{
-	margin-left:2.5%;
-	margin-top:2.5%;
-	width:100%;	
+	padding-top:4.5%;
+	width:99%;	
+	height:50px;
+	font-family:"Cantarell-Bold", sans-serif;
+	color:#666;
+	font-size:12px;
+}
+#copyrightText{
+	padding-top:5px;
+	float:left;	
+}
+#footerIcons{
+	float:right;
+	margin-right: 1%;	
+}
+#footerIcons img{
+	height:30px;
+	width:30px;	
+	padding-left:8px;
 }

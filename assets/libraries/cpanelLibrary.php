@@ -19,7 +19,7 @@
                <a href="cpanel.php">BACK TO CPANEL</a>
             </div>
 <?php } ?>
-<?php function addProduct($error,$modify) {
+<?php function addProduct($error/*,$modify*/) {
    if (empty($_POST['productName'])){
       $_POST['productName'] = '';
    }
@@ -222,7 +222,7 @@
    if (!preg_match("/^[a-zA-Z][a-z A-Z]{1,39}$/", $_POST['productName'])) {
       $error['productName'] = "The Product Name can only contain letters and spaces<br />";
    }
-   if (!preg_match("/^[0-9]{1,5}[.][0-9]{2}$/", $_POST['price'])) {
+   if (!preg_match("/^[0-9]{1,15}[.][0-9]{2}$/", $_POST['price'])) {
       $error['price'] = "Price can only contain one or more digits followed by a period and two more digits<br />";
    }
 

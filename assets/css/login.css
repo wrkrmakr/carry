@@ -37,4 +37,6 @@ input[type="submit"] {
    padding-right: 3%;
    padding-bottom: 2%;
 }
-
+#footer{
+	display:none;	
+}

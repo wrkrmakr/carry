@@ -44,4 +44,32 @@
                 <div id="designer12Image" class="designerImage"></div> 
             </div>
         </div>
+        <div id="designer4Line" class="designerLine">
+            <div id="designer13" class="designerCont designer1Cont">
+                <div id="designer13Image" class="designerImage"></div>              
+            </div>
+            <div id="designer14" class="designerCont designer2Cont">
+                <div id="designer14Image" class="designerImage"></div>   
+            </div>
+            <div id="designer15" class="designerCont designer3Cont">
+                <div id="designer15Image" class="designerImage"></div>
+            </div>
+            <div id="designer16" class="designerCont designer4Cont">
+                <div id="designer16Image" class="designerImage"></div> 
+            </div>
+        </div>
+        <div id="designer5Line" class="designerLine">
+            <div id="designer17" class="designerCont designer1Cont">
+                <div id="designer17Image" class="designerImage"></div>              
+            </div>
+            <div id="designer18" class="designerCont designer2Cont">
+                <div id="designer18Image" class="designerImage"></div>   
+            </div>
+            <div id="designer19" class="designerCont designer3Cont">
+                <div id="designer19Image" class="designerImage"></div>
+            </div>
+            <div id="designer20" class="designerCont designer4Cont" style="display:none;">
+                <div id="designer20Image" class="designerImage"></div> 
+            </div>
+        </div>
 <?php } ?>

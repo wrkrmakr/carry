@@ -32,50 +32,82 @@
 	margin-bottom:15px;
 }
 #designer1Image{	
-	background:url(../img/departments/denim/jeans.jpg) no-repeat center center;
+	background:url(../img/designers/bellaband.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer2Image{
-	background: url(../img/departments/dresses/dresses.png) no-repeat center center;
+	background: url(../img/designers/boob.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer3Image{
-	background: url(../img/departments/tops/tops.jpeg) no-repeat center center;
+	background: url(../img/designers/bravadoDesigns.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer4Image{
-	background: url(../img/departments/shirts/shirts.jpg) no-repeat center center;
+	background: url(../img/designers/cakeLingerie.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer5Image{
-	background: url(../img/departments/coatsAndJackets/coatsAndJackets.jpg) no-repeat center center;
+	background: url(../img/designers/carryMaternity.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer6Image{
-	background: url(../img/departments/nursing/nursing.jpeg) no-repeat center center;
+	background: url(../img/designers/isabellaOliver.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #designer7Image{
-	background: url(../img/departments/accessories/accessories.jpg) no-repeat center center;
+	background: url(../img/designers/jBrand.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer8Image{
-	background: url(../img/departments/maternity/maternity.jpg) no-repeat center center;
+	background: url(../img/designers/julesAndjim.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer9Image{
-	background: url(../img/departments/coatsAndJackets/coatsAndJackets.jpg) no-repeat center center;
+	background: url(../img/designers/maternalAmerica.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer10Image{
-	background: url(../img/departments/nursing/nursing.jpeg) no-repeat center center;
+	background: url(../img/designers/noppies.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer11Image{
-	background: url(../img/departments/accessories/accessories.jpg) no-repeat center center;
+	background: url(../img/designers/oiOiLogo.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer12Image{
-	background: url(../img/departments/maternity/maternity.jpg) no-repeat center center;
+	background: url(../img/designers/olianLogo.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designer13Image{
+	background: url(../img/designers/paigeDenim.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer14Image{
+	background: url(../img/designers/petuniaPickleBottom.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer15Image{
+	background: url(../img/designers/queenMum.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer16Image{
+	background: url(../img/designers/ripeMaternity.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer17Image{
+	background: url(../img/designers/seraphine.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer18Image{
+	background: url(../img/designers/soYoung.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer19Image{
+	background: url(../img/designers/theMCoat.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer20Image{
+	background: url(../img/designers/placeHolder.jpg) no-repeat center center;
 	background-size:contain;	
 }

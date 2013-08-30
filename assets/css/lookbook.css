@@ -1,3 +1,12 @@
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+}
 #photoCont{
    position: relative;
    margin-top: 2%;
@@ -6,8 +15,8 @@
 }
 .photo{
    display: none;
-   margin-left:7%;
-   margin-top:6%;
+   margin-left:9%;
+   margin-top:9%;
    height: 100%;
    width: 100%;
    background-attachment: scroll;
@@ -28,10 +37,11 @@
 #photoSelector{
    position: relative;
    margin-top: 40px;
+   margin-left:7%;
 }
-#photoSelector ul {
+/*#photoSelector ul {
    
-}
+}*/
 #photoSelector ul li {
    list-style: none;
    float: left;

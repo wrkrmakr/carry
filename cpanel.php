@@ -19,11 +19,11 @@
    }
 
    switch ($_GET['page']) {
-      case 'view': viewProducts(); break;
 
-      case 'addProduct': addProduct($error); break;
+      case 'addProduct': addProduct($error,$_GET['id']); break;
       case 'submitProduct': submitProduct(); break;
       case 'removeProduct': removeProduct($_GET['id']); break;
+      case 'modifyProduct': addProduct(false, $_GET['id']); break;
 
       case 'addDepartment': addDepartment($error); break;
       case 'submitDepartment': submitDepartment(); break;

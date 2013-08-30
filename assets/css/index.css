@@ -1,24 +1,24 @@
 /* ---- STYLING BANNERS ----*/
 .banner{
    margin-top: 3%;
-   margin-right:2.5%;
+   margin-right:2%;
    overflow: hidden;
 }
 #topBanner{
    background-color: #f3f3f4;
-   height: 250px;
+   height: 30%;
 }
 #middleBanner{
    margin-top: 3%;
    background-color: #333;
    background: url(../img/banner/Family.jpg) center 59% scroll;
    background-size: cover;
-   height: 175px;
+   height: 25%;
 }
 #bottomBanner{
    margin-top: 3%;
    background-color: #f4f1cf;
-   height: 175px;
+   height: 25%;
 }
 .underline {
    border-bottom:1px solid black;
@@ -66,17 +66,17 @@
 #middleBannerText {
 	position:relative;
 	top:50%;
-   color: white;
-   letter-spacing: 2px;
-   margin-left: 50px;
-   margin-top:-60px;
-   font-size: 23px;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    margin-top:-60px;
+    font-size: 23px;
 }
 #middleBannerText p {
    margin:0px;
 }
 #lowerMiddleBannerText {
-   margin-top: 1%!important;
+   margin-top: 1% !important;
    font-family: "Cantarell-Regular";
    font-size: 18px;
 }

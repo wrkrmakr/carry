@@ -79,3 +79,9 @@
 	background: url(../img/departments/maternity/maternity.jpg) no-repeat center center;
 	background-size:contain;	
 }
+#copyrightText {
+	margin-left:7%;
+}
+#footerIcons{
+	margin-right:4.5%;	
+}

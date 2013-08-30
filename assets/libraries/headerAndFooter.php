@@ -99,7 +99,17 @@
 
 <?php } ?>
 <?php function carryHTMLFooter() { ?>
-			<div id="footer"></div>
+			<div id="footer">
+            	<span id="copyrightText">
+                	&#169;&nbsp;Carry Maternity
+                </span>
+                <div id="footerIcons">
+                	<img src="assets/img/fbIcon.png" alt="Facebook Icon"/>
+                    <img src="assets/img/twitterIcon.png" alt="Facebook Icon"/>
+                    <img src="assets/img/pIntIcon.png" alt="Facebook Icon"/>
+                    <img src="assets/img/icon4.png" alt="Facebook Icon"/>
+                </div>
+            </div>
     	</div>
     </body>
 </html>

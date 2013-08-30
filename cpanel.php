@@ -19,7 +19,6 @@
    }
 
    switch ($_GET['page']) {
-      case 'view': viewProducts(); break;
 
       case 'addProduct': addProduct($error); break;
       case 'submitProduct': submitProduct(); break;

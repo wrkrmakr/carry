@@ -176,7 +176,7 @@
 <?php 
    mysqli_close($mySqlLink);
 } ?>
-<?php function addDepartment($error) { 
+<?php function addDepartment($error,$modify) { 
    if (empty($_POST['departmentName'])){
       $_POST['departmentName'] = '';
    }
@@ -189,28 +189,37 @@
    else {
       $departmentNameError = '';
    }
+   if (empty($modify)){
+      $modify = false;
+   }
+
+   $pass = '';
+   //connects to the mysql server to retrieve data
+   $mySqlLink = mysqli_connect("localhost:3306",'admin',$pass) or die("Could not Connect" . mysqli_error($mySqlLink));
+   mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
 ?>
             <?php cpanelNavigation(' - ADD/VIEW DEPARTMENTS'); ?>
 
             <div id="addForm">
                <form action="cpanel.php?page=submitDepartment" method="post">
-                  <div><?php echo $departmentNameError ?><label>Department name: </label> <input type="text" name="departmentName" value="<?php echo $_POST['departmentName'];?>" /></div>
+                  <?php if ($modify) {
+                     $tableData = mysqli_query($mySqlLink,'select * from departments where departmentID = '.$modify) or die("Query Error " . mysqli_error($mySqlLink));
+                     $rows=mysqli_fetch_assoc($tableData);
+                  ?>
+                  <div><label>Department ID: </label> <input type="text" readonly="readonly" name="departmentID" value="<?php echo $rows['departmentID'] ?>" /></div>
+                  <?php } ?>
+                  <div><?php echo $departmentNameError ?><label>Department name: </label> <input type="text" name="departmentName" value="<?php if($modify)echo $rows['departmentName']; else echo $_POST['departmentName'];?>" /></div>
                   <div><input type="Submit" value="Submit"></div>
                </form>
             </div>
             <table border="1" id="departmentTable">
                <tr>
                   <th>Department</th>
+                  <th>Modify?</th>
                   <th>Remove?</th>
                </tr>
                <?php
-                  $query = "select * from departments";
-
-                  $pass = '';
-                  //connects to the mysql server to retrieve data
-                  $mySqlLink = mysqli_connect("localhost:3306",'admin',$pass) or die("Could not Connect" . mysqli_error($mySqlLink));
-                  mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
-                  
+                  $query = "select * from departments";                  
                   $tableData = mysqli_query($mySqlLink, $query .' order by departmentID') or die("Query Error " . mysqli_error($mySqlLink));
 
                   if(mysqli_num_rows($tableData) != 0)
@@ -218,6 +227,7 @@
                         echo "
                         <tr>
                            <td>$rows[departmentName]</td>
+                           <td><a href='cpanel.php?page=modifyDepartment&id=$rows[departmentID]'>Modify</a></td>
                            <td><a href='cpanel.php?page=removeDepartment&id=$rows[departmentID]'>Remove</a></td>
                         </tr>";
                      }
@@ -225,7 +235,7 @@
                ?>
             </table>
 <?php } ?>
-<?php function addDesigner($error) { 
+<?php function addDesigner($error,$modify) { 
    if (empty($_POST['designerName'])){
       $_POST['designerName'] = '';
    }
@@ -238,28 +248,37 @@
    else {
       $designerNameError = '';
    }
+   if (empty($modify)){
+      $modify = false;
+   }
+
+   $pass = '';
+   //connects to the mysql server to retrieve data
+   $mySqlLink = mysqli_connect("localhost:3306",'admin',$pass) or die("Could not Connect" . mysqli_error($mySqlLink));
+   mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
 ?>
             <?php cpanelNavigation(' - ADD/VIEW DESIGNERS'); ?>
 
             <div id="addForm">
                <form action="cpanel.php?page=submitDesigner" method="post">
-                  <div><?php echo $designerNameError ?><label>Designer name: </label> <input type="text" name="designerName" value="<?php echo $_POST['designerName'];?>" /></div>
+                  <?php if ($modify) {
+                     $tableData = mysqli_query($mySqlLink,'select * from designers where designerID = '.$modify) or die("Query Error " . mysqli_error($mySqlLink));
+                     $rows=mysqli_fetch_assoc($tableData);
+                  ?>
+                  <div><label>Designer ID: </label> <input type="text" readonly="readonly" name="designerID" value="<?php echo $rows['designerID'] ?>" /></div>
+                  <?php } ?>
+                  <div><?php echo $designerNameError ?><label>Designer name: </label> <input type="text" name="designerName" value="<?php if($modify)echo $rows['designerName']; else echo $_POST['designerName'];?>" /></div>
                   <div><input type="Submit" value="Submit"></div>
                </form>
             </div>
             <table border="1" id="designerTable">
                <tr>
                   <th>Designer</th>
+                  <th>Modify?</th>
                   <th>Remove?</th>
                </tr>
                <?php
-                  $query = "select * from designers";
-
-                  $pass = '';
-                  //connects to the mysql server to retrieve data
-                  $mySqlLink = mysqli_connect("localhost:3306",'admin',$pass) or die("Could not Connect" . mysqli_error($mySqlLink));
-                  mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
-                  
+                  $query = "select * from designers";                  
                   $tableData = mysqli_query($mySqlLink, $query .' order by designerID') or die("Query Error " . mysqli_error($mySqlLink));
 
                   if(mysqli_num_rows($tableData) != 0)
@@ -267,6 +286,7 @@
                         echo "
                         <tr>
                            <td>$rows[designerName]</td>
+                           <td><a href='cpanel.php?page=modifyDesigner&id=$rows[designerID]'>Modify</a></td>
                            <td><a href='cpanel.php?page=removeDesigner&id=$rows[designerID]'>Remove</a></td>
                         </tr>";
                      }
@@ -381,6 +401,10 @@
    }
 }?>
 <?php function submitDepartment() {
+   if (!empty($_POST['departmentID']))
+         $id = $_POST['departmentID'];
+   else
+      $id = false;
 
    $error = array();
    if (!preg_match("/^[a-zA-Z][a-z A-Z]{1,39}$/", $_POST['departmentName'])) {
@@ -395,7 +419,11 @@
       $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
       mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
 
-      $query = "insert into departments (departmentName) VALUES ('$deptName')";
+      if (!$id)
+         $query = "insert into departments (departmentName) VALUES ('$deptName')";
+      else
+         $query = "update departments set departmentName='$deptName'
+                   where departmentID = '$id'";
 
       mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysqli_error($mySqlLink));
       mysqli_close($mySqlLink);
@@ -407,6 +435,10 @@
    }
 }?>
 <?php function submitDesigner() {
+   if (!empty($_POST['designerID']))
+         $id = $_POST['designerID'];
+   else
+      $id = false;
 
    $error = array();
    if (!preg_match("/^[a-zA-Z][a-z A-Z]{1,39}$/", $_POST['designerName'])) {
@@ -420,8 +452,12 @@
       // Connects to your Database
       $mySqlLink = mysqli_connect("localhost:3306",'admin','') or die("Could not Connect" . mysqli_error($mySqlLink));
       mysqli_select_db($mySqlLink, 'test') or die("No database found" . mysqli_error($mySqlLink));
-
-      $query = "insert into designers (designerName) VALUES ('$designerName')";
+      
+      if (!$id)
+         $query = "insert into designers (designerName) VALUES ('$designerName')";
+      else
+         $query = "update designers set designerName='$designerName'
+                   where designerID = '$id'";
 
       mysqli_query($mySqlLink, $query) or die ("Could not query: " . mysqli_error($mySqlLink));
       mysqli_close($mySqlLink);

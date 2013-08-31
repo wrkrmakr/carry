@@ -25,13 +25,15 @@
       case 'removeProduct': removeProduct($_GET['id']); break;
       case 'modifyProduct': addProduct(false, $_GET['id']); break;
 
-      case 'addDepartment': addDepartment($error); break;
+      case 'addDepartment': addDepartment($error,$_GET['id']); break;
       case 'submitDepartment': submitDepartment(); break;
       case 'removeDepartment': removeDepartment($_GET['id']); break;
+      case 'modifyDepartment': addDepartment(false, $_GET['id']); break;
 
-      case 'addDesigner': addDesigner($error); break;
+      case 'addDesigner': addDesigner($error,$_GET['id']); break;
       case 'submitDesigner': submitDesigner(); break;
       case 'removeDesigner': removeDesigner($_GET['id']); break;
+      case 'modifyDesigner': addDesigner(false, $_GET['id']); break;
       
       default: cpanelContent(); break;
    }

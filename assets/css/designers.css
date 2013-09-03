@@ -111,6 +111,65 @@
 	background: url(../img/designers/placeHolder.jpg) no-repeat center center;
 	background-size:contain;	
 }
+.designerPageLine{
+	position:relative;
+	width:93%;
+	height:215px;
+	margin-top:4%;
+	padding-bottom:60px;	
+}
+#designerPage1Image1{
+	background: url(../img/products/Bellaband/1011_00_1%5B1%5D.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage2Image1{
+	background: url(../img/products/Boob/Lingirie.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage2Image2{
+	background: url(../img/products/Boob/Ntop.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage2Image3{
+	background: url(../img/products/Boob/NTop2.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage2Image4{
+	background: url(../img/products/Boob/Ntop3.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage3Image1{
+	background: url(../img/products/Bravado/122_micro-fibre_0121_Chai_alt.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage3Image2{
+	background: url(../img/products/Bravado/ent_black_front_hero.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage3Image3{
+	background: url(../img/products/Bravado/essential_Embrace_Cara_WT_250x340.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage4Image1{
+	background: url(../img/products/Cake%20Lingerie/Cake%20lingerie%20nightwear.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage4Image2{
+	background: url(../img/products/Cake%20Lingerie/Cake-Lingerie-Apple-Crumble-Torte.png) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage4Image3{
+	background: url(../img/products/Cake%20Lingerie/cake-maternity-lingerie-blue-berry-torte-robe.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage5Image1{
+	background: url(../img/products/Cake%20Lingerie/Cake-Lingerie-Apple-Crumble-Torte.png) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage5Image2{
+	background: url(../img/products/Cake%20Lingerie/cake-maternity-lingerie-blue-berry-torte-robe.jpg) no-repeat center center;
+	background-size:contain;	
+}
 #copyrightText {
 	margin-left:7%;
 }

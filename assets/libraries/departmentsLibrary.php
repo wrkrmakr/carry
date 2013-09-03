@@ -17,7 +17,7 @@
                 </div>
                 <div id="department4" class="departmentCont department4Cont">
                 	<div id="department4Image" class="departmentImage"></div>
-                    <div class="departmentName">SKIRTS</div>  
+                    <div class="departmentName">BODY CARE</div>  
                 </div>
             </div>
             <div id="department2Line" class="departmentLine">
@@ -35,7 +35,7 @@
                 </div>
                 <div id="department8" class="departmentCont department4Cont">
                 	<div id="department8Image" class="departmentImage"></div>
-                    <div class="departmentName">MATERNITY</div> 
+                    <div class="departmentName">BOTTOMS</div> 
                 </div>
             </div>
 <?php } ?>

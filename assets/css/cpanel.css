@@ -108,6 +108,10 @@ select{
 #addForm form div {
    overflow:auto;
 }
+#addForm form div img {
+   height: 60px;
+   margin-left: 60%;
+}
 
 /* ---- ADD/REMOVE DEPARTMENTS ---- */
 #departmentTable{

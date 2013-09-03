@@ -80,7 +80,7 @@
                 <a href="lookbook.php"><li><span id="lookbook">LOOKBOOK</span></li></a><br />
                 <a href="contact.php"><li><span id="contact">CONTACT US</span></li></a><br />
                 <a href="about.php"><li><span id="about">ABOUT US</span></li></a><br />
-                <a href="#"><li><span id="blog">BLOG</span></li></a><br />
+                <a href="http://www.carrymaternity.blogspot.com/" target="_blank"><li><span id="blog">BLOG</span></li></a><br />
             </ul>
         </div>
         <div id="loginLogout">

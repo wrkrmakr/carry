@@ -115,19 +115,19 @@
 <?php } ?>
 
 <?php function designers1Content() { ?>
-	<div id="pageTitle">
-            <span>BELLABAND</span>
+    <div id="pageTitle">
+        <span>BELLABAND</span>
         <div class="designerPageLine">            
             <div class="designerCont designer1Cont">
-            	<div id="designerPage1Image1" class="designerImage"></div>          
+                <div id="designerPage1Image1" class="designerImage"></div>          
             </div>   
         </div>            
-   </div>
+    </div>
 <?php } ?>
 
 <?php function designers2Content() { ?>
-	<div id="pageTitle">
-            <span>BOOB</span>
+    <div id="pageTitle">
+        <span>BOOB</span>
         <div class="designerPageLine">            
             <div class="designerCont designer1Cont">
             	<div id="designerPage2Image1" class="designerImage"></div>          
@@ -136,7 +136,7 @@
             	<div id="designerPage2Image2" class="designerImage"></div>          
             </div>              
             <div class="designerCont designer3Cont">
-            	<div id="designerPage2Image3" class="designerImage"></div>          
+           		<div id="designerPage2Image3" class="designerImage"></div>          
             </div>              
             <div class="designerCont designer4Cont">
             	<div id="designerPage2Image4" class="designerImage"></div>          
@@ -146,8 +146,8 @@
 <?php } ?>
 
 <?php function designers3Content() { ?>
-	<div id="pageTitle">
-            <span>BRAVADO</span>
+    <div id="pageTitle">
+        <span>BRAVADO</span>
         <div class="designerPageLine">            
             <div class="designerCont designer1Cont">
             	<div id="designerPage3Image1" class="designerImage"></div>          
@@ -163,8 +163,8 @@
 <?php } ?>
 
 <?php function designers4Content() { ?>
-	<div id="pageTitle">
-    	<span>CAKE LINGERIE</span>
+    <div id="pageTitle">
+        <span>CAKE LINGERIE</span>
         <div class="designerPageLine">            
             <div class="designerCont designer1Cont">
             	<div id="designerPage4Image1" class="designerImage"></div>          
@@ -180,35 +180,76 @@
 <?php } ?>
 
 <?php function designers5Content() { ?>
-	<div id="pageTitle">
-            <span>CARRY MATERNITY</span>
-             <div class="designerPageLine">            
-                <div class="designerCont designer1Cont">
-                    <div id="designerPage5Image1" class="designerImage"></div>          
-                </div>             
-                <div class="designerCont designer2Cont">
-                    <div id="designerPage5Image2" class="designerImage"></div>          
-                </div>   
-            </div>
+    <div id="pageTitle">
+        <span>CARRY MATERNITY</span>
+        <div class="designerPageLine">            
+            <div class="designerCont designer1Cont">
+            	<div id="designerPage5Image1" class="designerImage"></div>          
+            </div>             
+            <div class="designerCont designer2Cont">
+            	<div id="designerPage5Image2" class="designerImage"></div>          
+            </div>   
         </div>
+    </div>
 <?php } ?>
 
 <?php function designers6Content() { ?>
-	<div id="pageTitle">
-            <span>ISABELLA OLIVER</span>
+    <div id="pageTitle">
+        <span>ISABELLA OLIVER</span>
+        <div class="designerPageLine">            
+            <div class="designerCont designer1Cont">
+            	<div id="designerPage6Image1" class="designerImage"></div>          
+            </div>             
+            <div class="designerCont designer2Cont">
+            	<div id="designerPage6Image2" class="designerImage"></div>          
+            </div>   
         </div>
+    </div>
 <?php } ?>
 
 <?php function designers7Content() { ?>
 	<div id="pageTitle">
-            <span>JBRAND</span>
+    	<span>JBRAND</span>
+        <div class="designerPageLine">            
+            <div class="designerCont designer1Cont">
+            	<div id="designerPage7Image1" class="designerImage"></div>          
+            </div>   
         </div>
+    </div>
 <?php } ?>
 
 <?php function designers8Content() { ?>
 	<div id="pageTitle">
-            <span>JULES AND JIM</span>
+    	<span>JULES AND JIM</span>
+         <div class="designerPageLine">            
+            <div class="designerCont designer1Cont">
+            	<div id="designerPage8Image1" class="designerImage"></div>          
+            </div>             
+            <div class="designerCont designer2Cont">
+            	<div id="designerPage8Image2" class="designerImage"></div>          
+            </div>              
+            <div class="designerCont designer3Cont">
+            	<div id="designerPage8Image3" class="designerImage"></div>          
+            </div>                          
+            <div class="designerCont designer4Cont">
+            	<div id="designerPage8Image4" class="designerImage"></div>          
+            </div>   
         </div>
+        <div class="designerPageLine">            
+            <div class="designerCont designer1Cont">
+            	<div id="designerPage8Image5" class="designerImage"></div>          
+            </div>             
+            <div class="designerCont designer2Cont">
+            	<div id="designerPage8Image6" class="designerImage"></div>          
+            </div>              
+            <div class="designerCont designer3Cont">
+            	<div id="designerPage8Image7" class="designerImage"></div>          
+            </div>                          
+            <div class="designerCont designer4Cont">
+            	<div id="designerPage8Image8" class="designerImage"></div>          
+            </div>   
+        </div>
+    </div>
 <?php } ?>
 
 <?php function designers9Content() { ?>

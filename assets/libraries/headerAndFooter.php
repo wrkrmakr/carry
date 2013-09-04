@@ -70,7 +70,7 @@
 <?php function carryNavigationPanel() { ?>
 	<div id="navLogoContainer">
     	<div id="logoCont">
-        	<a href="/"><img src="assets/img/official_carry_logo_2013.png" alt="Carry Maternity Logo" title="Carry Maternity"></a>
+        	<a href="index.php"><img src="assets/img/official_carry_logo_2013.png" alt="Carry Maternity Logo" title="Carry Maternity"></a>
         </div>	
         <div id="navCont">
         	<ul id="nav">

@@ -32,83 +32,202 @@
 	margin-bottom:15px;
 }
 #designer1Image{	
-	background:url(../img/designers/bellaband.png) no-repeat center center;
+	background:url(../img/designers/Belabumbum.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #designer2Image{
-	background: url(../img/designers/boob.png) no-repeat center center;
+	background: url(../img/designers/bellaband.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer3Image{
-	background: url(../img/designers/bravadoDesigns.png) no-repeat center center;
+	background: url(../img/designers/BellyBandit.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer4Image{
-	background: url(../img/designers/cakeLingerie.png) no-repeat center center;
+	background: url(../img/designers/boob.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer5Image{
-	background: url(../img/designers/carryMaternity.png) no-repeat center center;
+	background: url(../img/designers/bravadoDesigns.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer6Image{
-	background: url(../img/designers/isabellaOliver.jpg) no-repeat center center;
+	background: url(../img/designers/cakeLingerie.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer7Image{
-	background: url(../img/designers/jBrand.png) no-repeat center center;
+	background: url(../img/designers/carryMaternity.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer8Image{
-	background: url(../img/designers/julesAndjim.png) no-repeat center center;
+	background: url(../img/designers/flatterMe.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer9Image{
-	background: url(../img/designers/maternalAmerica.png) no-repeat center center;
+	background: url(../img/designers/jBrand.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer10Image{
-	background: url(../img/designers/noppies.png) no-repeat center center;
+	background: url(../img/designers/julesAndJim.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer11Image{
-	background: url(../img/designers/oiOiLogo.png) no-repeat center center;
+	background: url(../img/designers/MAMAMIO.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer12Image{
-	background: url(../img/designers/olianLogo.jpg) no-repeat center center;
+	background: url(../img/designers/maternalAmerica.png)  no-repeat center center;
 	background-size:contain;	
 }
 #designer13Image{
-	background: url(../img/designers/paigeDenim.png) no-repeat center center;
+	background: url(../img/designers/mcoat.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer14Image{
-	background: url(../img/designers/petuniaPickleBottom.png) no-repeat center center;
+	background: url(../img/designers/motherschoice.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #designer15Image{
-	background: url(../img/designers/queenMum.png) no-repeat center center;
+	background:  no-repeat center center;
 	background-size:contain;	
 }
 #designer16Image{
-	background: url(../img/designers/ripeMaternity.png) no-repeat center center;
+	background: url(../img/designers/noppies.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer17Image{
-	background: url(../img/designers/seraphine.png) no-repeat center center;
+	background: url(../img/designers/nummies.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #designer18Image{
-	background: url(../img/designers/soYoung.png) no-repeat center center;
+	background: url(../img/designers/oceanlilly.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #designer19Image{
-	background: url(../img/designers/theMCoat.png) no-repeat center center;
+	background: url(../img/designers/paigeDenim.png) no-repeat center center;
 	background-size:contain;	
 }
 #designer20Image{
-	background: url(../img/designers/placeHolder.jpg) no-repeat center center;
+	background: url(../img/designers/queenMum.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer21Image{
+	background: url(../img/designers/ripeMaternity.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer22Image{
+	background: url(../img/designers/seraphine.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer23Image{
+	background: url(../img/designers/soYoung.png) no-repeat center center;
+	background-size:contain;	
+}
+#designer24Image{
+	background: url(../img/designers/spanx.jpg) no-repeat center center;
+	background-size:contain;	
+}
+.designerPageLine{
+	position:relative;
+	width:93%;
+	height:215px;
+	margin-top:4%;
+	padding-bottom:60px;	
+}
+#designerPage1Image1{
+	background: url(../img/products/Bellaband/1011_00_1%5B1%5D.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage2Image1{
+	background: url(../img/products/Boob/Lingirie.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage2Image2{
+	background: url(../img/products/Boob/Ntop.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage2Image3{
+	background: url(../img/products/Boob/NTop2.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage2Image4{
+	background: url(../img/products/Boob/Ntop3.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage3Image1{
+	background: url(../img/products/Bravado/122_micro-fibre_0121_Chai_alt.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage3Image2{
+	background: url(../img/products/Bravado/ent_black_front_hero.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage3Image3{
+	background: url(../img/products/Bravado/essential_Embrace_Cara_WT_250x340.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage4Image1{
+	background: url(../img/products/Cake%20Lingerie/Cake%20lingerie%20nightwear.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage4Image2{
+	background: url(../img/products/Cake%20Lingerie/Cake-Lingerie-Apple-Crumble-Torte.png) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage4Image3{
+	background: url(../img/products/Cake%20Lingerie/cake-maternity-lingerie-blue-berry-torte-robe.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage5Image1{
+	background: url(../img/products/Cake%20Lingerie/Cake-Lingerie-Apple-Crumble-Torte.png) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage5Image2{
+	background: url(../img/products/Cake%20Lingerie/cake-maternity-lingerie-blue-berry-torte-robe.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage6Image1{
+	background: url(../img/products/Cake%20Lingerie/Cake-Lingerie-Apple-Crumble-Torte.png) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage6Image2{
+	background: url(../img/products/Cake%20Lingerie/cake-maternity-lingerie-blue-berry-torte-robe.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage7Image1{
+	background: url(../img/products/JBrand/2086_starless_l_z.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage8Image1{
+	background: url(../img/products/Jules%20and%20Jim/Dress.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage8Image2{
+	background: url(../img/products/Jules%20and%20Jim/Dress2.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage8Image3{
+	background: url(../img/products/Jules%20and%20Jim/Dress3.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage8Image4{
+	background: url(../img/products/Jules%20and%20Jim/Dress4.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage8Image5{
+	background: url(../img/products/Jules%20and%20Jim/Top.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage8Image6{
+	background: url(../img/products/Jules%20and%20Jim/Top2.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage8Image7{
+	background: url(../img/products/Jules%20and%20Jim/Top3.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#designerPage8Image8{
+	background: url(../img/products/Jules%20and%20Jim/Top4.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #copyrightText {

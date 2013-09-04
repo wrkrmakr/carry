@@ -27,7 +27,12 @@
 	  case 'designer16': designers16Content(); break;  
 	  case 'designer17': designers17Content(); break;  
 	  case 'designer18': designers18Content(); break;  
-	  case 'designer19': designers19Content(); break;  
+	  case 'designer19': designers19Content(); break; 
+	  case 'designer20': designers20Content(); break; 
+	  case 'designer21': designers21Content(); break; 
+	  case 'designer22': designers22Content(); break; 
+	  case 'designer23': designers23Content(); break; 
+	  case 'designer24': designers24Content(); break;  
       default: designersContent(); break;
    }
    carryHTMLFooter();

@@ -108,8 +108,32 @@
                 	<div id="designer19Image" class="designerImage"></div>
                 </a>
             </div>
-            <div id="designer20" class="designerCont designer4Cont" style="display:none;">
-                <div id="designer20Image" class="designerImage"></div> 
+            <div id="designer20" class="designerCont designer4Cont">
+            	<a href="designers.php?designer=designer20">
+                	<div id="designer20Image" class="designerImage"></div>
+                </a>
+            </div>
+        </div>
+        <div id="designer6Line" class="designerLine">
+            <div id="designer21" class="designerCont designer1Cont">
+            	<a href="designers.php?designer=designer21">
+                	<div id="designer21Image" class="designerImage"></div>
+                </a>              
+            </div>
+            <div id="designer22" class="designerCont designer2Cont">
+            	<a href="designers.php?designer=designer22">
+                	<div id="designer22Image" class="designerImage"></div> 
+                </a>  
+            </div>
+            <div id="designer23" class="designerCont designer3Cont">
+            	<a href="designers.php?designer=designer23">
+                	<div id="designer23Image" class="designerImage"></div>
+                </a>
+            </div>
+            <div id="designer24" class="designerCont designer4Cont">
+            	<a href="designers.php?designer=designer24">
+                	<div id="designer24Image" class="designerImage"></div>
+                </a>
             </div>
         </div>
 <?php } ?>

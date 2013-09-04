@@ -10,7 +10,8 @@ $(document).ready(function() {
       "assets/img/lookbook/lookbook7.png",
       "assets/img/lookbook/lookbook8.png",
       "assets/img/lookbook/lookbook9.jpg",
-      "assets/img/lookbook/lookbook10.png"
+      "assets/img/lookbook/lookbook10.png",
+	  "assets/img/lookbook/lookbook11.png"
    ];
 
    preloadImages(myImages);

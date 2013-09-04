@@ -23,15 +23,15 @@ list-style-type: disc;
    background-position: left top;
    background-repeat: no-repeat;
 }
-#photo1  { background-image: url(../img/lookbook/look1.jpg); background-size: contain; display: block; }
-#photo2  { background-image: url(../img/lookbook/look2.jpg); background-size: contain;}
-#photo3  { background-image: url(../img/lookbook/look3.png); background-size: contain;}
-#photo4  { background-image: url(../img/lookbook/look4.png); background-size: contain;}
-#photo5  { background-image: url(../img/lookbook/look5.png); background-size: contain;}
-#photo6  { background-image: url(../img/lookbook/look6.jpg); background-size: contain;}
-#photo7  { background-image: url(../img/lookbook/look7.png); background-size: contain;}
-#photo8  { background-image: url(../img/lookbook/look8.png); background-size: contain;}
-#photo9  { background-image: url(../img/lookbook/look9.jpg); background-size: contain;}
+#photo1  { background-image: url(../img/lookbook/look01.jpg); background-size: contain; display: block; }
+#photo2  { background-image: url(../img/lookbook/look02.jpg); background-size: contain;}
+#photo3  { background-image: url(../img/lookbook/look03.png); background-size: contain;}
+#photo4  { background-image: url(../img/lookbook/look04.png); background-size: contain;}
+#photo5  { background-image: url(../img/lookbook/look05.png); background-size: contain;}
+#photo6  { background-image: url(../img/lookbook/look06.jpg); background-size: contain;}
+#photo7  { background-image: url(../img/lookbook/look07.png); background-size: contain;}
+#photo8  { background-image: url(../img/lookbook/look08.png); background-size: contain;}
+#photo9  { background-image: url(../img/lookbook/look09.jpg); background-size: contain;}
 #photo10 { background-image: url(../img/lookbook/look10.png); background-size: contain;}
 #photo11 { background-image: url(../img/lookbook/look11.png); background-size: contain;}
 

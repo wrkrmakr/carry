@@ -23,16 +23,17 @@ list-style-type: disc;
    background-position: left top;
    background-repeat: no-repeat;
 }
-#photo1  { background-image: url(../img/lookbook/lookbook1.jpg); background-size: contain; display: block; }
-#photo2  { background-image: url(../img/lookbook/lookbook2.jpg); background-size: contain;}
-#photo3  { background-image: url(../img/lookbook/lookbook3.png); background-size: contain;}
-#photo4  { background-image: url(../img/lookbook/lookbook4.png); background-size: contain;}
-#photo5  { background-image: url(../img/lookbook/lookbook5.png); background-size: contain;}
-#photo6  { background-image: url(../img/lookbook/lookbook6.jpg); background-size: contain;}
-#photo7  { background-image: url(../img/lookbook/lookbook7.png); background-size: contain;}
-#photo8  { background-image: url(../img/lookbook/lookbook8.png); background-size: contain;}
-#photo9  { background-image: url(../img/lookbook/lookbook9.jpg); background-size: contain;}
-#photo10 { background-image: url(../img/lookbook/lookbook10.png); background-size: contain;}
+#photo1  { background-image: url(../img/lookbook/look1.jpg); background-size: contain; display: block; }
+#photo2  { background-image: url(../img/lookbook/look2.jpg); background-size: contain;}
+#photo3  { background-image: url(../img/lookbook/look3.png); background-size: contain;}
+#photo4  { background-image: url(../img/lookbook/look4.png); background-size: contain;}
+#photo5  { background-image: url(../img/lookbook/look5.png); background-size: contain;}
+#photo6  { background-image: url(../img/lookbook/look6.jpg); background-size: contain;}
+#photo7  { background-image: url(../img/lookbook/look7.png); background-size: contain;}
+#photo8  { background-image: url(../img/lookbook/look8.png); background-size: contain;}
+#photo9  { background-image: url(../img/lookbook/look9.jpg); background-size: contain;}
+#photo10 { background-image: url(../img/lookbook/look10.png); background-size: contain;}
+#photo11 { background-image: url(../img/lookbook/look11.png); background-size: contain;}
 
 #photoSelector{
    position: relative;

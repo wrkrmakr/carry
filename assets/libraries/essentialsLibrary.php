@@ -7,7 +7,7 @@
                 	<div id="product1Image" class="productImage"></div>
                     <div class="productName">CARRY MATERNITY</div>  
                     <div class="productCategory">Leggings</div> 
-                    <div class="productPrize">$ ??</div>               
+                    <div class="productPrize">$ ??</div>
                 </div>
                 <div id="product2" class="productCont product2Cont">
                 	<div id="product2Image" class="productImage"></div>

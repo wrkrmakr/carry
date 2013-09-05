@@ -32,51 +32,51 @@
 	margin-bottom:15px;
 }
 #product1Image{	
-	background:url(../img/products/carryMaternity/carry01.jpg) no-repeat center center;
+	background:url(../img/essentials/essenial01.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product2Image{
-	background:url(../img/essentials/ess2.png) no-repeat center center;
+	background: no-repeat center center;
 	background-size:contain;	
 }
 #product3Image{
-	background:url(../img/essentials/ess3.png) no-repeat center center;
+	background: url(../img/essentials/essential03.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product4Image{
-	background:url(../img/essentials/ess4.png) no-repeat center center;
+	background: url(../img/essentials/essential04.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product5Image{
-	background:url(../img/essentials/ess5.png) no-repeat center center;
+	background: url(../img/essentials/essential05.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product6Image{
-	background:url(../img/essentials/ess6.png) no-repeat center center;
+	background:url(../img/essentials/essential06.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product7Image{
-	background:url(../img/essentials/ess7.png) no-repeat center center;
+	background:url(../img/essentials/essential07.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product8Image{
-	background:url(../img/essentials/ess8.png) no-repeat center center;
+	background:url(../img/essentials/essential08.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product9Image{
-	background:url(../img/essentials/ess9.png) no-repeat center center;
+	background:url(../img/essentials/essential09.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product10Image{
-	background:url(../img/essentials/ess10.png) no-repeat center center;
+	background:url(../img/essentials/essential10.png) no-repeat center center;
 	background-size:contain;	
 }
 #product11Image{
-	background:url(../img/essentials/ess11.png) no-repeat center center;
+	background:url(../img/essentials/essential11.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product12Image{
-	background:url(../img/essentials/ess12.png) no-repeat center center;
+	background:url(../img/essentials/essential12.jpg) no-repeat center center;
 	background-size:contain;	
 }
 .productName{

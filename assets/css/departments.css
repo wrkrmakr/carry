@@ -36,7 +36,7 @@
 	background-size:contain;	
 }
 #department2Image{
-	background: url(../img/departments/Dresses/Dresses.jpg) no-repeat center center;
+	background: url(../img/departments/Dresses/Dress.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #department3Image{
@@ -95,4 +95,161 @@
 }
 #footerIcons{
 	margin-right:4.5%;	
+}
+
+.departmentPageLine{
+	position:relative;
+	width:93%;
+	height:215px;
+	margin-top:4%;
+	margin-left:7%;
+	padding-bottom:60px;	
+}
+#departmentPage1Image1{
+	background: url(../img/departments/Denim/Denim.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image2{
+	background: url(../img/departments/Denim/jBrand1.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image3{
+	background: url(../img/departments/Denim/nop06.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image4{
+	background: url(../img/departments/Denim/nop07.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image5{
+	background: url(../img/departments/Denim/OL01.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image6{
+	background: url(../img/departments/Denim/paige01.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image7{
+	background: url(../img/departments/Denim/paige02.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image8{
+	background:url(../img/departments/Denim/paige03.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image9{
+	background: url(../img/departments/Denim/paige04.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image10{
+	background: url(../img/departments/Denim/paige05.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image11{
+	background: url(../img/departments/Denim/paige06.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage1Image12{
+	background:url(../img/departments/Denim/paige07.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image1{
+	background: url(../img/departments/Dresses/carry05.jpg) center center;
+	background-size:contain;	
+}
+#departmentPage2Image2{
+	background: url(../img/departments/Dresses/carry06.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image3{
+	background: url(../img/departments/Dresses/carry07.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image4{
+	background: url(../img/departments/Dresses/carry08.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image5{
+	background: url(../img/departments/Dresses/carry10.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image6{
+	background: url(../img/departments/Dresses/carry11.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image7{
+	background: url(../img/departments/Dresses/carry12.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image8{
+	background: url(../img/departments/Dresses/circles.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image9{
+	background: url(../img/departments/Dresses/Dress.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image10{
+	background: url(../img/departments/Dresses/Dress2.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image11{
+	background: url(../img/departments/Dresses/Dress3.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image12{
+	background: url(../img/departments/Dresses/Dress4.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image13{
+	background: url(../img/departments/Dresses/floral.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image14{
+	background: url(../img/departments/Dresses/mat03.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image15{
+	background: url(../img/departments/Dresses/queen06.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image16{
+	background: url(../img/departments/Dresses/nop02.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image17{
+	background: url(../img/departments/Dresses/nop03.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image18{
+	background:url(../img/departments/Dresses/queen02.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image19{
+	background: url(../img/departments/Dresses/queen03.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image20{
+	background: url(../img/departments/Dresses/queen04.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image21{
+	background: url(../img/departments/Dresses/queen06.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image22{
+	background: url(../img/departments/Dresses/sera01.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image23{
+	background: url(../img/departments/Dresses/sera02.jpg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image24{
+	background: url(../img/departments/Dresses/sera03.jpeg) no-repeat center center;
+	background-size:contain;	
+}
+#departmentPage2Image25{
+	background: url(../img/departments/Dresses/sera04.jpg) no-repeat center center;
+	background-size:contain;	
 }

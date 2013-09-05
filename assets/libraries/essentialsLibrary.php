@@ -18,14 +18,14 @@
                 <div id="product3" class="productCont product3Cont">
                 	<div id="product3Image" class="productImage"></div>
                     <div class="productName">CARRY MATERNITY</div>  
-                    <div class="productCategory">Tube Dress</div> 
+                    <div class="productCategory">Red Tube Dress</div> 
                     <div class="productPrize">$ ??</div>
                 </div>
                 <div id="product4" class="productCont product4Cont">
                 	<div id="product4Image" class="productImage"></div>
                     <div class="productName">PAIGE DENIM</div>  
-                    <div class="productCategory">?? Skinny Jeans</div> 
-                    <div class="productPrize">$ ??</div>
+                    <div class="productCategory">Fountain Skinny Jeans</div> 
+                    <div class="productPrize">$ 223</div>
                 </div>
             </div>
             <div id="productLine2" class="productLine">
@@ -63,9 +63,9 @@
                 </div>
                 <div id="product10" class="productCont product2Cont">
                 	<div id="product10Image" class="productImage"></div>
-                    <div class="productName">??</div>  
+                    <div class="productName">ANGEL CARE</div>  
                     <div class="productCategory">Maternity Support Band</div> 
-                    <div class="productPrize">$ ??</div> 
+                    <div class="productPrize">$ 50</div> 
                 </div>
                 <div id="product11" class="productCont product3Cont">
                 	<div id="product11Image" class="productImage"></div>

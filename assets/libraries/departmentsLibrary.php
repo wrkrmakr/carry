@@ -59,10 +59,141 @@
     <div id="pageTitle">
     	<span>DENIM</span>
     </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage1Image1" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage1Image2" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage1Image3" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage1Image4" class="departmentImage"></div>          
+        </div>   
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage1Image5" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage1Image6" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage1Image7" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage1Image8" class="departmentImage"></div>          
+        </div>   
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage1Image9" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage1Image10" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage1Image11" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage1Image12" class="departmentImage"></div>          
+        </div>   
+    </div>
 <?php } ?>
 <?php function department2Content() { ?>
     <div id="pageTitle">
     	<span>DRESSES</span>
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage2Image1" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage2Image2" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage2Image3" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage2Image4" class="departmentImage"></div>          
+        </div>   
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage2Image5" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage2Image6" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage2Image7" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage2Image8" class="departmentImage"></div>          
+        </div>   
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage2Image9" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage2Image10" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage2Image11" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage2Image12" class="departmentImage"></div>          
+        </div>   
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage2Image13" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage2Image14" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage2Image15" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage2Image16" class="departmentImage"></div>          
+        </div>   
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage2Image17" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage2Image18" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage2Image19" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage2Image20" class="departmentImage"></div>          
+        </div>   
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage2Image21" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department2Cont">
+        	<div id="departmentPage2Image22" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department3Cont">
+        	<div id="departmentPage2Image23" class="departmentImage"></div>          
+        </div>            
+        <div class="departmentCont department4Cont">
+        	<div id="departmentPage2Image24" class="departmentImage"></div>          
+        </div>   
+    </div>
+    <div class="departmentPageLine">            
+        <div class="departmentCont department1Cont">
+        	<div id="departmentPage2Image25" class="departmentImage"></div>          
+        </div>   
     </div>
 <?php } ?>
 <?php function department3Content() { ?>

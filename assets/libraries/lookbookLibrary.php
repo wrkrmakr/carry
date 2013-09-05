@@ -13,7 +13,6 @@
                <div class="photo" id="photo8"></div>
                <div class="photo" id="photo9"></div>
                <div class="photo" id="photo10"></div>
-               <div class="photo" id="photo11"></div>
             </div>
             <div id="photoSelector">
                <ul>
@@ -27,7 +26,6 @@
                   <li id="photoSelector8"><span>8</span></li>
                   <li id="photoSelector9"><span>9</span></li>
                   <li id="photoSelector10"><span>10</span></li>
-                  <li id="photoSelector11"><span>11</span></li>
                </ul>
             </div>
 <?php } ?>

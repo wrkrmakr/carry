@@ -33,7 +33,6 @@ list-style-type: disc;
 #photo8  { background-image: url(../img/lookbook/look08.jpg); background-size: contain;}
 #photo9  { background-image: url(../img/lookbook/look09.jpg); background-size: contain;}
 #photo10 { background-image: url(../img/lookbook/look10.jpg); background-size: contain;}
-#photo11 { background-image: url(../img/lookbook/look11.jpg); background-size: contain;}
 
 #photoSelector{
    position: relative;

@@ -27,7 +27,7 @@
                     <img src="assets/img/banner/bannerDresses.png">
                 </div>
                 <div id="bottomBannerText">
-                    <p><b>NEW ARRIVALS</b></p>
+                    <p><b>ESSENTIALS</b></p>
                     <p><span class="underline">SHOP</span></p>
                 </div>
             </div>            

@@ -7,25 +7,25 @@
                 	<div id="product1Image" class="productImage"></div>
                     <div class="productName">CARRY MATERNITY</div>  
                     <div class="productCategory">Leggings</div> 
-                    <div class="productPrize">$ ??</div>
+                    <div class="productPrize">$ 59</div>
                 </div>
                 <div id="product2" class="productCont product2Cont">
                 	<div id="product2Image" class="productImage"></div>
-                    <div class="productName">??</div>  
-                    <div class="productCategory">Camisole</div> 
-                    <div class="productPrize">$ ??</div> 
+                    <div class="productName">BRAVADO DESIGNS</div>  
+                    <div class="productCategory">Nursing Tank</div> 
+                    <div class="productPrize">$ 55</div> 
                 </div>
                 <div id="product3" class="productCont product3Cont">
                 	<div id="product3Image" class="productImage"></div>
                     <div class="productName">CARRY MATERNITY</div>  
                     <div class="productCategory">Red Tube Dress</div> 
-                    <div class="productPrize">$ ??</div>
+                    <div class="productPrize">$ 129</div>
                 </div>
                 <div id="product4" class="productCont product4Cont">
                 	<div id="product4Image" class="productImage"></div>
                     <div class="productName">PAIGE DENIM</div>  
-                    <div class="productCategory">Fountain Skinny Jeans</div> 
-                    <div class="productPrize">$ 223</div>
+                    <div class="productCategory">Twilight Skinny Jeans</div> 
+                    <div class="productPrize">$ 249</div>
                 </div>
             </div>
             <div id="productLine2" class="productLine">
@@ -39,19 +39,19 @@
                 	<div id="product6Image" class="productImage"></div>
                     <div class="productName">CARRY MATERNITY</div>  
                     <div class="productCategory">PDR Blazer</div> 
-                    <div class="productPrize">$ ??</div> 
+                    <div class="productPrize">$ 179</div> 
                 </div>
                 <div id="product7" class="productCont product3Cont">
                 	<div id="product7Image" class="productImage"></div>
                     <div class="productName">CARRY MATERNITY</div>  
                     <div class="productCategory">PDR Skirt</div> 
-                    <div class="productPrize">$ ??</div> 
+                    <div class="productPrize">$ 99</div> 
                 </div>
                 <div id="product8" class="productCont product4Cont">
                 	<div id="product8Image" class="productImage"></div>
                     <div class="productName">CARRY MATERNITY</div>  
                     <div class="productCategory">PDR Pant</div> 
-                    <div class="productPrize">$ ??</div> 
+                    <div class="productPrize">$ 125</div> 
                 </div>
             </div>
             <div id="productLine3" class="productLine">

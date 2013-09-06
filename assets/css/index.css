@@ -6,6 +6,7 @@
 }
 #topBanner{
    background-color: #f3f3f4;
+   background: url(../img/banner/Family.jpg) center 59% scroll;
    height: 30%;
 }
 #middleBanner{
@@ -29,9 +30,9 @@
 #topBannerPhoto{
    position: relative;
    height: 100%;
-   width: 50%;
-   float: left;
-   text-align: center;
+   width: 100%;
+/*   float: left;*/
+   text-align: left;
 }
 #topBannerPhoto img{
    height: 80%;

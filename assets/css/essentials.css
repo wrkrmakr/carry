@@ -27,16 +27,22 @@
 	left:75%;
 }
 .productImage{
+	position:relative;
 	width:100%;
-	height:180px;
+	height:75%;
 	margin-bottom:15px;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat; 
+	background-attachment: scroll;
+	cursor: pointer;
 }
 #product1Image{	
-	background:url(../img/essentials/essenial01.jpg) no-repeat center center;
+	background:url(../img/essentials/essential01.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product2Image{
-	background: no-repeat center center;
+	background:url(../img/essentials/essential02.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #product3Image{

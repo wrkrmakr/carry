@@ -43,14 +43,14 @@
    position: absolute;
    /*width: 50%;*/
 /*   top:50%;*/
-   margin-top: 16px;
+   margin-top: 22px;
    margin-left: 50px;
    /*float: left;*/
    text-align: center; 
    font-size: 18px;
    letter-spacing: 1px;
    font-family: "Cantarell-Regular";
-/*   line-height: 40px; */  
+   line-height: 1.5em;   
 }
 #topBannerText #italicTitle{
    font-family: "Baskerville-Italic";

@@ -43,7 +43,7 @@
    position: relative;
    width: 50%;
 /*   top:50%;*/
-   margin-top:-265px;
+   margin-top:-18%;
    float: left;
    text-align: center; 
    font-size: 18px;
@@ -111,4 +111,5 @@
    font-family: "Cantarell-Regular";
    font-size: 20px;
    letter-spacing: 5px;
+   color:#333;
 }

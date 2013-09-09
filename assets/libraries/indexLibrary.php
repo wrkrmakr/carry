@@ -21,11 +21,11 @@
                     </p>
                     <p id="lowerMiddleBannerText">
                         - read on our blog<br />
-                        <span><a href="#">click here</a></span>
+                        <span><a href="http://www.carrymaternity.wordpress.com">click here</a></span>
                     </p>
                 </div>
             </div>
-            <div class="banner" id="bottomBanner">
+            <a href="essentials.php"><div class="banner" id="bottomBanner">
                 <div id="bottomBannerPhoto">
                     <img src="assets/img/banner/bannerDresses.png">
                 </div>
@@ -33,5 +33,5 @@
                     <p><b>ESSENTIALS</b></p>
                     <p><span class="underline">SHOP</span></p>
                 </div>
-            </div>            
+            </div></a>           
 <?php } ?>

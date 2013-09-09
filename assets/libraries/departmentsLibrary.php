@@ -68,28 +68,28 @@
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage1Image2" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>  
+            <div class="productName">J BRAND</div>
+            <div class="productCategory">Starless Skinny Jean</div> 
+            <div class="productPrice">$ 225</div>  
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage1Image3" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
+            <div class="productName">NOPPIES</div>
+            <div class="productCategory">nop06</div> 
             <div class="productPrice">$ 59</div>    
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage1Image4" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
+            <div class="productName">NOPPIES</div>
+            <div class="productCategory">nop07</div> 
             <div class="productPrice">$ 59</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage1Image5" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
+            <div class="productName">OCEAN LILLY</div>
+            <div class="productCategory">0lo1</div> 
             <div class="productPrice">$ 59</div>   
         </div>            
         <div class="departmentCont department2Cont">

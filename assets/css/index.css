@@ -6,7 +6,7 @@
 }
 #topBanner{
    background-color: #f3f3f4;
-   background: url(../img/banner/Family.jpg) center 59% scroll;
+/*   background: url(../img/banner/Family.jpg) center 59% scroll;*/
    height: 30%;
 }
 #middleBanner{
@@ -42,20 +42,20 @@
 #topBannerText{
    position: relative;
    width: 50%;
-   top:50%;
-   margin-top:-85px;
+/*   top:50%;*/
+   margin-top:-265px;
    float: left;
    text-align: center; 
-   font-size: 22px;
-   letter-spacing: 6px;
-   font-family: "Baskerville-Italic";
-   line-height: 40px;   
+   font-size: 18px;
+   letter-spacing: 1px;
+   font-family: "Cantarell-Regular";
+/*   line-height: 40px; */  
 }
-#bold{
-   font-family: "Cantarell-Bold";
+#topBannerText #italicTitle{
+   font-family: "Baskerville-Italic";
    font-size: 36px;
    font-style: normal;
-   letter-spacing:0px;
+   letter-spacing:6px;
 }
 #cantarell{
    font-family: "Cantarell-Regular";

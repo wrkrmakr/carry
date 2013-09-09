@@ -5,7 +5,7 @@
     <div id="designer1Line" class="designerLine">            
         <div id="designer1" class="designerCont designer1Cont">
             <a href="designers.php?designer=designer1">
-                <div id="designer1Image" class="designerImage"></div> 
+                <div id="designer1Image" class="designerImage"></div>
             </a>            
         </div>        
     
@@ -144,13 +144,19 @@
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
-            <div id="designerPage1Image1" class="designerImage"></div>         
+            <div id="designerPage1Image1" class="designerImage"></div> 
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>       
         </div>            
         <div class="designerCont designer2Cont">
-            <div id="designerPage1Image2" class="designerImage"></div>          
+            <div id="designerPage1Image2" class="designerImage"></div> 
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>           
         </div>              
         <div class="designerCont designer3Cont">
             <div id="designerPage1Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>             
     </div>
 <?php } ?>
@@ -162,6 +168,8 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage2Image1" class="designerImage"></div>  
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
     </div>
 <?php } ?>
@@ -173,9 +181,13 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
             <div id="designerPage3Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>             
         <div class="designerCont designer2Cont">
             <div id="designerPage3Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>     
     </div>
 <?php } ?>
@@ -187,15 +199,23 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
             <div id="designerPage4Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>             
         <div class="designerCont designer2Cont">
             <div id="designerPage4Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>              
         <div class="designerCont designer3Cont">
             <div id="designerPage4Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>                
         <div class="designerCont designer4Cont">
             <div id="designerPage4Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
     </div> 
 <?php } ?>
@@ -207,12 +227,18 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage5Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>             
         <div class="designerCont designer2Cont">
         	<div id="designerPage5Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>             
         <div class="designerCont designer3Cont">
        		<div id="designerPage5Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>   
     </div>
 <?php } ?>
@@ -224,13 +250,14 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage6Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>             
         <div class="designerCont designer2Cont">
         	<div id="designerPage6Image2" class="designerImage"></div>          
-        </div>             
-        <div class="designerCont designer3Cont">
-        	<div id="designerPage6Image3" class="designerImage"></div>          
-        </div>   
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
+        </div>               
     </div>
 <?php } ?>
 
@@ -241,48 +268,74 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage7Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer2Cont">
         	<div id="designerPage7Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer3Cont">
         	<div id="designerPage7Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer4Cont">
         	<div id="designerPage7Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>   
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage7Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer2Cont">
         	<div id="designerPage7Image6" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer3Cont">
         	<div id="designerPage7Image7" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer4Cont">
         	<div id="designerPage7Image8" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>   
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage7Image9" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer2Cont">
         	<div id="designerPage7Image10" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer3Cont">
         	<div id="designerPage7Image11" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>            
         <div class="designerCont designer4Cont">
         	<div id="designerPage7Image12" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>   
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage7Image13" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>   
     </div>
 <?php } ?>
@@ -294,6 +347,8 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
             <div id="designerPage8Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>   
     </div>
 <?php } ?>
@@ -305,6 +360,8 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
             <div id="designerPage9Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
     </div>
 <?php } ?>
@@ -316,29 +373,45 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage10Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage10Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage10Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage10Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage10Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage10Image6" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage10Image7" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage10Image8" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -350,26 +423,40 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
             <div id="designerPage11Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
             <div id="designerPage11Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
             <div id="designerPage11Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
             <div id="designerPage11Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage11Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage11Image6" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage11Image7" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -381,29 +468,45 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage12Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage12Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage12Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage12Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage12Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage12Image6" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage12Image7" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage12Image8" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -415,12 +518,13 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage13Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage13Image2" class="designerImage"></div>          
-        </div>
-        <div class="designerCont designer3Cont">
-        	<div id="designerPage13Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -432,9 +536,13 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage14Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage14Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -446,6 +554,8 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage15Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
     </div>
 <?php } ?>
@@ -457,26 +567,40 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage16Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage16Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage16Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage16Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage16Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage16Image6" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage16Image7" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -488,6 +612,8 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage17Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -499,9 +625,13 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage18Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer2Cont">
         	<div id="designerPage18Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -513,26 +643,40 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage19Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage19Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage19Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage19Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage19Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage19Image6" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage19Image7" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -543,37 +687,57 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage20Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage20Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage20Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage20Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage20Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage20Image6" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage20Image7" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage20Image8" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage20Image9" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage20Image10" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -584,20 +748,30 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage21Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage21Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage21Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage21Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage21Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -608,20 +782,30 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage22Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage22Image2" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage22Image3" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage22Image4" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage21Image5" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -632,6 +816,8 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage23Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>
@@ -642,6 +828,8 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage24Image1" class="designerImage"></div>          
+            <div class="productCategory">Leggings</div> 
+            <div class="productPrice">$ 59</div>  
         </div>
     </div>
 <?php } ?>

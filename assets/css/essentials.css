@@ -86,7 +86,7 @@
 	background-size:contain;	
 }
 .productName{
-	padding-top:40px;	
+	padding-top:20px;	
 	padding-bottom:10px;
 	width:100%;
 	text-align:center;
@@ -103,7 +103,7 @@
 	font-size:14px;
 	color:#1fcecb;	
 }
-.productPrize{	
+.productPrice{	
 	width:100%;
 	text-align:center;
 	background-color:#FFF;		

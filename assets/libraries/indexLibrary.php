@@ -1,13 +1,16 @@
 <?php function indexContent() { ?>
             <div class="banner" id="topBanner">
                 <div id="topBannerPhoto">
-                    <img src="assets/img/banner/bannerBags.png">
+                    <!--<img src="assets/img/banner/bannerBags.png">-->
                 </div>
                 <div id="topBannerText">
-                    <span id="bold">IN STORE SALE</span><br />
-                    <span class="underline">ALL Duffel Bags</span><br />
-                    <span class="underline">Now</span><br />
-                    <span id="cantarell" class="underline">$120</span>                
+                    <span id="italicTitle">Baby Bonus</span><br />
+                    <span class="cantarell">Collect Dollars towards your</span><br />
+                    <span class="cantarell">postnatal needs.  5% of all of your</span><br />
+                    <span class="cantarell">maternity purchases can be used</span><br />
+                    <span class="cantarell">for nursing bras, tops, diaper bags etc.</span><br />
+                    <span class="cantarell">Ask us how.</span><br />
+                                  
                 </div>
             </div>
             <div class="banner" id="middleBanner">

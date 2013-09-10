@@ -5,8 +5,10 @@
    overflow: hidden;
 }
 #topBanner{
+   margin-top:3%;
    background-color: #f3f3f4;
-/*   background: url(../img/banner/Family.jpg) center 59% scroll;*/
+   background: url(../img/banner/boob1200.jpg) right 59% scroll;
+   background-repeat:no-repeat;
    height: 30%;
 }
 #middleBanner{
@@ -40,12 +42,12 @@
    margin-top: 4%;
 }
 #topBannerText{
-   position: absolute;
+   position: relative;
    /*width: 50%;*/
-/*   top:50%;*/
-   margin-top: 22px;
-   margin-left: 50px;
-   /*float: left;*/
+   top:50%;
+   margin-top: -70px;
+   margin-left: 10%;
+   float: left;
    text-align: center; 
    font-size: 16px;
    letter-spacing: 1px;

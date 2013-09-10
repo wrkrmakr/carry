@@ -59,15 +59,15 @@
 	margin-bottom:15px;
 }
 #department1Image{	
-	background:url(../img/departments/Denim/Denim.jpg) no-repeat center center;
+	background:url(../img/departments/denim/Denim.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #department2Image{
-	background: url(../img/departments/Dresses/Dress.jpg) no-repeat center center;
+	background: url(../img/departments/dresses/Dress.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #department3Image{
-	background:url(../img/departments/Tops/Tops.png) no-repeat center center;
+	background:url(../img/departments/tops/Tops.png) no-repeat center center;
 	background-size:contain;	
 }
 #department4Image{
@@ -79,7 +79,7 @@
 	background-size:contain;	
 }
 #department6Image{
-	background: url(../img/departments/Nursing/Nursing.jpg) no-repeat center center;
+	background: url(../img/departments/nursing/Nursing.jpg) no-repeat center center;
 	background-size:contain;	
 }
 #department7Image{

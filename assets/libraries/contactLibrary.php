@@ -47,10 +47,10 @@
                 <div id="socialIconContainer" class="lowerContentInnerDiv">
                 	CONNECT WITH US<br /><br /><br />
                     <div id="socialIcons">
-                    	<img src="assets/img/fbIcon.png" />
-                        <img src="assets/img/twitterIcon.png" />
-                    	<img src="assets/img/pIntIcon.png" />
-                        <img src="assets/img/icon4.png" />
+                        <a href="http://www.facebook.com/Carrymaternity" target="_blank"><img src="assets/img/fbIcon.png" alt="Facebook Icon"/></a>
+                        <a href="http://www.twitter.com/CarryMaternity" target="_blank"><img src="assets/img/twitterIcon.png" alt="Twitter Icon"/></a>
+                        <a href="http://www.pinterest.com/carrymaternity" target="_blank"><img src="assets/img/pIntIcon.png" alt="Pinterest Icon"/></a>
+                        <a href="#" target="_blank"><img src="assets/img/icon4.png" alt="Instagram Icon"/></a>
                         <br /><br /><br />
                         <span class="lowerContentSmallText">
                         	Follow us to stay in the loop on what’s new with Carry Maternity.

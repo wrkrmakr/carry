@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Toronto, maternity, fashion, rhondamaternity.com, carrymaternity.com, carrymaternity.ca, clothing, expecting, motherhood, wear, stylish, pregnancy, newborn, maternity store toronto, maternity boutique, maternity wear, maternity denim, maternity dresses, maternity support band, nursing bras, designer maternity jeans, nursing tank tops, nursing pajamas, mama mio skin care, bella band, nursing pillows, maternity pillow, paige maternity, jules and jim maternity, bravado bras, nummies bras, boob nursing tops, seraphine">
     <meta name="description" content="Carry Maternity specializes in stylish and affordable maternity clothing.">
-    <meta name="author" content="ONMEDIA">       
+    <meta name="author" content="ONMEDIA">      
         
         <!-------Stylesheets------>
         <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css"/>
@@ -105,10 +105,10 @@
                 	&#169;&nbsp; Carry Maternity 2013
                 </span>
                 <div id="footerIcons">
-                	<img src="assets/img/fbIcon.png" alt="Facebook Icon"/>
-                    <img src="assets/img/twitterIcon.png" alt="Facebook Icon"/>
-                    <img src="assets/img/pIntIcon.png" alt="Facebook Icon"/>
-                    <img src="assets/img/icon4.png" alt="Facebook Icon"/>
+                	<a href="http://www.facebook.com/Carrymaternity" target="_blank"><img src="assets/img/fbIcon.png" alt="Facebook Icon"/></a>
+                    <a href="http://www.twitter.com/CarryMaternity" target="_blank"><img src="assets/img/twitterIcon.png" alt="Twitter Icon"/></a>
+                    <a href="http://www.pinterest.com/carrymaternity" target="_blank"><img src="assets/img/pIntIcon.png" alt="Pinterest Icon"/></a>
+                    <a href="#" target="_blank"><img src="assets/img/icon4.png" alt="Instagram Icon"/></a>
                 </div>
             </div>
     	</div>

@@ -63,7 +63,7 @@
                 </div>
                 <div id="product10" class="productCont product2Cont">
                 	<div id="product10Image" class="productImage"></div>
-                    <div class="productName">ANGEL CARE</div>  
+                    <div class="productName">MOTHERS CHOICE</div>  
                     <div class="productCategory">Maternity Support Band</div> 
                     <div class="productPrice">$ 50</div> 
                 </div>

@@ -353,7 +353,7 @@
 
 <?php function designers10Content() { ?>
     <div id="pageTitle">
-    	<span>JULIES AND JIM</span>
+    	<span>JULES AND JIM</span>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
@@ -423,7 +423,7 @@
         </div>
         <div class="designerCont designer4Cont">
             <div id="designerPage11Image4" class="designerImage"></div>          
-            <div class="productCategory">Omega Body Buff</div> 
+            <div class="productCategory">O-Mega Body Buff</div> 
             <div class="productPrice">$ 38</div>  
         </div>
     </div>
@@ -454,29 +454,29 @@
         <div class="designerCont designer1Cont">
         	<div id="designerPage12Image1" class="designerImage"></div>          
             <div class="productCategory">L/S Black And Grey Top</div> 
-            <div class="productPrice">$ ??</div>  
+            <div class="productPrice"></div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage12Image2" class="designerImage"></div>          
             <div class="productCategory">Grey Cardigan</div> 
-            <div class="productPrice">$ ??</div>  
+            <div class="productPrice"></div>  
         </div>
         <div class="designerCont designer3Cont">
         	<div id="designerPage12Image3" class="designerImage"></div>          
             <div class="productCategory">Belted Cowl Neck Dress</div> 
-            <div class="productPrice">$ ??</div>  
+            <div class="productPrice"></div>  
         </div>
         <div class="designerCont designer4Cont">
         	<div id="designerPage12Image4" class="designerImage"></div>          
             <div class="productCategory">Color Block Top</div> 
-            <div class="productPrice">$ ??</div>  
+            <div class="productPrice"></div>  
         </div>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage12Image5" class="designerImage"></div>          
             <div class="productCategory">Grey V-Neck Blouse</div> 
-            <div class="productPrice">$ ??</div>  
+            <div class="productPrice"></div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage12Image6" class="designerImage"></div>          
@@ -503,12 +503,12 @@
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
         	<div id="designerPage13Image1" class="designerImage"></div>          
-            <div class="productCategory">MCoat</div> 
+            <div class="productCategory">M Coat</div> 
             <div class="productPrice">$ 420</div>  
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage13Image2" class="designerImage"></div>          
-            <div class="productCategory">MShell</div> 
+            <div class="productCategory">M Shell</div> 
             <div class="productPrice">$ 190</div>  
         </div>
     </div>
@@ -516,7 +516,7 @@
 
 <?php function designers14Content() { ?>
     <div id="pageTitle">
-    	<span>MOTHER`S CHOICE</span>
+    	<span>MOTHERS CHOICE</span>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">
@@ -557,7 +557,7 @@
         </div> 
         <div class="designerCont designer2Cont">
         	<div id="designerPage16Image2" class="designerImage"></div>          
-            <div class="productCategory">Oxblood Side Ruched Dress</div> 
+            <div class="productCategory">Deep Raspberry Side Ruched Dress</div> 
             <div class="productPrice">$ 99</div>  
         </div>
         <div class="designerCont designer3Cont">
@@ -600,7 +600,7 @@
 
 <?php function designers18Content() { ?>
     <div id="pageTitle">
-    	<span>OCEAN LILLY</span>
+    	<span>OCEAN LILY</span>
     </div>
     <div class="designerPageLine">            
         <div class="designerCont designer1Cont">

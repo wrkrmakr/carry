@@ -288,100 +288,100 @@
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage3Image1" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">RIPE</div>
+            <div class="productCategory">Bow Tie Top</div>
+            <div class="productPrice">$ 89</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage3Image2" class="departmentImage"></div>          
             <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productCategory">Side Belted Top</div> 
+            <div class="productPrice">$ 99</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage3Image3" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">RIPE</div>
+            <div class="productCategory">Colour Block Top</div> 
+            <div class="productPrice">$ 79</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage3Image4" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MATERNAL AMERICA</div>
+            <div class="productCategory">Colour Block Top</div> 
+            <div class="productPrice"></div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage3Image5" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MATERNAL AMERICA</div>
+            <div class="productCategory">Grey V-Neck Blouse</div> 
+            <div class="productPrice"></div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage3Image6" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MATERNAL AMERICA</div>
+            <div class="productCategory">Colour Block Tunic</div> 
+            <div class="productPrice">$ 98</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage3Image7" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">NOPPIES</div>
+            <div class="productCategory">Cream Sweater</div> 
+            <div class="productPrice">$ 110</div>   
        </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage3Image8" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">NOPPIES</div>
+            <div class="productCategory">Cream Aran Sweater</div> 
+            <div class="productPrice">$ 135</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage3Image9" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">QUEEN MUM</div>
+            <div class="productCategory">Striped Tunic</div> 
+            <div class="productPrice">$ 125</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage3Image10" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">QUEEN MUM</div>
+            <div class="productCategory">Wrap Cardigan</div> 
+            <div class="productPrice">$ 145</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage3Image11" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">JULES AND JIM</div>
+            <div class="productCategory">Blue Ruched Top</div> 
+            <div class="productPrice">$ 110</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage3Image12" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">JULES AND JIM</div>
+            <div class="productCategory">Striped Cowl Tunic</div> 
+            <div class="productPrice">$ 125</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage3Image13" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">JULES AND JIM</div>
+            <div class="productCategory">Grey Cowl Top</div> 
+            <div class="productPrice">$ 89</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage3Image14" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department3Cont">
+            <div class="productName">JULES AND JIM</div>
+            <div class="productCategory">Cream Pocket Henley</div> 
+            <div class="productPrice">$ 110</div>   
+        </div>  
+        <div class="departmentCont department2Cont">
         	<div id="departmentPage3Image15" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>              
+            <div class="productName">MATERNAL AMERICA</div>
+            <div class="productCategory">Grey Cardigan</div> 
+            <div class="productPrice"></div>   
+        </div>                      
     </div>
 <?php } ?>
 <?php function department4Content() { ?>
@@ -391,9 +391,9 @@
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage4Image1" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">QUEEN MUM</div>
+            <div class="productCategory">Snakeskin Print Skirt</div> 
+            <div class="productPrice">$ 95</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage4Image2" class="departmentImage"></div>          
@@ -404,40 +404,40 @@
         <div class="departmentCont department3Cont">
         	<div id="departmentPage4Image3" class="departmentImage"></div>          
             <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productCategory">PDR Skirt</div> 
+            <div class="productPrice">$ 99</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage4Image4" class="departmentImage"></div>          
             <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productCategory">PDR Pant</div> 
+            <div class="productPrice">$ 125</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage4Image5" class="departmentImage"></div>          
             <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productCategory">Grey Skinny Dress Pant</div> 
+            <div class="productPrice">$ 99</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage4Image6" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">RIPE</div>
+            <div class="productCategory">Leather Strip Leggings</div> 
+            <div class="productPrice">$ 110</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage4Image7" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">NOPPIES</div>
+            <div class="productCategory">Coated Skinny</div> 
+            <div class="productPrice">$ 135</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage4Image8" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">PAIGE DENIM</div>
+            <div class="productCategory">Coated Skinny</div> 
+            <div class="productPrice">$ 250</div>   
         </div>   
     </div>
 <?php } ?>
@@ -449,53 +449,35 @@
         <div class="departmentCont department1Cont">
         	<div id="departmentPage5Image1" class="departmentImage"></div>          
             <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productCategory">PDR Blazer</div> 
+            <div class="productPrice">$ 179</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage5Image2" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">M COAT</div>
+            <div class="productCategory">M Coat</div> 
+            <div class="productPrice">$ 420</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage5Image3" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">M COAT</div>
+            <div class="productCategory">M Shell</div> 
+            <div class="productPrice">$ 190</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage5Image4" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">NOPPIES</div>
+            <div class="productCategory">Taupe Winter Coat</div> 
+            <div class="productPrice">$ 259</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage5Image5" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department2Cont">
-        	<div id="departmentPage5Image6" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department3Cont">
-        	<div id="departmentPage5Image7" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department4Cont">
-        	<div id="departmentPage5Image8" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>   
+            <div class="productName">QUEEN MUM</div>
+            <div class="productCategory">Blazer</div> 
+            <div class="productPrice"></div>   
+        </div>             
     </div>
 <?php } ?>
 <?php function department6Content() { ?>
@@ -505,106 +487,88 @@
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage6Image1" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BELABUMBUM</div>
+            <div class="productCategory">Ruffle Front Nightie</div> 
+            <div class="productPrice">$ 85</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage6Image2" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BELABUMBUM</div>
+            <div class="productCategory">Pyjama Shorts Set</div> 
+            <div class="productPrice">$ 77</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage6Image3" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BRAVADO</div>
+            <div class="productCategory">Nursing Tank</div> 
+            <div class="productPrice">$ 55</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage6Image4" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BRAVADO</div>
+            <div class="productCategory">Essential Embrace Bra</div> 
+            <div class="productPrice">$ 50</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage6Image5" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">CAKE LINGERIE</div>
+            <div class="productCategory">Blueberry Pyjama</div> 
+            <div class="productPrice">$ 115</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage6Image6" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">CAKE LINGERIE</div>
+            <div class="productCategory">Blueberry Robe</div> 
+            <div class="productPrice">$ 99</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage6Image7" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MATERNAL AMERICA</div>
+            <div class="productCategory">Wraparound Cardigan</div> 
+            <div class="productPrice">$ 95</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage6Image8" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BOOB</div>
+            <div class="productCategory">Baseball Top</div> 
+            <div class="productPrice">$ 98</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage6Image9" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BOOB</div>
+            <div class="productCategory">Striped Olivia Top</div> 
+            <div class="productPrice">$ 85</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage6Image10" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BOOB</div>
+            <div class="productCategory">B-Warmer Nursing Hoodie</div> 
+            <div class="productPrice">$ 99</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage6Image11" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BOOB</div>
+            <div class="productCategory">Fast Food Bra</div> 
+            <div class="productPrice">$ 55</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage6Image12" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">NNEKA</div>
+            <div class="productCategory">Nursing Pillow</div> 
+            <div class="productPrice">$ 69</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage6Image13" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department2Cont">
-        	<div id="departmentPage6Image14" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department3Cont">
-        	<div id="departmentPage6Image15" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department4Cont">
-        	<div id="departmentPage6Image16" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>   
+            <div class="productName">NUMMIES</div>
+            <div class="productCategory">Style Bra</div> 
+            <div class="productPrice">$ 55</div>   
+        </div>                         
     </div>    
 <?php } ?>
 <?php function department7Content() { ?>
@@ -614,80 +578,68 @@
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage7Image1" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">INGRID & ISABEL</div>
+            <div class="productCategory">Bella Band</div> 
+            <div class="productPrice">$ 35</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage7Image2" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">BELLY BANDIT</div>
+            <div class="productCategory">Belly Bandit BFF</div> 
+            <div class="productPrice">$ 125</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage7Image3" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">FLATTER ME</div>
+            <div class="productCategory">Belt</div> 
+            <div class="productPrice">$ 32</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage7Image4" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">SO YOUNG</div>
+            <div class="productCategory">Charlie Bag</div> 
+            <div class="productPrice">$ 175</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage7Image5" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MOTHERS CHOICE</div>
+            <div class="productCategory">Support Band</div> 
+            <div class="productPrice">$ 50</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage7Image6" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MOTHERS CHOICE</div>
+            <div class="productCategory">Post Partum Support</div> 
+            <div class="productPrice">$ 60</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage7Image7" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">OCEAN LILY</div>
+            <div class="productCategory">One Piece Bathing Suit</div> 
+            <div class="productPrice">$ 79</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage7Image8" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">SERAPHINE</div>
+            <div class="productCategory">Maternity Bikini</div> 
+            <div class="productPrice">$ 65</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage7Image9" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">SPANX</div>
+            <div class="productCategory">Power Mama Spanx</div> 
+            <div class="productPrice">$ 50</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage7Image10" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department3Cont">
-        	<div id="departmentPage7Image11" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department4Cont">
-        	<div id="departmentPage7Image12" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>   
+            <div class="productName">NNEKA</div>
+            <div class="productCategory">Nursing Pillow</div> 
+            <div class="productPrice">$ 69</div>   
+        </div>               
     </div>
 <?php } ?>
 <?php function department8Content() { ?>
@@ -697,53 +649,47 @@
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage8Image1" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MAMA MIO</div>
+            <div class="productCategory">Boob tube</div> 
+            <div class="productPrice">$ 50</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage8Image2" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MAMA MIO</div>
+            <div class="productCategory">Goodbye Stretchmarks</div> 
+            <div class="productPrice">$ 88</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage8Image3" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MAMA MIO</div>
+            <div class="productCategory">Lucky Legs</div> 
+            <div class="productPrice">$ 25</div>   
         </div>            
         <div class="departmentCont department4Cont">
         	<div id="departmentPage8Image4" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MAMA MIO</div>
+            <div class="productCategory">O-Mega Body Buff</div> 
+            <div class="productPrice">$ 38</div>   
         </div>   
     </div>
     <div class="departmentPageLine">            
         <div class="departmentCont department1Cont">
         	<div id="departmentPage8Image5" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MAMA MIO</div>
+            <div class="productCategory">See-No-Scar</div> 
+            <div class="productPrice">$ 46</div>   
         </div>            
         <div class="departmentCont department2Cont">
         	<div id="departmentPage8Image6" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
+            <div class="productName">MAMA MIO</div>
+            <div class="productCategory">Tummy Rub Butter</div> 
+            <div class="productPrice">$ 46</div>   
         </div>            
         <div class="departmentCont department3Cont">
         	<div id="departmentPage8Image7" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>            
-        <div class="departmentCont department4Cont">
-        	<div id="departmentPage8Image8" class="departmentImage"></div>          
-            <div class="productName">CARRY MATERNITY</div>
-            <div class="productCategory">Leggings</div> 
-            <div class="productPrice">$ 59</div>   
-        </div>   
+            <div class="productName">MAMA MIO</div>
+            <div class="productCategory">Tummy Rub Oil</div> 
+            <div class="productPrice">$ 46</div>   
+        </div>              
     </div>
 <?php } ?>

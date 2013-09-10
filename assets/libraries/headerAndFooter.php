@@ -8,10 +8,11 @@
         <title>CARRY Maternity<?php echo $pageTitle; ?></title>
         
         <!-------Meta Information------>    
-        <meta charset="UTF-8" />
-        <meta name="keywords" content="Carry, maternity, Rhonda, expecting, clothing, motherhood, Yorkville, stylish, pregnancy, Toronto">
-        <meta name="description" content="Stylish and affordable maternity clothing.">
-        <meta name="author" content="ONMEDIA">       
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Toronto, maternity, fashion, rhondamaternity.com, carrymaternity.com, carrymaternity.ca, clothing, expecting, motherhood, wear, stylish, pregnancy, newborn, maternity store toronto, maternity boutique, maternity wear, maternity denim, maternity dresses, maternity support band, nursing bras, designer maternity jeans, nursing tank tops, nursing pajamas, mama mio skin care, bella band, nursing pillows, maternity pillow, paige maternity, jules and jim maternity, bravado bras, nummies bras, boob nursing tops, seraphine">
+    <meta name="description" content="Carry Maternity specializes in stylish and affordable maternity clothing.">
+    <meta name="author" content="ONMEDIA">       
         
         <!-------Stylesheets------>
         <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css"/>

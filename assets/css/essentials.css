@@ -38,51 +38,51 @@
 	cursor: pointer;
 }
 #product1Image{	
-	background:url(../img/essentials/essential01.jpg) no-repeat center center;
+	background:url(../img/products/carryMaternity/carry01.png) no-repeat center center;
 	background-size:contain;	
 }
 #product2Image{
-	background:url(../img/essentials/essential02.jpg) no-repeat center center;
+	background:url(../img/products/Bravado/bravado2.png) no-repeat center center;
 	background-size:contain;	
 }
 #product3Image{
-	background: url(../img/essentials/essential03.jpg) no-repeat center center;
+	background: url(../img/products/carryMaternity/carry10.png) no-repeat center center;
 	background-size:contain;	
 }
 #product4Image{
-	background: url(../img/essentials/essential04.jpg) no-repeat center center;
+	background: url(../img/products/Paige/paige01.png) no-repeat center center;
 	background-size:contain;	
 }
 #product5Image{
-	background: url(../img/essentials/essential05.jpg) no-repeat center center;
+	background: url(../img/products/oceanLily/OL01.png) no-repeat center center;
 	background-size:contain;	
 }
 #product6Image{
-	background:url(../img/essentials/essential06.jpg) no-repeat center center;
+	background:url(../img/products/carryMaternity/carry13.png) no-repeat center center;
 	background-size:contain;	
 }
 #product7Image{
-	background:url(../img/essentials/essential07.jpg) no-repeat center center;
+	background:url(../img/products/carryMaternity/carry02.png) no-repeat center center;
 	background-size:contain;	
 }
 #product8Image{
-	background:url(../img/essentials/essential08.jpg) no-repeat center center;
+	background:url(../img/products/carryMaternity/carry03.png) no-repeat center center;
 	background-size:contain;	
 }
 #product9Image{
-	background:url(../img/essentials/essential09.jpg) no-repeat center center;
+	background:url(../img/products/MCoat/mCoat01.png) no-repeat center center;
 	background-size:contain;	
 }
 #product10Image{
-	background:url(../img/essentials/essential10.png) no-repeat center center;
+	background:url(../img/products/mothersChoice/essential10.png) no-repeat center center;
 	background-size:contain;	
 }
 #product11Image{
-	background:url(../img/essentials/essential11.jpg) no-repeat center center;
+	background:url(../img/products/mamaMio/moth01.png) no-repeat center center;
 	background-size:contain;	
 }
 #product12Image{
-	background:url(../img/essentials/essential12.jpg) no-repeat center center;
+	background:url(../img/products/cakeLingerie/cake1.png) no-repeat center center;
 	background-size:contain;	
 }
 .productName{

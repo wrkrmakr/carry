@@ -2,7 +2,7 @@
             <div class="banner" id="topBanner">
                 <div id="topBannerText">
                         <span id="italicTitle">Baby Bonus</span><br />
-                        <span class="cantarell">Collect Dollars towards your</span><br />
+                        <span class="cantarell">Collect dollars towards your</span><br />
                         <span class="cantarell">postnatal needs.  5% of all of your</span><br />
                         <span class="cantarell">maternity purchases can be used</span><br />
                         <span class="cantarell">for nursing bras, tops, diaper bags etc.</span><br />

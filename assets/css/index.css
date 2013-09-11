@@ -9,19 +9,19 @@
    background-color: #f3f3f4;
    background: url(../img/banner/boob1500.jpg) right 59% scroll;
    background-repeat:no-repeat;
-   height: 30%;
+   height: 28%;
 }
 #middleBanner{
    margin-top: 3%;
    background-color: #333;
    background: url(../img/banner/Family.jpg) center 59% scroll;
    background-size: cover;
-   height: 25%;
+   height: 24%;
 }
 #bottomBanner{
    margin-top: 3%;
    background-color: #f4f1cf;
-   height: 25%;
+   height: 24%;
 }
 .underline {
    border-bottom:1px solid black;

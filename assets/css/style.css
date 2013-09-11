@@ -110,9 +110,9 @@ a{
 	color: white;
 }
 #footer{
-	padding-top:4.5%;
+	padding-top:3.5%;
 	width:99%;	
-	height:50px;
+/*	height:50px;*/
 	font-family:"Cantarell-Regular", sans-serif;
 	color:#000;
 	font-size:12px;

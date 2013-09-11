@@ -2,7 +2,7 @@
 	$userEmail=$_POST["inquiryFormEmail"];
 	$userInquiry=$_POST["inquiryFormQuestion"];
 	
-	$to = "cbutcher@gmail.com";
+	$to = "info@carrymaternity.ca";
 	$subject = "Email from a carrymaternity.ca visitor: ".$userEmail;          				
 	$from = $userEmail ;										   				
 	$headers = "From: " . strip_tags($userEmail) . "\r\n";		   				

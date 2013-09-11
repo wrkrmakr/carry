@@ -12,7 +12,7 @@
 	height:inherit;
 	width:20%;	
 	background-color:#f6f6f6;
-	padding-top:30px;		
+	padding-top:10px;		
 }
 .product1Cont{
 	left:0%;
@@ -35,7 +35,7 @@
 	background-position: center top;
 	background-repeat: no-repeat; 
 	background-attachment: scroll;
-	cursor: pointer;
+/*	cursor: pointer;*/
 }
 #product1Image{	
 	background:url(../img/products/carryMaternity/carry01.png) no-repeat center center;
@@ -98,7 +98,7 @@
 	width:100%;
 	text-align:center;
 	background-color:#FFF;	
-	padding-bottom:10px;
+/*	padding-bottom:10px;*/
 	font-family:"Cantarell-Bold", sans-serif;
 	font-size:14px;
 	color:#1fcecb;	

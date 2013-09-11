@@ -14,7 +14,7 @@ $(document).ready(function() {
 
    preloadImages(myImages);
 
-   $(window).load(function(){
+/*   $(window).load(function(){
       $("#progressbar").progressbar();
       progressBar();
       $("#pageContent").mCustomScrollbar({
@@ -23,7 +23,7 @@ $(document).ready(function() {
               updateOnContentResize: true
          }
       });
-   });
+   });*/
 
    $('#aboutUsImage, .progressbar').click(function(e) {
       var temp = $(this).offset().left;

@@ -30,7 +30,7 @@
                     <img src="assets/img/banner/bannerDresses.png">
                 </div>
                 <div id="bottomBannerText">
-                    <p><b>ESSENTIALS</b></p>
+                    <p>ESSENTIALS</p>
                     <p><span class="underline">SHOP</span></p>
                 </div>
             </div></a>           

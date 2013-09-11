@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-   $(window).load(function(){
+/*   $(window).load(function(){
       $("#pageContent").mCustomScrollbar({
          theme:"dark",
          advanced:{
@@ -8,7 +8,7 @@ $(document).ready(function() {
          }
       });
    });
-
+*/
 	$('#inquiresForm').validate({		
 		rules: {
 				inquiryFormEmail:{

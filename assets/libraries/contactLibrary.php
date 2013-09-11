@@ -59,13 +59,22 @@
                 </div>
                 <div id="signUpFormContainer" class="lowerContentInnerDiv">
                 	GET OUR UPDATES<br /><br /><br />
-                    <div id="signUp">
-                        <form id="signUpForm" action="validateSignUpForm.php" method="post">
-                            <div id="formMailContainer">
-                                <input class="formTextBox" id="signUpFormEmail" name="signUpFormEmail" type="text" placeholder=    								"Enter your e-mail"  onfocus="this.placeholder =  ''" onblur="this.placeholder= 'Enter your e-mail'"  /><br />
-                               <input id="signFormButton" class="formButton" value="OK" type="submit" />
-                            </div>
-                        </form><br /><br />
+                    <div id="signUp" style="margin-left: 20px;">
+                        <!-- Begin MailChimp Signup Form -->
+                        <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                        <style type="text/css">
+                            /*#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:250px;}*/
+                            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style>
+                        <div id="mc_embed_signup1">
+                        <form action="http://carrymaternity.us7.list-manage.com/subscribe/post?u=3efc4b8a8eed96d10a760dc9d&amp;id=662bcb9844" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <input type="email" value="" name="EMAIL" class="formTextBox" id="mce-EMAIL" placeholder="Your email address" required>
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="formButton">
+                        </form>
+                        </div>
+                        <br/>
+                        <!--End mc_embed_signup-->
                         <div id="signUpFormText" class="lowerContentSmallText">
                         	Sign up for our newsletter for our latest news and updates!	
                         </div>

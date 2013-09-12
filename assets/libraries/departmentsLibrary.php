@@ -80,7 +80,7 @@
         </div>  
         <div class="departmentCont department4Cont">
         	<div id="departmentPage1Image4" class="departmentImage"></div>          
-            <div class="productName">OCEAN LILLY</div>
+            <div class="productName">OCEAN LILY</div>
             <div class="productCategory">Skinny Jean</div> 
             <div class="productPrice">$ 110</div>   
         </div>         

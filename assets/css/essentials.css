@@ -99,7 +99,7 @@
 	text-align:center;
 	background-color:#FFF;	
 /*	padding-bottom:10px;*/
-	font-family:"Cantarell-Bold", sans-serif;
+	font-family:"Cantarell-Regular", sans-serif;
 	font-size:14px;
 	color:#1fcecb;	
 }
@@ -108,7 +108,7 @@
 	text-align:center;
 	background-color:#FFF;		
 	padding-bottom:3px;
-	font-family:"Cantarell-Bold", sans-serif;
+	font-family:"Cantarell-Regular", sans-serif;
 	font-size:14px;
 	color:#1fcecb;
 }
@@ -117,4 +117,36 @@
 }
 #footerIcons{
 	margin-right:4.5%;	
+}
+/*@media(max-width : 1024px){
+.productLine {
+	height:90px;
+}
+.productName {
+	font-size:7px;
+	padding-top:6%;
+}
+.productCategory {
+	font-size:7px;
+	line-height:8px;
+}
+.productPrice {
+	font-size:7px;
+}
+}*/
+@media(max-width : 640px){
+.productLine {
+	height:90px;
+}
+.productName {
+	font-size:7px;
+	padding-top:6%;
+}
+.productCategory {
+	font-size:6px;
+	line-height:8px;
+}
+.productPrice {
+	font-size:6px;
+}
 }

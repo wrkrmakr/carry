@@ -65,3 +65,15 @@ list-style-type: disc;
 #footer{
 	margin-top:10%;	
 }
+@media(max-width : 640px){
+#photoSelector ul li {
+	font-size: 10px;
+}
+#photoSelector {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#footer {
+	margin-top:20%;
+}
+}

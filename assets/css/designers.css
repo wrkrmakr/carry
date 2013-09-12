@@ -196,7 +196,7 @@
 	background-size:contain;	
 }
 #designerPage4Image3{
-	background: url(../img/products/Boob/NTop2.png) no-repeat center center;
+	background: url(../img/products/Boob/Ntop2.png) no-repeat center center;
 	background-size:contain;	
 }
 #designerPage4Image4{
@@ -572,4 +572,57 @@
 }
 #footerIcons{
 	margin-right:4.5%;	
+}
+/*@media(max-width : 1024px){
+.productLine {
+	height:90px;
+}
+.productName {
+	font-size:7px;
+	padding-top:6%;
+}
+.productCategory {
+	font-size:7px;
+	line-height:8px;
+}
+.productPrice {
+	font-size:7px;
+}
+}*/
+@media(max-width : 640px){
+.designerLine {
+	height:90px;
+	padding-bottom:25px;
+}
+.designerPageLine {
+	height:80px;
+	margin-top:4%;
+	padding-bottom:15%;
+}
+.designerImage {
+	margin-bottom:6%;
+	height:90px;
+}
+.designerName {
+	font-size:7px;
+	padding-top:6%;
+}
+.productName {
+	font-size:6px;
+	padding-bottom:0px;
+}
+.designerCategory {
+	font-size:6px;
+	line-height:8px;
+}
+.designerCont {
+	padding-top:0px;
+}
+.productCategory {
+	font-size:6px;
+	line-height:8px;
+}
+.productPrice {
+	font-size:6px;
+}
 }

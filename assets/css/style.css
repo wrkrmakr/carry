@@ -131,3 +131,24 @@ a{
 	width:30px;	
 	padding-left:8px;
 }
+/*@media(max-width : 1024px){
+
+}*/
+@media(max-width : 640px){
+#pageTitle {
+	font-size:7px;
+}
+#navCont ul{
+	font-size:6px;
+	margin-top:80%;
+}
+#footer {
+	font-size:6px;
+	padding-top:10%;
+}
+#footerIcons img {
+	height:10px;
+	width:10px;
+	padding-left:4px;
+}
+}

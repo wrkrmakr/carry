@@ -18,3 +18,11 @@
 #footerIcons{
 	margin-right:4.5%;	
 }
+@media(max-width : 640px){
+#aboutUsTextContainer{
+	font-size:10px;	
+}
+#aboutUsTextContainer h3{
+	font-size:12px;	
+}
+}

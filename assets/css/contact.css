@@ -218,3 +218,8 @@ label{
 #footer{
 	display:none;	
 }
+@media(max-width : 640px){
+#storeInfoContainer{
+	float:none;
+}
+}

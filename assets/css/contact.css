@@ -227,10 +227,27 @@ label{
 	line-height:15px;
 }
 #storeHours {
-	left:0px;
-	width:82%;
+	left:0%;
+	width:80%;
+}
+#storeInfo {
+	position:relative;
 }
 .bigContactText {
-	
+	font-size:12px;
+}
+#locationInfo{
+	left:0%;
+	height:50%;
+	width:70%;
+	text-align:center;
+}
+#inquiriesContainer{
+	position:relative;
+}
+#inquiries {
+	top:85%;
+	left:0%;
+	position:relative;
 }
 }

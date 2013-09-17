@@ -219,6 +219,9 @@ label{
 	display:none;	
 }
 @media(max-width : 640px){
+#upperContent{
+	min-height:340px;
+}
 #storeInfoContainer{
 	float:none;
 }
@@ -242,12 +245,16 @@ label{
 	width:70%;
 	text-align:center;
 }
-#inquiriesContainer{
+/*#inquiriesContainer{
 	position:relative;
-}
-#inquiries {
-	top:85%;
+}*/
+#inquires {
+	top:100%;
 	left:0%;
-	position:relative;
+	width:82%;
+/*	position:relative;*/
+}
+#lowerContent{
+	margin-top:85%;
 }
 }

@@ -13,7 +13,9 @@
 .bigContactText{
 	font-family:"Quattrocento-Regular", sans-serif;
 	font-size:16px;
-	letter-spacing:1px;		
+	letter-spacing:1px;	
+	padding-bottom:15px;
+	border-bottom:1px solid #999;	
 }
 .smallContactText{
 	font-family:"Cantarell-Regular", sans-serif;
@@ -23,12 +25,12 @@
 }
 #storeInfo{
 	position:absolute;
-	width:40%;
+/*	width:40%;*/
 	height:100%;	
 }
 #storeInfoContainer{
 	float:right;
-	width:50%;
+/*	width:50%;*/
 	height:100%;
 	min-width:250px;
 }
@@ -215,12 +217,22 @@ label{
 	font-size: 14px;
 	display:none;		
 }
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"], 
+input[type="file"]::-webkit-file-upload-button, 
+button{
+	padding:0px;
+	white-space:none;
+	align-items:align;
+}
 #footer{
 	display:none;	
 }
 @media(max-width : 640px){
 #upperContent{
 	min-height:340px;
+	width:85%;
 }
 #storeInfoContainer{
 	float:none;
@@ -231,18 +243,19 @@ label{
 }
 #storeHours {
 	left:0%;
-	width:80%;
+	width:100%;
 }
 #storeInfo {
 	position:relative;
 }
 .bigContactText {
 	font-size:12px;
+	padding-bottom:10px;
 }
 #locationInfo{
 	left:0%;
 	height:50%;
-	width:70%;
+	width:100%;
 	text-align:center;
 }
 /*#inquiriesContainer{
@@ -251,10 +264,32 @@ label{
 #inquires {
 	top:100%;
 	left:0%;
-	width:82%;
+	width:100%;
 /*	position:relative;*/
 }
+#inquiresContainer{
+	width:100%
+}
 #lowerContent{
-	margin-top:85%;
+	margin-top:440px;
+	margin-left:0%;
+}
+#mapContainer{
+	left:0%;
+	border-right:none;
+	width:110%;
+}
+#socialIconContainer{
+	left:7%;
+	border-right:none;
+	margin-top:30px;
+}
+#signUpFormContainer{
+	left:7%;
+	margin-top:40px;
+}
+.lowerContentInnerDiv{
+	width:100%;
+	position:relative;
 }
 }
